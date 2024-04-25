@@ -57,7 +57,7 @@ All your tests should be executed by using this command: python3 -m unittest dis
 You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py
 We strongly encourage you to work together on test cases, so that you don’t miss any edge cases
 GitHub
-There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
+There should be one project Repo:sitory per group. If you clone/fork/whatever a project Repo:sitory with the same name before the second deadline, you risk a 0% score.
 
 More Info
 
@@ -77,13 +77,13 @@ But once again, let’s work on a new codebase.
 
 For this project you will fork this codebase:
 
-Update the repository name to AirBnB_clone_v3
+Update the Repo:sitory name to AirBnB_clone_v3
 Update the README.md:
 Add yourself as an author of the project
 Add new information about your new contribution
 Make it better!
-If you’re the owner of this codebase, create a new repository called AirBnB_clone_v3 and copy over all files from AirBnB_clone_v2
-Repo:
+If you’re the owner of this codebase, create a new Repo:sitory called AirBnB_clone_v3 and copy over all files from AirBnB_clone_v2
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 1. Never fail!
@@ -105,7 +105,7 @@ OK
 guillaume@ubuntu:~/AirBnB_v3$ HBNB_ENV=test HBNB_MYSQL_USER=hbnb_test HBNB_MYSQL_PWD=hbnb_test_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_test_db HBNB_TYPE_STORAGE=db python3 -m unittest discover tests 2>&1 /dev/null | tail -n 1
 OK
 guillaume@ubuntu:~/AirBnB_v3$
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 
@@ -152,13 +152,12 @@ First state: [State] (af14c85b-172f-4474-8a30-d4ec21f9795e) {'updated_at': datet
 guillaume@ubuntu:~/AirBnB_v3$
 For this task, you must make a pull request on GitHub.com, and ask at least one of your peer to review and merge it.
 
-Repo:
-
+Repo::
 - GitHub repository: `AirBnB_clone_v3`
-- File: models/engine/db_storage.py, models/engine/file_storage.py, tests/test_models/test_engine/test_db_storage.py, tests/test_models/test_engine/test_file_storage.py
+- File: `models/engine/db_storage.py, models/engine/file_storage.py, tests/test_models/test_engine/test_db_storage.py, tests/test_models/test_engine/test_file_storage.py`
 
-3. Status of your API
-mandatory
+### 3. Status of your API
+
 It’s time to start your API!
 
 Your first endpoint (route) will be to return the status of your API:
@@ -201,7 +200,7 @@ wildcard import of everything in the package api.v1.views.index => PEP8 will com
 create a file index.py
 import app_views from api.v1.views
 create a route /status on the object app_views that returns a JSON: "status": "OK" (see example)
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/__init__.py, api/v1/__init__.py, api/v1/views/__init__.py, api/v1/views/index.py, api/v1/app.py
@@ -225,7 +224,7 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/stats
 guillaume@ubuntu:~/AirBnB_v3$
 (No need to have a pretty rendered output, it’s a JSON, only the structure is important)
 
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/index.py
@@ -262,7 +261,7 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/nop -vvv
   "error": "Not found"
 }
 guillaume@ubuntu:~/AirBnB_v3$
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/app.py
@@ -379,7 +378,7 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/states/fead
   "error": "Not found"
 }
 guillaume@ubuntu:~/AirBnB_v3$
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/states.py, api/v1/views/__init__.py
@@ -517,7 +516,7 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/cities/b75a
   "error": "Not found"
 }
 guillaume@ubuntu:~/AirBnB_v3$
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/cities.py, api/v1/views/__init__.py
@@ -552,7 +551,7 @@ If the HTTP request body is not valid JSON, raise a 400 error with the message N
 Update the Amenity object with all key-value pairs of the dictionary
 Ignore keys: id, created_at and updated_at
 Returns the Amenity object with the status code 200
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/amenities.py, api/v1/views/__init__.py
@@ -588,7 +587,7 @@ If the HTTP body request is not valid JSON, raise a 400 error with the message N
 Update the User object with all key-value pairs of the dictionary
 Ignore keys: id, email, created_at and updated_at
 Returns the User object with the status code 200
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/users.py, api/v1/views/__init__.py
@@ -627,7 +626,7 @@ If the HTTP request body is not valid JSON, raise a 400 error with the message N
 Update the Place object with all key-value pairs of the dictionary
 Ignore keys: id, user_id, city_id, created_at and updated_at
 Returns the Place object with the status code 200
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/places.py, api/v1/views/__init__.py
@@ -666,7 +665,7 @@ If the HTTP request body is not valid JSON, raise a 400 error with the message N
 Update the Review object with all key-value pairs of the dictionary
 Ignore keys: id, user_id, place_id, created_at and updated_at
 Returns the Review object with the status code 200
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/places_reviews.py, api/v1/views/__init__.py
@@ -719,7 +718,7 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/cities/1da2
 * Curl_http_done: called premature == 0
 * Closing connection 0
 guillaume@ubuntu:~/AirBnB_v3$
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/app.py
@@ -750,7 +749,7 @@ If the place_id is not linked to any Place object, raise a 404 error
 If the amenity_id is not linked to any Amenity object, raise a 404 error
 If the Amenity is already linked to the Place, return the Amenity with the status code 200
 Returns the Amenity with the status code 201
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/places_amenities.py, api/v1/views/__init__.py
@@ -767,7 +766,7 @@ Update the method to_dict() of BaseModel to remove the password key except when 
 Each time a new User object is created or password updated, the password is hashed to a MD5 value
 In the database for DBStorage, the password stored is now hashed to a MD5 value
 In the file for FileStorage, the password stored is now hashed to a MD5 value
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: models/base_model.py, models/user.py
@@ -841,7 +840,7 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X POST http://0.0.0.0:5000/api/v1/places_sea
   },
 ...
 guillaume@ubuntu:~/AirBnB_v3$
-Repo:
+Repo::
 
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/views/places.py
