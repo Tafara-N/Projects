@@ -206,18 +206,20 @@ wildcard import of everything in the package api.v1.views.index => PEP8 will com
 create a file index.py
 import app_views from api.v1.views
 create a route /status on the object app_views that returns a JSON: "status": "OK" (see example)
-Repo::
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/__init__.py, api/v1/__init__.py, api/v1/views/__init__.py, api/v1/views/index.py, api/v1/app.py
+- File: `api/__init__.py, api/v1/__init__.py, api/v1/views/__init__.py, api/v1/views/index.py, api/v1/app.py`
 
-4. Some stats?
-mandatory
+### 4. Some stats?
+
 Create an endpoint that retrieves the number of each objects by type:
 
 In api/v1/views/index.py
 Route: /api/v1/stats
 You must use the newly added count() method from storage
+
+```
 guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/stats
 {
   "amenities": 47,
@@ -228,12 +230,14 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/stats
   "users": 31
 }
 guillaume@ubuntu:~/AirBnB_v3$
+```
+
 (No need to have a pretty rendered output, it’s a JSON, only the structure is important)
 
-Repo::
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/views/index.py
+- File: `api/v1/views/index.py`
 
 5. Not found
 mandatory
