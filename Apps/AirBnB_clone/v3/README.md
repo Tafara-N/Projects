@@ -53,21 +53,23 @@ At the end of this project, you are expected to be able to [explain to anyone]()
 - All your tests should be executed by using this command: `python3 -m unittest discover tests`
 - You can also test file by file by using this command: `python3 -m unittest tests/test_models/test_base_model.py`
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge cases
-GitHub
-There should be one project Repo:sitory per group. If you clone/fork/whatever a project Repo:sitory with the same name before the second deadline, you risk a 0% score.
 
-More Info
+# More Info
 
 
-Install Flask
+## Install Flask
+
+```
 $ pip3 install Flask
-Video library(2 total)
-Search by title
+```
+
 Python: Flask RestAPI
 AirBnB API
-Tasks
-0. Restart from scratch!
-mandatory
+
+## Tasks
+
+### 0. Restart from scratch!
+
 No no no! We are already too far in the project to restart everything.
 
 But once again, let’s work on a new codebase.
