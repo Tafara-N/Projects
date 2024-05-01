@@ -10,6 +10,7 @@ clock = pygame.time.Clock()
 
 sky_surface = pygame.image.load("Graphics/Sky.png")
 ground_surface = pygame.image.load("Graphics/Ground.png")
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
