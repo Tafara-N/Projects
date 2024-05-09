@@ -5,17 +5,18 @@
 - [AirBnB clone]()
 - [Resources]()
 
-Read or watch:
-Selector
-Get and set content
-Manipulate CSS classes
-Manipulate DOM elements
-Document ready
-Introduction
-GET & POST request
-HTTP access control (CORS)
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Read or watch:
+- [Selector]()
+- [Get and set content]()
+- [Manipulate CSS classes]()
+- [Manipulate DOM elements]()
+- [Document ready]()
+- [Introduction]()
+- [GET & POST request]()
+- [HTTP access control (CORS)]()
+
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 ## General
 - How cool it is to request your own API
