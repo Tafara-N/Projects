@@ -283,14 +283,13 @@ if the checkbox is checked, you must store the State or City ID in a variable (d
 if the checkbox is unchecked, you must remove the State or City ID from the variable
 update the h4 tag inside the div Locations with the list of States or Cities checked
 When the button tag is clicked, a new POST request to places_search should be made with the list of Amenities, Cities and States checked
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/100-hbnb.py, web_dynamic/templates/100-hbnb.html, web_dynamic/static/scripts/100-hbnb.js
 
-7. Reviews
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+### 7. Reviews
+
 Let’s add a new feature: show and hide reviews!
 
 Replace the route 100-hbnb to 101-hbnb in the file 101-hbnb.py (based on 100-hbnb.py)
@@ -307,7 +306,7 @@ When the span next to the Reviews h2 is clicked by the user:
 Fetch, parse, display reviews and change the text to “hide”
 If the text is “hide”: remove all Review elements from the DOM
 This button should work like a toggle to fetch/display and hide reviews
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/101-hbnb.py, web_dynamic/templates/101-hbnb.html, web_dynamic/static/scripts/101-hbnb.js
