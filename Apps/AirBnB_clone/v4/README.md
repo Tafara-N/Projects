@@ -214,11 +214,10 @@ For example:
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
-- File: api/v1/app.py, web_dynamic/2-hbnb.py, web_dynamic/templates/2-hbnb.html, web_dynamic/static/styles/3-header.css, web_dynamic/static/scripts/2-hbnb.js
+- File: `api/v1/app.py, web_dynamic/2-hbnb.py, web_dynamic/templates/2-hbnb.html, web_dynamic/static/styles/3-header.css, web_dynamic/static/scripts/2-hbnb.js`
 
-4. Fetch places
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 4. Fetch places
+
 Replace the route 2-hbnb with 3-hbnb in the file 3-hbnb.py (based on 2-hbnb.py)
 
 Create a new template 3-hbnb.html (based on 2-hbnb.html) and update it:
@@ -235,11 +234,10 @@ Loop into the result of the request and create an article tag representing a Pla
 The final result must be the same as previously, but now, places are loaded from the front-end, not from the back-end!
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/3-hbnb.py, web_dynamic/templates/3-hbnb.html, web_dynamic/static/scripts/3-hbnb.js
 
-###5. Filter places by Amenity
+### 5. Filter places by Amenity
 
 Replace the route 3-hbnb with 4-hbnb in the file 4-hbnb.py (based on 3-hbnb.py)
 
