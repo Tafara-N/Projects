@@ -136,8 +136,9 @@ guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -
     <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
     <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
 guillaume@ubuntu:~/AirBnB_v4$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v4`
 - Directory: `web_dynamic`
 - File: `0-hbnb.py, templates/0-hbnb.html`
@@ -171,7 +172,7 @@ As example:
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v4`
-- Directory: web_dynamic
+- Directory: `web_dynamic`
 - File: `1-hbnb.py, templates/1-hbnb.html, static/scripts/1-hbnb.js`
 
 ### 3. API status
