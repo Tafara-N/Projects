@@ -139,12 +139,11 @@ guillaume@ubuntu:~/AirBnB_v4$
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
-Directory: web_dynamic
-- File: 0-hbnb.py, templates/0-hbnb.html
+- Directory: `web_dynamic`
+- File: `0-hbnb.py, templates/0-hbnb.html`
 
-2. Select some Amenities to be comfortable!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 2. Select some Amenities to be comfortable!
+
 For the moment the filters section is static, let’s make it dynamic!
 
 Replace the route 0-hbnb with 1-hbnb in the file 1-hbnb.py (based on 0-hbnb.py)
