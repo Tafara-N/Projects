@@ -171,14 +171,12 @@ As example:
 
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v4`
-Directory: web_dynamic
-- File: 1-hbnb.py, templates/1-hbnb.html, static/scripts/1-hbnb.js
+- Directory: web_dynamic
+- File: `1-hbnb.py, templates/1-hbnb.html, static/scripts/1-hbnb.js`
 
-3. API status
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 3. API status
+
 Before requesting the HBNB API, it’s better to know the status of this one.
 
 Update the API entry point (api/v1/app.py) by replacing the current CORS CORS(app, origins="0.0.0.0") by CORS(app, resources={r"/api/v1/*": {"origins": "*"}}).
@@ -205,14 +203,16 @@ If in the status is “OK”, add the class available to the div#api_status
 Otherwise, remove the class available to the div#api_status
 To start the API in the port 5001:
 
+```
 guillaume@ubuntu:~/AirBnB_v4$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db HBNB_API_PORT=5001 python3 -m api.v1.app
 ...
+```
+
 For example:
 
 
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v4`
 - File: `api/v1/app.py, web_dynamic/2-hbnb.py, web_dynamic/templates/2-hbnb.html, web_dynamic/static/styles/3-header.css, web_dynamic/static/scripts/2-hbnb.js`
 
