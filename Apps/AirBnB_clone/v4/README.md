@@ -99,9 +99,8 @@ If you didn’t install Flasgger from the previous project, it’s time! sudo pi
 
 - GitHub repository: `AirBnB_clone_v4`
 
-1. Cash only
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 1. Cash only
+
 Write a script that starts a Flask web application:
 
 Based on web_flask, copy: web_flask/static, web_flask/templates/100-hbnb.html, web_flask/__init__.py and web_flask/100-hbnb.py into the web_dynamic folder
@@ -110,9 +109,12 @@ Rename 100-hbnb.html to 0-hbnb.html
 Update 0-hbnb.py to replace the existing route to /0-hbnb/
 If 100-hbnb.html is not present, use 8-hbnb.html instead
 
+```
 guillaume@ubuntu:~/AirBnB_v4$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_dynamic.0-hbnb
 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ....
+```
+
 One problem now is the asset caching done by Flask.
 
 To avoid that, you will add a query string to each asset:
@@ -121,6 +123,7 @@ In 0-hbnb.py, add a variable cache_id to the render_template. The value of this 
 
 In 0-hbnb.html, add this variable cache_id as query string to each <link> tag URL
 
+```
 guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -6
 <!DOCTYPE HTML>
 <html lang="en">
