@@ -44,17 +44,25 @@ HTML should not reload for each action: DOM manipulation, update values, fetch d
 GitHub
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
 
-More Info
-Import JQuery
+# More Info
+
+## Import JQuery
+
+```
 <head>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
+```
+
 Before starting the project…
 You will work on a codebase using Flasgger, you will need to install it locally first before starting the RestAPI:
 
+```
 $ sudo apt-get install -y python3-lxml
 $ sudo pip3 install flask_cors # if it was not installed yet
 $ sudo pip3 install flasgger
+```
+
 If the RestAPI is not starting, please read the error message. Based on the(ses) error message(s), you will have to troubleshoot potential dependencies issues.
 
 Here some solutions:
