@@ -239,9 +239,8 @@ The final result must be the same as previously, but now, places are loaded from
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/3-hbnb.py, web_dynamic/templates/3-hbnb.html, web_dynamic/static/scripts/3-hbnb.js
 
-5. Filter places by Amenity
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+###5. Filter places by Amenity
+
 Replace the route 3-hbnb with 4-hbnb in the file 4-hbnb.py (based on 3-hbnb.py)
 
 Create a new template 4-hbnb.html (based on 3-hbnb.html) and update it:
@@ -254,13 +253,11 @@ When the button tag is clicked, a new POST request to places_search should be ma
 Now you have the first filter implemented, enjoy!
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/4-hbnb.py, web_dynamic/templates/4-hbnb.html, web_dynamic/static/scripts/4-hbnb.js
 
-6. States and Cities
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+### 6. States and Cities
+
 Now, reproduce the same steps with the State and City filter:
 
 Replace the route 4-hbnb to 100-hbnb in the file 100-hbnb.py (based on 4-hbnb.py)
