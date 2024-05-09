@@ -95,7 +95,7 @@ Add new information about your new contribution
 Make it better!
 If you’re the owner of this codebase, create a new repository called AirBnB_clone_v4 and copy over all files from AirBnB_clone_v3
 If you didn’t install Flasgger from the previous project, it’s time! sudo pip3 install flasgger
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 
@@ -136,7 +136,7 @@ guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -
     <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
     <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?f834413e-0aa9-4767-b64a-c92db9cb1f82" />
 guillaume@ubuntu:~/AirBnB_v4$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 Directory: web_dynamic
@@ -170,7 +170,7 @@ As example:
 
 
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 Directory: web_dynamic
@@ -211,7 +211,7 @@ For example:
 
 
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 - File: api/v1/app.py, web_dynamic/2-hbnb.py, web_dynamic/templates/2-hbnb.html, web_dynamic/static/styles/3-header.css, web_dynamic/static/scripts/2-hbnb.js
@@ -234,7 +234,7 @@ Send a POST request with Content-Type: application/json and an empty dictionary 
 Loop into the result of the request and create an article tag representing a Place in the section.places. (you can remove the Owner tag in the place description)
 The final result must be the same as previously, but now, places are loaded from the front-end, not from the back-end!
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/3-hbnb.py, web_dynamic/templates/3-hbnb.html, web_dynamic/static/scripts/3-hbnb.js
@@ -253,7 +253,7 @@ Based on 3-hbnb.js
 When the button tag is clicked, a new POST request to places_search should be made with the list of Amenities checked
 Now you have the first filter implemented, enjoy!
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/4-hbnb.py, web_dynamic/templates/4-hbnb.html, web_dynamic/static/scripts/4-hbnb.js
@@ -283,7 +283,7 @@ if the checkbox is checked, you must store the State or City ID in a variable (d
 if the checkbox is unchecked, you must remove the State or City ID from the variable
 update the h4 tag inside the div Locations with the list of States or Cities checked
 When the button tag is clicked, a new POST request to places_search should be made with the list of Amenities, Cities and States checked
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/100-hbnb.py, web_dynamic/templates/100-hbnb.html, web_dynamic/static/scripts/100-hbnb.js
@@ -307,7 +307,7 @@ When the span next to the Reviews h2 is clicked by the user:
 Fetch, parse, display reviews and change the text to “hide”
 If the text is “hide”: remove all Review elements from the DOM
 This button should work like a toggle to fetch/display and hide reviews
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v4`
 - File: web_dynamic/101-hbnb.py, web_dynamic/templates/101-hbnb.html, web_dynamic/static/scripts/101-hbnb.js
