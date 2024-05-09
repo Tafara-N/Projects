@@ -73,17 +73,10 @@ if you need to expose other ports, same line but you will need to replace the �
 
 It’s important in your project, to use the AirBnB API with the port 5001
 
+## Tasks
 
+### 0. Last clone!
 
-
-
-Manual QA Review
-It is your responsibility to request a review for this project from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.
-
-Tasks
-0. Last clone!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
 A new codebase again? Yes!
 
 For this project you will fork this codebase:
@@ -95,8 +88,8 @@ Add new information about your new contribution
 Make it better!
 If you’re the owner of this codebase, create a new repository called AirBnB_clone_v4 and copy over all files from AirBnB_clone_v3
 If you didn’t install Flasgger from the previous project, it’s time! sudo pip3 install flasgger
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v4`
 
 ### 1. Cash only
