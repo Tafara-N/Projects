@@ -235,7 +235,7 @@ The final result must be the same as previously, but now, places are loaded from
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v4`
-- File: web_dynamic/3-hbnb.py, web_dynamic/templates/3-hbnb.html, web_dynamic/static/scripts/3-hbnb.js
+- File: `web_dynamic/3-hbnb.py, web_dynamic/templates/3-hbnb.html, web_dynamic/static/scripts/3-hbnb.js`
 
 ### 5. Filter places by Amenity
 
@@ -252,7 +252,7 @@ Now you have the first filter implemented, enjoy!
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v4`
-- File: web_dynamic/4-hbnb.py, web_dynamic/templates/4-hbnb.html, web_dynamic/static/scripts/4-hbnb.js
+- File: `web_dynamic/4-hbnb.py, web_dynamic/templates/4-hbnb.html, web_dynamic/static/scripts/4-hbnb.js`
 
 ### 6. States and Cities
 
@@ -281,7 +281,7 @@ When the button tag is clicked, a new POST request to places_search should be ma
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v4`
-- File: web_dynamic/100-hbnb.py, web_dynamic/templates/100-hbnb.html, web_dynamic/static/scripts/100-hbnb.js
+- File: `web_dynamic/100-hbnb.py, web_dynamic/templates/100-hbnb.html, web_dynamic/static/scripts/100-hbnb.js`
 
 ### 7. Reviews
 
@@ -304,4 +304,4 @@ This button should work like a toggle to fetch/display and hide reviews
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v4`
-- File: web_dynamic/101-hbnb.py, web_dynamic/templates/101-hbnb.html, web_dynamic/static/scripts/101-hbnb.js
+- File: `web_dynamic/101-hbnb.py, web_dynamic/templates/101-hbnb.html, web_dynamic/static/scripts/101-hbnb.js`
