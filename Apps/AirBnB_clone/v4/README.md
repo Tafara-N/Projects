@@ -67,11 +67,19 @@ If the RestAPI is not starting, please read the error message. Based on the(ses)
 
 Here some solutions:
 
-jsonschema exception
+## jsonschema exception
+
+```
 $ sudo pip3 uninstall -y jsonschema
 $ sudo pip3 install jsonschema==3.0.1
-No module named 'pathlib2'
+```
+
+## No module named 'pathlib2'
+
+```
 $ sudo pip3 install pathlib2
+```
+
 Expose ports from your Vagrant
 In your Vagrantfile, add this line for each port forwarded
 
