@@ -282,7 +282,7 @@ guillaume@ubuntu:~/AirBnB_v3$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/app.py
+- File: `api/v1/app.py`
 
 6. State
 mandatory
