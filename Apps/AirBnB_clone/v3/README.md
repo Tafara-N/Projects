@@ -100,13 +100,16 @@ The following requirements must be met for your project:
 
 all current tests must pass (don’t delete them…)
 add new tests as much as you can (tests are mandatory for some tasks)
+
+```
 guillaume@ubuntu:~/AirBnB_v3$ python3 -m unittest discover tests 2>&1 | tail -1
 OK
 guillaume@ubuntu:~/AirBnB_v3$ HBNB_ENV=test HBNB_MYSQL_USER=hbnb_test HBNB_MYSQL_PWD=hbnb_test_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_test_db HBNB_TYPE_STORAGE=db python3 -m unittest discover tests 2>&1 /dev/null | tail -n 1
 OK
 guillaume@ubuntu:~/AirBnB_v3$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
 
 2. Improve storage
