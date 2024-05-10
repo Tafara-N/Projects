@@ -112,8 +112,8 @@ guillaume@ubuntu:~/AirBnB_v3$
 **Repo:**
 - GitHub repository: `AirBnB_clone_v3`
 
-2. Improve storage
-mandatory
+### 2. Improve storage
+
 Update DBStorage and FileStorage, adding two new methods. All changes should be done in the branch storage_get_count:
 
 A method to retrieve one object:
