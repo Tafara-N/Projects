@@ -580,8 +580,8 @@ Returns the Amenity object with the status code 200
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/views/amenities.py, api/v1/views/__init__.py`
 
-9. User
-mandatory
+### 9. User
+
 Create a new view for User object that handles all default RESTFul API actions:
 
 In the file api/v1/views/users.py
@@ -611,10 +611,10 @@ If the HTTP body request is not valid JSON, raise a 400 error with the message N
 Update the User object with all key-value pairs of the dictionary
 Ignore keys: id, email, created_at and updated_at
 Returns the User object with the status code 200
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/views/users.py, api/v1/views/__init__.py
+- File: `api/v1/views/users.py, api/v1/views/__init__.py`
 
 10. Place
 mandatory
