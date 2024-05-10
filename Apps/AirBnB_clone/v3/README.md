@@ -82,11 +82,11 @@ Add yourself as an author of the project
 Add new information about your new contribution
 Make it better!
 If you’re the owner of this codebase, create a new Repo:sitory called AirBnB_clone_v3 and copy over all files from AirBnB_clone_v2
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
 
-1. Never fail!
+### 1. Never fail!
 
 
 
