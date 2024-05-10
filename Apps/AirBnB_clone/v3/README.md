@@ -401,9 +401,8 @@ guillaume@ubuntu:~/AirBnB_v3$
 ```
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/views/states.py, api/v1/views/__init__.py
+- File: `api/v1/views/states.py, api/v1/views/__init__.py`
 
 7. City
 mandatory
