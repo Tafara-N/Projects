@@ -694,8 +694,8 @@ Returns the Review object with the status code 200
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/views/places_reviews.py, api/v1/views/__init__.py`
 
-12. HTTP access control (CORS)
-mandatory
+### 12. HTTP access control (CORS)
+
 A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port, than the one the first resource itself serves.
 
 Read the full definition here
@@ -714,6 +714,7 @@ You will update it later when you will deploy your API to production.
 
 Now you can see this HTTP Response Header: < Access-Control-Allow-Origin: 0.0.0.0
 
+```
 guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/cities/1da255c0-f023-4779-8134-2b1b40f87683 -vvv
 *   Trying 0.0.0.0...
 * TCP_NODELAY set
@@ -742,8 +743,9 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/cities/1da2
 * Curl_http_done: called premature == 0
 * Closing connection 0
 guillaume@ubuntu:~/AirBnB_v3$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/app.py
 
