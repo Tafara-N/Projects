@@ -780,8 +780,8 @@ Returns the Amenity with the status code 201
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/views/places_amenities.py, api/v1/views/__init__.py`
 
-14. Security improvements!
-#advanced
+### 14. Security improvements!
+
 Currently, the User object is designed to store the user password in cleartext.
 
 It’s super bad!
@@ -792,8 +792,8 @@ Update the method to_dict() of BaseModel to remove the password key except when 
 Each time a new User object is created or password updated, the password is hashed to a MD5 value
 In the database for DBStorage, the password stored is now hashed to a MD5 value
 In the file for FileStorage, the password stored is now hashed to a MD5 value
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
 - File: `models/base_model.py, models/user.py`
 
