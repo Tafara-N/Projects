@@ -129,6 +129,7 @@ cls: class (optional)
 Returns the number of objects in storage matching the given class. If no class is passed, returns the count of all objects in storage.
 Don’t forget to add new tests for these 2 methods on each storage engine.
 
+```
 guillaume@ubuntu:~/AirBnB_v3$ cat test_get_count.py
 #!/usr/bin/python3
 """ Test .get() and .count() methods
@@ -153,6 +154,8 @@ All objects: 19
 State objects: 5
 First state: [State] (af14c85b-172f-4474-8a30-d4ec21f9795e) {'updated_at': datetime.datetime(2017, 4, 13, 17, 10, 22, 378824), 'name': 'Arizona', 'id': 'af14c85b-172f-4474-8a30-d4ec21f9795e', 'created_at': datetime.datetime(2017, 4, 13, 17, 10, 22, 378763)}
 guillaume@ubuntu:~/AirBnB_v3$
+```
+
 For this task, you must make a pull request on GitHub.com, and ask at least one of your peer to review and merge it.
 
 **Repo:**
