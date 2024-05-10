@@ -616,8 +616,8 @@ Returns the User object with the status code 200
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/views/users.py, api/v1/views/__init__.py`
 
-10. Place
-mandatory
+### 10. Place
+
 Create a new view for Place objects that handles all default RESTFul API actions:
 
 In the file api/v1/views/places.py
@@ -650,13 +650,13 @@ If the HTTP request body is not valid JSON, raise a 400 error with the message N
 Update the Place object with all key-value pairs of the dictionary
 Ignore keys: id, user_id, city_id, created_at and updated_at
 Returns the Place object with the status code 200
+
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/views/places.py, api/v1/views/__init__.py
+- File: `api/v1/views/places.py, api/v1/views/__init__.py`
 
-11. Reviews
-mandatory
+### 11. Reviews
+
 Create a new view for Review object that handles all default RESTFul API actions:
 
 In the file api/v1/views/places_reviews.py
