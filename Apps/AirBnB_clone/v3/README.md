@@ -436,6 +436,8 @@ If the HTTP request body is not valid JSON, raise a 400 error with the message N
 Update the City object with all key-value pairs of the dictionary
 Ignore keys: id, state_id, created_at and updated_at
 Returns the City object with the status code 200
+
+```
 guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/states/not_an_id/cities/
 {
   "error": "Not found"
