@@ -245,8 +245,8 @@ guillaume@ubuntu:~/AirBnB_v3$
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/views/index.py`
 
-5. Not found
-mandatory
+### 5. Not found
+
 Designers are really creative when they have to design a “404 page”, a “Not found”… 34 brilliantly designed 404 error pages
 
 Today it’s different, because you won’t use HTML and CSS, but JSON!
