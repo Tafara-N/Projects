@@ -253,6 +253,7 @@ Today it’s different, because you won’t use HTML and CSS, but JSON!
 
 In api/v1/app.py, create a handler for 404 errors that returns a JSON-formatted 404 status code response. The content should be: "error": "Not found"
 
+```
 guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/nop
 {
   "error": "Not found"
@@ -277,8 +278,9 @@ guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/nop -vvv
   "error": "Not found"
 }
 guillaume@ubuntu:~/AirBnB_v3$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
 - File: api/v1/app.py
 
