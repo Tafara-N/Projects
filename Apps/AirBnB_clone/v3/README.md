@@ -404,8 +404,8 @@ guillaume@ubuntu:~/AirBnB_v3$
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/views/states.py, api/v1/views/__init__.py`
 
-7. City
-mandatory
+### 7. City
+
 Same as State, create a new view for City objects that handles all default RESTFul API actions:
 
 In the file api/v1/views/cities.py
