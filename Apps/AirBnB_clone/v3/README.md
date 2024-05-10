@@ -545,8 +545,8 @@ guillaume@ubuntu:~/AirBnB_v3$
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/views/cities.py, api/v1/views/__init__.py`
 
-8. Amenity
-mandatory
+### 8. Amenity
+
 Create a new view for Amenity objects that handles all default RESTFul API actions:
 
 In the file api/v1/views/amenities.py
@@ -575,10 +575,10 @@ If the HTTP request body is not valid JSON, raise a 400 error with the message N
 Update the Amenity object with all key-value pairs of the dictionary
 Ignore keys: id, created_at and updated_at
 Returns the Amenity object with the status code 200
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/views/amenities.py, api/v1/views/__init__.py
+- File: `api/v1/views/amenities.py, api/v1/views/__init__.py`
 
 9. User
 mandatory
