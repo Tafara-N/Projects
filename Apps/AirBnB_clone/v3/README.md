@@ -689,10 +689,10 @@ If the HTTP request body is not valid JSON, raise a 400 error with the message N
 Update the Review object with all key-value pairs of the dictionary
 Ignore keys: id, user_id, place_id, created_at and updated_at
 Returns the Review object with the status code 200
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/views/places_reviews.py, api/v1/views/__init__.py
+- File: `api/v1/views/places_reviews.py, api/v1/views/__init__.py`
 
 12. HTTP access control (CORS)
 mandatory
