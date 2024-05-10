@@ -749,8 +749,8 @@ guillaume@ubuntu:~/AirBnB_v3$
 - GitHub repository: `AirBnB_clone_v3`
 - File: `api/v1/app.py`
 
-13. Place - Amenity
-#advanced
+### 13. Place - Amenity
+
 Create a new view for the link between Place objects and Amenity objects that handles all default RESTFul API actions:
 
 In the file api/v1/views/places_amenities.py
@@ -775,10 +775,10 @@ If the place_id is not linked to any Place object, raise a 404 error
 If the amenity_id is not linked to any Amenity object, raise a 404 error
 If the Amenity is already linked to the Place, return the Amenity with the status code 200
 Returns the Amenity with the status code 201
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v3`
-- File: api/v1/views/places_amenities.py, api/v1/views/__init__.py
+- File: `api/v1/views/places_amenities.py, api/v1/views/__init__.py`
 
 14. Security improvements!
 #advanced
