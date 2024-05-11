@@ -698,7 +698,7 @@ Returns the Review object with the status code 200
 
 A resource makes a cross-origin HTTP request when it requests a resource from a different domain, or port, than the one the first resource itself serves.
 
-Read the full definition here
+Read the full definition [here](https://intranet.alxswe.com/rltoken/D55IFF8lgZDLPyIX6b6C5A)
 
 Why do we need this?
 
