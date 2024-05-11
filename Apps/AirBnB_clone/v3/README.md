@@ -799,11 +799,11 @@ In the file for FileStorage, the password stored is now hashed to a MD5 value
 
 ### 15. Search
 
-For the moment, the only way to list Place objects is via `GET` `/api/v1/cities/<city_id>/places`.
+For the moment, the only way to list `Place` objects is via `GET /api/v1/cities/<city_id>/places`.
 
 Good, but not enough…
 
-Update api/v1/views/places.py to add a new endpoint: POST /api/v1/places_search that retrieves all Place objects depending of the JSON in the body of the request.
+Update `api/v1/views/places.py` to add a new endpoint: `POST /api/v1/places_search` that retrieves all `lace` objects depending of the JSON in the body of the request.
 
 The JSON can contain 3 optional keys:
 
