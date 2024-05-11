@@ -806,17 +806,16 @@ Good, but not enough…
 Update `api/v1/views/places.py` to add a new endpoint: `POST /api/v1/places_search` that retrieves all `lace` objects depending of the JSON in the body of the request.
 
 The JSON can contain 3 optional keys:
+- `states`: list of `State` ids
+- `cities`: list of `City` ids
+- `amenities`: list of `Amenity` ids
 
-states: list of State ids
-cities: list of City ids
-amenities: list of Amenity ids
 Search rules:
-
-If the HTTP request body is not valid JSON, raise a 400 error with the message Not a JSON
-If the JSON body is empty or each list of all keys are empty: retrieve all Place objects
-If states list is not empty, results should include all Place objects for each State id listed
-If cities list is not empty, results should include all Place objects for each City id listed
-Keys states and cities are inclusive. Search results should include all Place objects in storage related to each City in every State listed in states, plus every City listed individually in cities, unless that City was already included by states.
+- If the HTTP request body is not valid JSON, raise a `400` error with the message `Not a JSON`
+- If the JSON body is empty or each list of all keys are empty: retrieve all `Place` objects
+- If `states` list is not empty, results should include all `Place` objects for each `State` id listed
+- If `cities` list is not empty, results should include all Place objects for each City id listed
+- Keys `states` and `cities` are inclusive. Search results should include all Place objects in storage related to each City in every State listed in states, plus every City listed individually in cities, unless that City was already included by states.
 Context:
 State A has 2 cities A1 and A2
 State B has 3 cities B1, B2 and B3
