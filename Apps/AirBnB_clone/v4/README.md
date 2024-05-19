@@ -12,7 +12,7 @@
 - [Manipulate DOM elements]()
 - [Document ready]()
 - [Introduction]()
-- [GET & POST request]()
+- [GET & POST request](https://intranet.alxswe.com/rltoken/kmBzs_QPD72Oz--Yk80JHw)
 - [HTTP access control (CORS)](https://intranet.alxswe.com/rltoken/tzqJx5SS5cF1BW_lAnXqqg)
 
 ## Learning Objectives
