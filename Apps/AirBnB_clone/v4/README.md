@@ -3,8 +3,8 @@
 *For this project, we expect you to look at this concept:*
 
 - [AirBnB clone](https://intranet.alxswe.com/concepts/74)
-- [Resources]()
 
+# Resources
 ## Read or watch:
 - [Selector](https://intranet.alxswe.com/rltoken/Bl2mJVVG07XCP6E8qtsQMg)
 - [Get and set content](https://intranet.alxswe.com/rltoken/oM3b0a0FGTy6AQ_UJ201Yw)
@@ -16,7 +16,7 @@
 - [HTTP access control (CORS)](https://intranet.alxswe.com/rltoken/tzqJx5SS5cF1BW_lAnXqqg)
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/_ii906pZ1sg8gkAF1dvsNQ), **without the help of Google:**
 
 ## General
 - How cool it is to request your own API
