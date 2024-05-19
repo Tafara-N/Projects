@@ -50,10 +50,11 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 </head>
 ```
 
-Before starting the project…
-You will work on a codebase using Flasgger, you will need to install it locally first before starting the RestAPI:
+### Before starting the project…
 
-```
+You will work on a codebase using [Flasgger](https://intranet.alxswe.com/rltoken/VmGDpw_DCN16OJt_UoqsDQ), you will need to install it locally first before starting the RestAPI:
+
+```bash
 $ sudo apt-get install -y python3-lxml
 $ sudo pip3 install flask_cors # if it was not installed yet
 $ sudo pip3 install flasgger
@@ -63,7 +64,7 @@ If the RestAPI is not starting, please read the error message. Based on the(ses)
 
 Here some solutions:
 
-## jsonschema exception
+## jsonschema `exception`
 
 ```
 $ sudo pip3 uninstall -y jsonschema
