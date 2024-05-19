@@ -11,7 +11,7 @@
 - [Manipulate CSS classes]()
 - [Manipulate DOM elements]()
 - [Document ready]()
-- [Introduction]()
+- [Introduction](https://intranet.alxswe.com/rltoken/OGDoIOd0cdmwDJFJy4aw5w)
 - [GET & POST request](https://intranet.alxswe.com/rltoken/kmBzs_QPD72Oz--Yk80JHw)
 - [HTTP access control (CORS)](https://intranet.alxswe.com/rltoken/tzqJx5SS5cF1BW_lAnXqqg)
 
