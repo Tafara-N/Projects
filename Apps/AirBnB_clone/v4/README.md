@@ -13,7 +13,7 @@
 - [Document ready]()
 - [Introduction]()
 - [GET & POST request]()
-- [HTTP access control (CORS)]()
+- [HTTP access control (CORS)](https://intranet.alxswe.com/rltoken/tzqJx5SS5cF1BW_lAnXqqg)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
