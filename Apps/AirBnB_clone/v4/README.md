@@ -62,7 +62,7 @@ $ sudo pip3 install flasgger
 
 If the RestAPI is not starting, please read the error message. Based on the(ses) error message(s), you will have to troubleshoot potential dependencies issues.
 
-Here some solutions:
+Here are some solutions:
 
 ## jsonschema `exception`
 
