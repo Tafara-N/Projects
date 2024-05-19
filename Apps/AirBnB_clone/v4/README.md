@@ -66,7 +66,7 @@ Here some solutions:
 
 ## jsonschema `exception`
 
-```
+```bash
 $ sudo pip3 uninstall -y jsonschema
 $ sudo pip3 install jsonschema==3.0.1
 ```
