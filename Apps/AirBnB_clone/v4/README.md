@@ -34,7 +34,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files will be interpreted on Chrome (version 57.0)
 - All your files should end with a new line
 - A `README.md` file, at the root of the folder of the project, is mandatory
-- Your code should be semistandard compliant with the flag `--global $: semistandard *.js --global $`
+- Your code should be `semistandard` compliant with the flag `--global $: semistandard *.js --global $`
 - All your JavaScript must be in the folder scripts
 - You must use JQuery version 3.x
 - You are not allowed to use var
