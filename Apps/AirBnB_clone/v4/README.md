@@ -90,6 +90,8 @@ if you need to expose other ports, same line but you will need to replace the â€
 
 Itâ€™s important in your project, to use the AirBnB API with the port `5001`
 
+![AirBnB_clone_v4](hbnb_step5.png)
+
 ## Tasks
 
 ### 0. Last clone!
