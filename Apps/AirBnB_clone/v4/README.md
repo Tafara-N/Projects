@@ -132,9 +132,9 @@ One problem now is the asset caching done by Flask.
 
 To avoid that, you will add a query string to each asset:
 
-In 0-hbnb.py, add a variable cache_id to the render_template. The value of this variable must be an UUID (uuid.uuid4())
+In `0-hbnb.py`, add a variable `cache_id` to the `render_template`. The value of this variable must be an UUID (`uuid.uuid4()`)
 
-In 0-hbnb.html, add this variable cache_id as query string to each <link> tag URL
+In `0-hbnb.html`, add this variable `cache_id` as query string to each `<link>` tag URL
 
 ```
 guillaume@ubuntu:~/AirBnB_v4$ curl -s -XGET http://0.0.0.0:5000/0-hbnb/ | head -6
