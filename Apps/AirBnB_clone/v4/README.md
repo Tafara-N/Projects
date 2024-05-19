@@ -2,7 +2,7 @@
 
 *For this project, we expect you to look at this concept:*
 
-- [AirBnB clone]()
+- [AirBnB clone](https://intranet.alxswe.com/concepts/74)
 - [Resources]()
 
 ## Read or watch:
