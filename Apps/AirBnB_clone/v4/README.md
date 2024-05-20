@@ -207,8 +207,8 @@ Change the route `1-hbnb` to `2-hbnb` in the file `2-hbnb.py` (based on `1-hbnb.
 
 Create a new template `2-hbnb.html` (based on `1-hbnb.html`) and update it:
 
-Import the JavaScript `static/scripts/2-hbnb.js` in the `<head>` tag (instead of `1-hbnb.js`)
-Add a new div element in the header tag:
+- Import the JavaScript `static/scripts/2-hbnb.js` in the `<head>` tag (instead of `1-hbnb.js`)
+- Add a new `div` element in the `header` tag:
 Attribute ID should be api_status
 Align to the right
 Circle of 40px diameter
