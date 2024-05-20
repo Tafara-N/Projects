@@ -201,9 +201,9 @@ As example:
 
 Before requesting the HBNB API, it’s better to know the status of this one.
 
-Update the API entry point (api/v1/app.py) by replacing the current CORS CORS(app, origins="0.0.0.0") by CORS(app, resources={r"/api/v1/*": {"origins": "*"}}).
+Update the API entry point (`api/v1/app.py`) by replacing the current CORS `CORS(app, origins="0.0.0.0"`) by `CORS(app, resources={r"/api/v1/*": {"origins": "*"}})`.
 
-Change the route 1-hbnb to 2-hbnb in the file 2-hbnb.py (based on 1-hbnb.py)
+Change the route `1-hbnb` to `2-hbnb` in the file `2-hbnb.py` (based on `1-hbnb.py`)
 
 Create a new template 2-hbnb.html (based on 1-hbnb.html) and update it:
 
