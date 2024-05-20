@@ -234,6 +234,8 @@ guillaume@ubuntu:~/AirBnB_v4$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 
 For example:
 
+![alt text](b68cd1e385963da099899f51ee5f3a6bbf0adcb3.jpg)
+
 
 
 **Repo:**
