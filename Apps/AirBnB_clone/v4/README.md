@@ -244,17 +244,17 @@ For example:
 
 ### 4. Fetch places
 
-Replace the route 2-hbnb with 3-hbnb in the file 3-hbnb.py (based on 2-hbnb.py)
+Replace the route `2-hbnb` with `3-hbnb` in the file `3-hbnb.py` (based on `2-hbnb.py`)
 
-Create a new template 3-hbnb.html (based on 2-hbnb.html) and update it:
+Create a new template `3-hbnb.html` (based on `2-hbnb.html`) and update it:
 
-Import the JavaScript static/scripts/3-hbnb.js in the <head> tag (instead of 2-hbnb.js)
-Remove the entire Jinja section of displaying all places (all article tags)
-Write a JavaScript script (static/scripts/3-hbnb.js):
+Import the JavaScript `static/scripts/3-hbnb.js` in the `<head>` tag (instead of `2-hbnb.js`)
+Remove the entire Jinja section of displaying all places (all `article` tags)
+Write a JavaScript script (`static/scripts/3-hbnb.js`):
 
-Based on 2-hbnb.js
-Request http://0.0.0.0:5001/api/v1/places_search/:
-Description of this endpoint here. If this endpoint is not available, you will have to add it to the API (you can work all together for creating this endpoint)
+Based on `2-hbnb.js`
+Request `http://0.0.0.0:5001/api/v1/places_search/`:
+Description of this endpoint [here](https://intranet.alxswe.com/rltoken/EkC2rNKurYIznWBiJYPtgA). If this endpoint is not available, you will have to add it to the API (you can work all together for creating this endpoint)
 Send a POST request with Content-Type: application/json and an empty dictionary in the body - cURL version: curl "http://0.0.0.0:5001/api/v1/places_search" -XPOST -H "Content-Type: application/json" -d '{}'
 Loop into the result of the request and create an article tag representing a Place in the section.places. (you can remove the Owner tag in the place description)
 The final result must be the same as previously, but now, places are loaded from the front-end, not from the back-end!
