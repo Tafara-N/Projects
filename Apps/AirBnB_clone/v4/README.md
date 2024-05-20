@@ -209,12 +209,12 @@ Create a new template `2-hbnb.html` (based on `1-hbnb.html`) and update it:
 
 - Import the JavaScript `static/scripts/2-hbnb.js` in the `<head>` tag (instead of `1-hbnb.js`)
 - Add a new `div` element in the `header` tag:
-Attribute ID should be api_status
-Align to the right
-Circle of 40px diameter
-Center vertically
-At 30px of the right border
-Background color #cccccc
+	- Attribute ID should be `api_status`
+	- Align to the right
+	- Circle of 40px diameter
+	- Center vertically
+	- At 30px of the right border
+	- Background color #cccccc
 Also add a class available for this new element in web_dynamic/static/styles/3-header.css:
 Background color #ff545f
 Write a JavaScript script (static/scripts/2-hbnb.js):
