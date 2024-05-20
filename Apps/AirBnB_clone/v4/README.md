@@ -218,10 +218,10 @@ Create a new template `2-hbnb.html` (based on `1-hbnb.html`) and update it:
 - Also add a class `available` for this new element in `web_dynamic/static/styles/3-header.css`:
 	- Background color #ff545f
 
-Write a JavaScript script (static/scripts/2-hbnb.js):
+Write a JavaScript script (`static/scripts/2-hbnb.js`):
 
-Based on 1-hbnb.js
-Request http://0.0.0.0:5001/api/v1/status/:
+- Based on `1-hbnb.js`
+- Request `http://0.0.0.0:5001/api/v1/status/`:
 If in the status is “OK”, add the class available to the div#api_status
 Otherwise, remove the class available to the div#api_status
 To start the API in the port 5001:
