@@ -205,7 +205,7 @@ Update the API entry point (`api/v1/app.py`) by replacing the current CORS `CORS
 
 Change the route `1-hbnb` to `2-hbnb` in the file `2-hbnb.py` (based on `1-hbnb.py`)
 
-Create a new template 2-hbnb.html (based on 1-hbnb.html) and update it:
+Create a new template `2-hbnb.html` (based on `1-hbnb.html`) and update it:
 
 Import the JavaScript static/scripts/2-hbnb.js in the <head> tag (instead of 1-hbnb.js)
 Add a new div element in the header tag:
