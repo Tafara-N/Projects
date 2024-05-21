@@ -305,7 +305,7 @@ Listen to changes on each input checkbox tag:
 if the checkbox is checked, you must store the `State` or `City` ID in a variable (dictionary or list)
 if the checkbox is unchecked, you must remove the `State` or `City` ID from the variable
 update the `h4` tag inside the `div` Locations with the list of `States` or `Cities` checked
-When the button tag is clicked, a new POST request to places_search should be made with the list of Amenities, Cities and States checked
+When the button tag is clicked, a new `POST` request to `places_search` should be made with the list of `Amenities`, `Cities` and `States` checked
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v4`
