@@ -291,8 +291,8 @@ Replace the route `4-hbnb` to `100-hbnb` in the file `100-hbnb.py` (based on `4-
 Create a new template `100-hbnb.html` (based on `4-hbnb.html`) and update it:
 
 Import the JavaScript `static/scripts/100-hbnb.js` in the `<head>` tag (instead of `4-hbnb.js`)
-Add to all li tags of each state a new tag: `<input type="checkbox">`
-Add to all li tags of each cities a new tag: `<input type="checkbox">`
+Add to all `li` tags of each `state` a new tag: `<input type="checkbox">`
+Add to all `li` tags of each `cities` a new tag: `<input type="checkbox">`
 The new checkbox must be at 10px on the left of the `State` or `City` name
 Add to all input tags of each states (<li> tag) the attribute data-id=":state_id"
 Add to all input tags of each states (<li> tag) the attribute data-name=":state_name"
