@@ -294,10 +294,10 @@ Import the JavaScript `static/scripts/100-hbnb.js` in the `<head>` tag (instead 
 Add to all `li` tags of each `state` a new tag: `<input type="checkbox">`
 Add to all `li` tags of each `cities` a new tag: `<input type="checkbox">`
 The new checkbox must be at 10px on the left of the `State` or `City` name
-Add to all input tags of each states (<li> tag) the attribute data-id=":state_id"
-Add to all input tags of each states (<li> tag) the attribute data-name=":state_name"
-Add to all input tags of each cities (<li> tag) the attribute data-id=":city_id"
-Add to all input tags of each cities (<li> tag) the attribute data-name=":city_name"
+Add to all input tags of each `states` (`<li>` tag) the attribute `data-id=":state_id"`
+Add to all input tags of each `states` (`<li>` tag) the attribute `data-name=":state_name"`
+Add to all input tags of each `cities` (`<li>` tag) the attribute `data-id=":city_id"`
+Add to all input tags of each `cities` (`<li>` tag) the attribute `data-name=":city_name"`
 Write a JavaScript script (static/scripts/100-hbnb.js):
 
 Based on 4-hbnb.js
