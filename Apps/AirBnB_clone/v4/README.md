@@ -286,9 +286,9 @@ Now you have the first filter implemented, enjoy!
 
 Now, reproduce the same steps with the State and City filter:
 
-Replace the route 4-hbnb to 100-hbnb in the file 100-hbnb.py (based on 4-hbnb.py)
+Replace the route `4-hbnb` to `100-hbnb` in the file `100-hbnb.py` (based on `4-hbnb.py`)
 
-Create a new template 100-hbnb.html (based on 4-hbnb.html) and update it:
+Create a new template `100-hbnb.html` (based on `4-hbnb.html`) and update it:
 
 Import the JavaScript static/scripts/100-hbnb.js in the <head> tag (instead of 4-hbnb.js)
 Add to all li tags of each state a new tag: <input type="checkbox">
