@@ -267,7 +267,7 @@ The final result must be the same as previously, but now, places are loaded from
 
 ### 5. Filter places by Amenity
 
-Replace the route 3-hbnb with 4-hbnb in the file 4-hbnb.py (based on 3-hbnb.py)
+Replace the route `3-hbnb` with `4-hbnb` in the file `4-hbnb.py` (based on `3-hbnb.py`)
 
 Create a new template 4-hbnb.html (based on 3-hbnb.html) and update it:
 
