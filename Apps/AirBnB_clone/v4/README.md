@@ -269,7 +269,7 @@ The final result must be the same as previously, but now, places are loaded from
 
 Replace the route `3-hbnb` with `4-hbnb` in the file `4-hbnb.py` (based on `3-hbnb.py`)
 
-Create a new template 4-hbnb.html (based on 3-hbnb.html) and update it:
+Create a new template 4-hbnb.html (based on `3-hbnb.html`) and update it:
 
 Import the JavaScript static/scripts/4-hbnb.js in the <head> tag (instead of 3-hbnb.js)
 Write a JavaScript script (static/scripts/4-hbnb.js):
