@@ -298,13 +298,13 @@ Add to all input tags of each `states` (`<li>` tag) the attribute `data-id=":sta
 Add to all input tags of each `states` (`<li>` tag) the attribute `data-name=":state_name"`
 Add to all input tags of each `cities` (`<li>` tag) the attribute `data-id=":city_id"`
 Add to all input tags of each `cities` (`<li>` tag) the attribute `data-name=":city_name"`
-Write a JavaScript script (static/scripts/100-hbnb.js):
+Write a JavaScript script (`static/scripts/100-hbnb.js`):
 
-Based on 4-hbnb.js
+Based on `4-hbnb.js`
 Listen to changes on each input checkbox tag:
-if the checkbox is checked, you must store the State or City ID in a variable (dictionary or list)
-if the checkbox is unchecked, you must remove the State or City ID from the variable
-update the h4 tag inside the div Locations with the list of States or Cities checked
+if the checkbox is checked, you must store the `State` or `City` ID in a variable (dictionary or list)
+if the checkbox is unchecked, you must remove the `State` or `City` ID from the variable
+update the `h4` tag inside the `div` Locations with the list of `States` or `Cities` checked
 When the button tag is clicked, a new POST request to places_search should be made with the list of Amenities, Cities and States checked
 
 **Repo:**
