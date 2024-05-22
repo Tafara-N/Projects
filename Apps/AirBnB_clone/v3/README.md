@@ -782,17 +782,18 @@ guillaume@ubuntu:~/AirBnB_v3$
 
 ### 13. Place - Amenity
 
-Create a new view for the link between Place objects and Amenity objects that handles all default RESTFul API actions:
+Create a new view for the link between `Place` objects and `Amenity` objects that handles all default RESTFul API actions:
 
-In the file api/v1/views/places_amenities.py
-You must use to_dict() to retrieve an object into a valid JSON
-Update api/v1/views/__init__.py to import this new file
-Depending of the storage:
-DBStorage: list, create and delete Amenity objects from amenities relationship
-FileStorage: list, add and remove Amenity ID in the list amenity_ids of a Place object
-Retrieves the list of all Amenity objects of a Place: GET /api/v1/places/<place_id>/amenities
+- In the file `api/v1/views/places_amenities.py`
+- You must use `to_dict()` to retrieve an object into a valid JSON
+- Update `api/v1/views/__init__.py` to import this new file
+- Depending of the storage:
+	- `DBStorage`: list, create and delete `Amenity` objects from `amenities` relationship
+	- `FileStorage`: list, add and remove `Amenity` ID in the list `amenity_ids` of a `Place` object
 
-If the place_id is not linked to any Place object, raise a 404 error
+Retrieves the list of all `Amenity` objects of a `Place`: `GET /api/v1/places/<place_id>/amenities`
+
+- If the `place_id` is not linked to any `Place` object, raise a `404` error
 
 Deletes a `Amenity` object to a `Place`: `DELETE /api/v1/places/<place_id>/amenities/<amenity_id>`
 
