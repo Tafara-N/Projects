@@ -200,10 +200,10 @@ Magic right? (No need to have a pretty rendered output, it’s a JSON, only the 
 
 Ok, let starts:
 
-Create a folder api at the root of the project with an empty file __init__.py
-Create a folder v1 inside api:
-create an empty file __init__.py
-create a file app.py:
+- Create a folder `api` at the root of the project with an empty file `__init__.py`
+- Create a folder `v1` inside `api`:
+	- create an empty file `__init__.py`
+	- create a file `app.py`:
 create a variable app, instance of Flask
 import storage from models
 import app_views from api.v1.views
