@@ -735,15 +735,15 @@ Why do we need this?
 
 Because you will soon start allowing a web client to make requests your API. If your API doesn’t have a correct CORS setup, your web client won’t be able to access your data.
 
-With Flask, it’s really easy, you will use the class CORS of the module flask_cors.
+With Flask, it’s really easy, you will use the class `CORS` of the module `flask_cors`.
 
-How to install it: $ pip3 install flask_cors
+How to install it: `$ pip3 install flask_cors`
 
-Update api/v1/app.py to create a CORS instance allowing: /* for 0.0.0.0
+Update `api/v1/app.py` to create a CORS instance allowing: `/*` for `0.0.0.0`
 
 You will update it later when you will deploy your API to production.
 
-Now you can see this HTTP Response Header: < Access-Control-Allow-Origin: 0.0.0.0
+Now you can see this HTTP Response Header: `< Access-Control-Allow-Origin: 0.0.0.0`
 
 ```
 guillaume@ubuntu:~/AirBnB_v3$ curl -X GET http://0.0.0.0:5000/api/v1/cities/1da255c0-f023-4779-8134-2b1b40f87683 -vvv
