@@ -565,21 +565,24 @@ guillaume@ubuntu:~/AirBnB_v3$
 
 ### 8. Amenity
 
-Create a new view for Amenity objects that handles all default RESTFul API actions:
+Create a new view for `Amenity` objects that handles all default RESTFul API actions:
 
-In the file api/v1/views/amenities.py
-You must use to_dict() to serialize an object into valid JSON
-Update api/v1/views/__init__.py to import this new file
-Retrieves the list of all Amenity objects: GET /api/v1/amenities
+- In the file `api/v1/views/amenities.py`
+- You must use `to_dict()` to serialize an object into valid JSON
+- Update `api/v1/views/__init__.py` to import this new file
 
-Retrieves a Amenity object: GET /api/v1/amenities/<amenity_id>
+Retrieves the list of all `Amenity` objects: `GET /api/v1/amenities`
 
-If the amenity_id is not linked to any Amenity object, raise a 404 error
-Deletes a Amenity object:: DELETE /api/v1/amenities/<amenity_id>
+Retrieves a `Amenity` object: `GET /api/v1/amenities/<amenity_id>`
 
-If the amenity_id is not linked to any Amenity object, raise a 404 error
-Returns an empty dictionary with the status code 200
-Creates a Amenity: POST /api/v1/amenities
+- If the `amenity_id` is not linked to any `Amenity` object, raise a `404` error
+
+Deletes a `Amenity` object:: `DELETE /api/v1/amenities/<amenity_id>`
+
+- If the `amenity_id` is not linked to any `Amenity` object, raise a `404` error
+- Returns an empty dictionary with the status code `200`
+
+Creates a `Amenity`: `POST /api/v1/amenities`
 
 You must use request.get_json from Flask to transform the HTTP request to a dictionary
 If the HTTP request body is not valid JSON, raise a 400 error with the message Not a JSON
