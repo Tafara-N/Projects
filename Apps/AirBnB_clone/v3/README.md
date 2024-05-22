@@ -20,7 +20,7 @@
 - [Flask-CORS](https://intranet.alxswe.com/rltoken/vq8ER3xb99-N2anC-zke3A)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/5ySNbjsNA0dTL8YhhgtFog), **without the help of Google:**
 
 ## General
 - What REST means
