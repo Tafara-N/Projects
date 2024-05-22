@@ -15,9 +15,9 @@
 - [Flask cheatsheet](https://intranet.alxswe.com/rltoken/L01qANfgx0al8_an4mtPuw)
 - [What are Flask Blueprints, exactly?](https://intranet.alxswe.com/rltoken/QxbV8TCzNl3oP9br8CV5Lw)
 - [Flask](https://intranet.alxswe.com/rltoken/OLWDl7iDVpWKykekaznWpQ)
-- [Modular Applications with Blueprints]()
-- [Flask tests]()
-- [Flask-CORS]()
+- [Modular Applications with Blueprints](https://intranet.alxswe.com/rltoken/y3Lhj6w1g59MA_HPtc578w)
+- [Flask tests](https://intranet.alxswe.com/rltoken/UGo4ArPFHhx-ow2QtZWILA)
+- [Flask-CORS](https://intranet.alxswe.com/rltoken/vq8ER3xb99-N2anC-zke3A)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
