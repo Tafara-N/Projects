@@ -64,15 +64,13 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 # More Info
 
+![HBNB Project](02078cd7f0573885c85a225c7436584a5afea1f9.png)
 
 ## Install Flask
 
 ```
 $ pip3 install Flask
 ```
-
-Python: Flask RestAPI
-AirBnB API
 
 ## Tasks
 
@@ -82,32 +80,33 @@ No no no! We are already too far in the project to restart everything.
 
 But once again, let’s work on a new codebase.
 
-For this project you will fork this codebase:
+For this project you will fork this [codebase](https://github.com/alexaorrico/AirBnB_clone_v2.git):
 
-Update the Repo:sitory name to AirBnB_clone_v3
-Update the README.md:
-Add yourself as an author of the project
-Add new information about your new contribution
-Make it better!
-If you’re the owner of this codebase, create a new Repo:sitory called AirBnB_clone_v3 and copy over all files from AirBnB_clone_v2
+- Update the Repo:sitory name to `AirBnB_clone_v3`
+- Update the `README.md`:
+	- Add yourself as an author of the project
+	- Add new information about your new contribution
+	- Make it better!
+- If you’re the owner of this codebase, create a new Repo:sitory called `AirBnB_clone_v3` and copy over all files from `AirBnB_clone_v2`
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v3`
 
 ### 1. Never fail!
 
+![Here We Go](95fedfc947ba610185a59b99b25811acb1bbe360.jpg)
 
-
-Since the beginning we’ve been using the unittest module, but do you know why unittests are so important? Because when you add a new feature, you refactor a piece of code, etc… you want to be sure you didn’t break anything.
+Since the beginning we’ve been using the `unittest module`, but do you know why `unittests` are so important? Because when you add a new feature, you refactor a piece of code, etc… you want to be sure you didn’t break anything.
 
 At Holberton, we have a lot of tests, and they all pass! Just for the Intranet itself, there are:
 
-5,213 assertions (as of 08/20/2018)
-13,061 assertions (as of 01/25/2021)
-The following requirements must be met for your project:
+- `5,213` assertions (as of 08/20/2018)
+- `13,061` assertions (as of 01/25/2021)
 
-all current tests must pass (don’t delete them…)
-add new tests as much as you can (tests are mandatory for some tasks)
+The following requirements **must** be met for your project:
+
+- all current tests must pass (don’t delete them…)
+- add new tests as much as you can (tests are mandatory for some tasks)
 
 ```
 guillaume@ubuntu:~/AirBnB_v3$ python3 -m unittest discover tests 2>&1 | tail -1
@@ -122,19 +121,21 @@ guillaume@ubuntu:~/AirBnB_v3$
 
 ### 2. Improve storage
 
-Update DBStorage and FileStorage, adding two new methods. All changes should be done in the branch storage_get_count:
+Update `DBStorage` and `FileStorage`, adding two new methods. **All changes should be done in the branch `storage_get_count`**:
 
 A method to retrieve one object:
 
-Prototype: def get(self, cls, id):
-cls: class
-id: string representing the object ID
-Returns the object based on the class and its ID, or None if not found
+- Prototype: `def get(self, cls, id)`:
+	- `cls`: class
+	- `id`: string representing the object ID
+- Returns the object based on the class and its ID, or `None` if not found
+
 A method to count the number of objects in storage:
 
-Prototype: def count(self, cls=None):
-cls: class (optional)
-Returns the number of objects in storage matching the given class. If no class is passed, returns the count of all objects in storage.
+- Prototype: `def count(self, cls=None)`:
+	- `cls`: class (optional)
+- Returns the number of objects in storage matching the given class. If no class is passed, returns the count of all objects in storage.
+
 Don’t forget to add new tests for these 2 methods on each storage engine.
 
 ```
@@ -164,7 +165,7 @@ First state: [State] (af14c85b-172f-4474-8a30-d4ec21f9795e) {'updated_at': datet
 guillaume@ubuntu:~/AirBnB_v3$
 ```
 
-For this task, you must make a pull request on GitHub.com, and ask at least one of your peer to review and merge it.
+For this task, you **must** make a pull request on GitHub.com, and ask at least one of your peer to review and merge it.
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v3`
