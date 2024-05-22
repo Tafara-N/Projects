@@ -319,9 +319,9 @@ Replace the route `100-hbnb` to `101-hbnb` in the file `101-hbnb.py` (based on `
 
 Create a new template `101-hbnb.html` (based on `100-hbnb.html`) and update it:
 
-Import the JavaScript `static/scripts/101-hbnb.js` in the `<head>` tag (instead of `101-hbnb.js`)
-Design the list of reviews from this task
-Add a span element at the right of the `H2` “Reviews” with value “show” (add all necessary attributes to do this feature)
+- Import the JavaScript `static/scripts/101-hbnb.js` in the `<head>` tag (instead of `101-hbnb.js`)
+- Design the list of reviews from this [task](https://intranet.alxswe.com/rltoken/6QUObzD76iV79Sc0rFcAQQ)
+- Add a `span` element at the right of the `H2` “Reviews” with value “show” (add all necessary attributes to do this feature)
 
 Write a JavaScript script (`static/scripts/101-hbnb.js`):
 
