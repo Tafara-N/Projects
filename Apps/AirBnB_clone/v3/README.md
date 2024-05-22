@@ -54,7 +54,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files should end with a new line
 - All your test files should be inside a folder tests
-- You have to use the `unittest` module
+- You have to use the [unittest module](https://intranet.alxswe.com/rltoken/5BK144LlyD8OKE1QdRdSBw)
 - All your test files should be python files (extension: `.py`)
 - All your test files and folders should start by `test_`
 - Your file organization in the tests folder should be the same as your project: ex: for `models/base_model.py`, unit tests must be in: `tests/test_models/test_base_model.py`
