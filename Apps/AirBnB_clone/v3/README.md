@@ -584,18 +584,19 @@ Deletes a `Amenity` object:: `DELETE /api/v1/amenities/<amenity_id>`
 
 Creates a `Amenity`: `POST /api/v1/amenities`
 
-You must use request.get_json from Flask to transform the HTTP request to a dictionary
-If the HTTP request body is not valid JSON, raise a 400 error with the message Not a JSON
-If the dictionary doesn’t contain the key name, raise a 400 error with the message Missing name
-Returns the new Amenity with the status code 201
-Updates a Amenity object: PUT /api/v1/amenities/<amenity_id>
+- You must use `request.get_json` from Flask to transform the HTTP request to a dictionary
+- If the HTTP request body is not valid JSON, raise a `400` error with the message `Not a JSON`
+- If the dictionary doesn’t contain the key `name`, raise a `400` error with the message `Missing name`
+- Returns the new `Amenity` with the status code `201`
 
-If the amenity_id is not linked to any Amenity object, raise a 404 error
-You must use request.get_json from Flask to transform the HTTP request to a dictionary
-If the HTTP request body is not valid JSON, raise a 400 error with the message Not a JSON
-Update the Amenity object with all key-value pairs of the dictionary
-Ignore keys: id, created_at and updated_at
-Returns the Amenity object with the status code 200
+Updates a `Amenity` object: `PUT /api/v1/amenities/<amenity_id>`
+
+- If the `amenity_id` is not linked to any Amenity object, raise a `404` error
+- You must use `request.get_json` from Flask to transform the HTTP request to a dictionary
+- If the HTTP request body is not valid JSON, raise a `400` error with the message `Not a JSON`
+- Update the `Amenity` object with all key-value pairs of the dictionary
+- Ignore keys: `id`, `created_at` and `updated_at`
+- Returns the `Amenity` object with the status code `200`
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v3`
