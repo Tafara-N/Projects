@@ -290,22 +290,22 @@ Replace the route `4-hbnb` to `100-hbnb` in the file `100-hbnb.py` (based on `4-
 
 Create a new template `100-hbnb.html` (based on `4-hbnb.html`) and update it:
 
-Import the JavaScript `static/scripts/100-hbnb.js` in the `<head>` tag (instead of `4-hbnb.js`)
-Add to all `li` tags of each `state` a new tag: `<input type="checkbox">`
-Add to all `li` tags of each `cities` a new tag: `<input type="checkbox">`
-The new checkbox must be at 10px on the left of the `State` or `City` name
-Add to all input tags of each `states` (`<li>` tag) the attribute `data-id=":state_id"`
-Add to all input tags of each `states` (`<li>` tag) the attribute `data-name=":state_name"`
-Add to all input tags of each `cities` (`<li>` tag) the attribute `data-id=":city_id"`
-Add to all input tags of each `cities` (`<li>` tag) the attribute `data-name=":city_name"`
+- Import the JavaScript `static/scripts/100-hbnb.js` in the `<head>` tag (instead of `4-hbnb.js`)
+- Add to all `li` tags of each `state` a new tag: `<input type="checkbox">`
+- Add to all `li` tags of each `cities` a new tag: `<input type="checkbox">`
+- The new checkbox must be at 10px on the left of the `State` or `City` name
+- Add to all `input` tags of each `states` (`<li>` tag) the attribute `data-id=":state_id"`
+Add to all `input` tags of each `states` (`<li>` tag) the attribute `data-name=":state_name"`
+Add to all `input` tags of each `cities` (`<li>` tag) the attribute `data-id=":city_id"`
+Add to all `input` tags of each `cities` (`<li>` tag) the attribute `data-name=":city_name"`
 Write a JavaScript script (`static/scripts/100-hbnb.js`):
 
-Based on `4-hbnb.js`
-Listen to changes on each input checkbox tag:
-if the checkbox is checked, you must store the `State` or `City` ID in a variable (dictionary or list)
-if the checkbox is unchecked, you must remove the `State` or `City` ID from the variable
-update the `h4` tag inside the `div` Locations with the list of `States` or `Cities` checked
-When the button tag is clicked, a new `POST` request to `places_search` should be made with the list of `Amenities`, `Cities` and `States` checked
+- Based on `4-hbnb.js`
+- Listen to changes on each `input` checkbox tag:
+	- if the checkbox is checked, you must store the `State` or `City` ID in a variable (dictionary or list)
+	- if the checkbox is unchecked, you must remove the `State` or `City` ID from the variable
+	- update the `h4` tag inside the `div` Locations with the list of `States` or `Cities` checked
+- When the `button` tag is clicked, a new `POST` request to `places_search` should be made with the list of `Amenities`, `Cities` and `States` checked
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v4`
