@@ -793,12 +793,13 @@ FileStorage: list, add and remove Amenity ID in the list amenity_ids of a Place 
 Retrieves the list of all Amenity objects of a Place: GET /api/v1/places/<place_id>/amenities
 
 If the place_id is not linked to any Place object, raise a 404 error
-Deletes a Amenity object to a Place: DELETE /api/v1/places/<place_id>/amenities/<amenity_id>
 
-If the place_id is not linked to any Place object, raise a 404 error
-If the amenity_id is not linked to any Amenity object, raise a 404 error
-If the Amenity is not linked to the Place before the request, raise a 404 error
-Returns an empty dictionary with the status code 200
+Deletes a `Amenity` object to a `Place`: `DELETE /api/v1/places/<place_id>/amenities/<amenity_id>`
+
+- If the `place_id` is not linked to any `Place` object, raise a `404` error
+- If the `amenity_id` is not linked to any `Amenity` object, raise a `404` error
+- If the `Amenity` is not linked to the `Place` before the request, raise a `404` error
+- Returns an empty dictionary with the status code `200`
 
 Link a `Amenity` object to a Place: `POST /api/v1/places/<place_id>/amenities/<amenity_id>`
 - No HTTP body needed
