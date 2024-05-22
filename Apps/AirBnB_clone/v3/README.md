@@ -1,9 +1,17 @@
+# Concepts
+
+*For this project, we expect you to look at these concepts:*
+
+- [REST API](https://intranet.alxswe.com/concepts/45)
+- [AirBnB clone](https://intranet.alxswe.com/concepts/74)
+
 # Resources
+
 ## Read or watch:
-- [REST API concept page]()
-- [Learn REST: A RESTful Tutorial]()
-- [Designing a RESTful API with Python and Flask]()
-- [HTTP access control (CORS)]()
+- **REST API** concept page
+- [Learn REST: A RESTful Tutorial](https://intranet.alxswe.com/rltoken/rycjU2GvZAlahHa61WWDBg)
+- [Designing a RESTful API with Python and Flask](https://intranet.alxswe.com/rltoken/WfKwKtaROCybta0_E849AQ)
+- [HTTP access control (CORS)](https://intranet.alxswe.com/rltoken/D55IFF8lgZDLPyIX6b6C5A)
 - [Flask cheatsheet]()
 - [What are Flask Blueprints, exactly?]()
 - [Flask]()
