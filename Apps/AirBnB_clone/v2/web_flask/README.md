@@ -877,8 +877,8 @@ Write a script that starts a Flask web application:
 			- Replace the content of the `H4` tag under each filter title (`H3` States and `H3` Amenities) by `&nbsp;`
 			- Make sure all HTML tags from objects are correctly used (example: `<BR />` must generate a new line)
 		- `State`, `City`, `Amenity` and `Place` objects must be loaded from `DBStorage` and **sorted by name** (A->Z)
-You must use the option strict_slashes=False in your route definition
-Import this 100-dump to have some data
+- You must use the option `strict_slashes=False` in your route definition
+- Import this [100-dump](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/100-hbnb.sql) to have some data
 IMPORTANT
 
 Make sure you have a running and valid setup_mysql_dev.sql in your AirBnB_clone_v2 repository (Task)
