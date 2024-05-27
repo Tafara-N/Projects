@@ -899,12 +899,14 @@ In the browser:
 
 ![12. HBNB is alive!](task_12_image1.jpg)
 
+![12. HBNB is alive!](task_12_image2.jpg)
 
+![12. HBNB is alive!](task_12_image3.jpg)
 
+![12. HBNB is alive!](task_12_image4.jpg)
 
-
+![12. HBNB is alive!](task_12_image5.jpg)
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v2`
 - File: `web_flask/100-hbnb.py, web_flask/templates/100-hbnb.html, web_flask/static/`
