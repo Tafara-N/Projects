@@ -896,6 +896,11 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 
 In the browser:
 
+![12. HBNB is alive!](task_12_image1.jpg)
+
+
+
+
 
 
 **Repo:**
