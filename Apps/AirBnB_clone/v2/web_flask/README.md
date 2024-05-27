@@ -92,7 +92,7 @@ Hello HBNB!$
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 Directory: web_flask
 - File: 0-hello_route.py, __init__.py
 
@@ -116,7 +116,7 @@ HBNB$
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 Directory: web_flask
 - File: 1-hbnb_route.py
 
@@ -148,7 +148,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/c
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 Directory: web_flask
 - File: 2-c_route.py
 
@@ -179,7 +179,7 @@ Python is cool$
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 Directory: web_flask
 - File: 3-python_route.py
 
@@ -217,7 +217,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number/python
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 Directory: web_flask
 - File: 4-number_route.py
 
@@ -265,7 +265,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number_template/python
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 Directory: web_flask
 - File: 5-number_template.py, templates/5-number.html
 
@@ -320,7 +320,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number_odd_or_even/python
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 Directory: web_flask
 - File: 6-number_odd_or_even.py, templates/6-number_odd_or_even.html
 
@@ -417,7 +417,7 @@ Find the city [City] (a693bdb9-e0ca-4521-adfd-e1a93c093b4b) {'name': 'Page', 'id
 guillaume@ubuntu:~/AirBnB_v2$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 - File: models/engine/file_storage.py, models/engine/db_storage.py, models/state.py
 
 8. List of states
@@ -491,7 +491,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/states_list ; echo ""
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 - File: web_flask/7-states_list.py, web_flask/templates/7-states_list.html
 
 9. Cities by states
@@ -687,7 +687,7 @@ guillaume@ubuntu:~$
 
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 - File: web_flask/8-cities_by_states.py, web_flask/templates/8-cities_by_states.html
 
 10. States and State
@@ -810,7 +810,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/states/holberton ; echo ""
 guillaume@ubuntu:~$
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 - File: web_flask/9-states.py, web_flask/templates/9-states.html
 
 11. HBNB filters
@@ -852,7 +852,7 @@ In the browser:
 
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 - File: web_flask/10-hbnb_filters.py, web_flask/templates/10-hbnb_filters.html, web_flask/static/
 
 12. HBNB is alive!
@@ -896,5 +896,5 @@ In the browser:
 
 **Repo:**
 
-GitHub repository: AirBnB_clone_v2
+- GitHub repository: `AirBnB_clone_v2`
 - File: `web_flask/100-hbnb.py, web_flask/templates/100-hbnb.html, web_flask/static/`
