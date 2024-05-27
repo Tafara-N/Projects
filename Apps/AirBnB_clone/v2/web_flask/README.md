@@ -855,9 +855,8 @@ In the browser:
 - GitHub repository: `AirBnB_clone_v2`
 - File: web_flask/10-hbnb_filters.py, web_flask/templates/10-hbnb_filters.html, web_flask/static/
 
-12. HBNB is alive!
-#advanced
-Score: 99.5% (Checks completed: 100.0%)
+### 12. HBNB is alive!
+
 Write a script that starts a Flask web application:
 
 Your web application must be listening on 0.0.0.0, port 5000
@@ -884,12 +883,16 @@ IMPORTANT
 
 Make sure you have a running and valid setup_mysql_dev.sql in your AirBnB_clone_v2 repository (Task)
 Make sure all tables are created when you run echo "quit" | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ curl -o 100-dump.sql "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/100-hbnb.sql"
 guillaume@ubuntu:~/AirBnB_v2$ cat 100-dump.sql | mysql -uroot -p
 Enter password:
 guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.100-hbnb
 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ....
+```
+
 In the browser:
 
 
