@@ -94,7 +94,7 @@ guillaume@ubuntu:~$
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
-File: 0-hello_route.py, __init__.py
+- File: 0-hello_route.py, __init__.py
 
 1. HBNB
 mandatory
@@ -118,7 +118,7 @@ guillaume@ubuntu:~$
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
-File: 1-hbnb_route.py
+- File: 1-hbnb_route.py
 
 2. C is fun!
 mandatory
@@ -150,7 +150,7 @@ guillaume@ubuntu:~$
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
-File: 2-c_route.py
+- File: 2-c_route.py
 
 3. Python is cool!
 mandatory
@@ -181,7 +181,7 @@ guillaume@ubuntu:~$
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
-File: 3-python_route.py
+- File: 3-python_route.py
 
 4. Is it a number?
 mandatory
@@ -219,7 +219,7 @@ guillaume@ubuntu:~$
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
-File: 4-number_route.py
+- File: 4-number_route.py
 
 5. Number template
 mandatory
@@ -267,7 +267,7 @@ guillaume@ubuntu:~$
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
-File: 5-number_template.py, templates/5-number.html
+- File: 5-number_template.py, templates/5-number.html
 
 6. Odd or even?
 mandatory
@@ -322,7 +322,7 @@ guillaume@ubuntu:~$
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
-File: 6-number_odd_or_even.py, templates/6-number_odd_or_even.html
+- File: 6-number_odd_or_even.py, templates/6-number_odd_or_even.html
 
 7. Improve engines
 mandatory
@@ -418,7 +418,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 **Repo:**
 
 GitHub repository: AirBnB_clone_v2
-File: models/engine/file_storage.py, models/engine/db_storage.py, models/state.py
+- File: models/engine/file_storage.py, models/engine/db_storage.py, models/state.py
 
 8. List of states
 mandatory
@@ -492,7 +492,7 @@ guillaume@ubuntu:~$
 **Repo:**
 
 GitHub repository: AirBnB_clone_v2
-File: web_flask/7-states_list.py, web_flask/templates/7-states_list.html
+- File: web_flask/7-states_list.py, web_flask/templates/7-states_list.html
 
 9. Cities by states
 mandatory
@@ -688,7 +688,7 @@ guillaume@ubuntu:~$
 **Repo:**
 
 GitHub repository: AirBnB_clone_v2
-File: web_flask/8-cities_by_states.py, web_flask/templates/8-cities_by_states.html
+- File: web_flask/8-cities_by_states.py, web_flask/templates/8-cities_by_states.html
 
 10. States and State
 mandatory
@@ -811,7 +811,7 @@ guillaume@ubuntu:~$
 **Repo:**
 
 GitHub repository: AirBnB_clone_v2
-File: web_flask/9-states.py, web_flask/templates/9-states.html
+- File: web_flask/9-states.py, web_flask/templates/9-states.html
 
 11. HBNB filters
 mandatory
@@ -853,7 +853,7 @@ In the browser:
 **Repo:**
 
 GitHub repository: AirBnB_clone_v2
-File: web_flask/10-hbnb_filters.py, web_flask/templates/10-hbnb_filters.html, web_flask/static/
+- File: web_flask/10-hbnb_filters.py, web_flask/templates/10-hbnb_filters.html, web_flask/static/
 
 12. HBNB is alive!
 #advanced
@@ -897,4 +897,4 @@ In the browser:
 **Repo:**
 
 GitHub repository: AirBnB_clone_v2
-File: `web_flask/100-hbnb.py, web_flask/templates/100-hbnb.html, web_flask/static/`
+- File: `web_flask/100-hbnb.py, web_flask/templates/100-hbnb.html, web_flask/static/`
