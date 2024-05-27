@@ -875,8 +875,8 @@ Write a script that starts a Flask web application:
 		- Update `8-places.css` to always have the price by night on the top right of each place element, and the name correctly aligned and visible (i.e. screenshots below)
 		- Use `8-index.html` content as source code for the template `100-hbnb.html`:
 			- Replace the content of the `H4` tag under each filter title (`H3` States and `H3` Amenities) by `&nbsp;`
-Make sure all HTML tags from objects are correctly used (example: <BR /> must generate a new line)
-State, City, Amenity and Place objects must be loaded from DBStorage and sorted by name (A->Z)
+			- Make sure all HTML tags from objects are correctly used (example: `<BR />` must generate a new line)
+		- `State`, `City`, `Amenity` and `Place` objects must be loaded from `DBStorage` and **sorted by name** (A->Z)
 You must use the option strict_slashes=False in your route definition
 Import this 100-dump to have some data
 IMPORTANT
