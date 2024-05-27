@@ -869,7 +869,7 @@ Write a script that starts a Flask web application:
 	- Call in this method `storage.close()`
 - Routes:
 	- `/hbnb`: display a HTML page like `8-index.html`, done during the [0x01. AirBnB clone - Web static](https://intranet.alxswe.com/rltoken/EG-iGbr_iPTlHrQQSNho1g) project
-Copy files 3-footer.css, 3-header.css, 4-common.css, 6-filters.css and 8-places.css from web_static/styles/ to the folder web_flask/static/styles
+		- Copy files `3-footer.css`, `3-header.css`, `4-common.css`, `6-filters.css` and `8-places.css` from `web_static/styles/` to the folder `web_flask/static/styles`
 Copy all files from web_static/images/ to the folder web_flask/static/images
 Update .popover class in 6-filters.css to enable scrolling in the popover and set max height to 300 pixels.
 Update 8-places.css to always have the price by night on the top right of each place element, and the name correctly aligned and visible (i.e. screenshots below)
