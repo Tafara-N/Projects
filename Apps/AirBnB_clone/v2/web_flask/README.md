@@ -90,7 +90,7 @@ In another tab:
 guillaume@ubuntu:~$ curl 0.0.0.0:5000 ; echo "" | cat -e
 Hello HBNB!$
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
@@ -114,7 +114,7 @@ In another tab:
 guillaume@ubuntu:~$ curl 0.0.0.0:5000/hbnb ; echo "" | cat -e
 HBNB$
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
@@ -146,7 +146,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/c
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
@@ -177,7 +177,7 @@ Python is cool$
 guillaume@ubuntu:~$ curl -Ls 0.0.0.0:5000/python/ ; echo "" | cat -e
 Python is cool$
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
@@ -215,7 +215,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number/python
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
@@ -263,7 +263,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number_template/python
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
@@ -318,7 +318,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number_odd_or_even/python
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 Directory: web_flask
@@ -415,7 +415,7 @@ Find the city [City] (e3e36ded-fe56-44f5-bf08-8a27e2b30672) {'name': 'Napa', 'id
 Find the city [City] (12a58d70-e255-4c1e-8a68-7d5fb924d2d2) {'name': 'Sonoma', 'id': '12a58d70-e255-4c1e-8a68-7d5fb924d2d2', 'state_id': '5b8f1d55-e49c-44dd-ba6f-a3cf8489ae45', 'updated_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 511513), 'created_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 511432)} in the state [State] (5b8f1d55-e49c-44dd-ba6f-a3cf8489ae45) {'name': 'California', 'id': '5b8f1d55-e49c-44dd-ba6f-a3cf8489ae45', 'updated_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 510038), 'created_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 509950)}
 Find the city [City] (a693bdb9-e0ca-4521-adfd-e1a93c093b4b) {'name': 'Page', 'id': 'a693bdb9-e0ca-4521-adfd-e1a93c093b4b', 'state_id': 'a5e5311a-3c19-4995-9485-32c74411b416', 'updated_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 512073), 'created_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 511869)} in the state [State] (a5e5311a-3c19-4995-9485-32c74411b416) {'name': 'Arizona', 'id': 'a5e5311a-3c19-4995-9485-32c74411b416', 'updated_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 510373), 'created_at': datetime.datetime(2017, 12, 11, 19, 27, 52, 510252)}
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 File: models/engine/file_storage.py, models/engine/db_storage.py, models/state.py
@@ -489,7 +489,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/states_list ; echo ""
     </BODY>
 </HTML>
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 File: web_flask/7-states_list.py, web_flask/templates/7-states_list.html
@@ -685,7 +685,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/cities_by_states ; echo ""
 guillaume@ubuntu:~$
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 File: web_flask/8-cities_by_states.py, web_flask/templates/8-cities_by_states.html
@@ -808,7 +808,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/states/holberton ; echo ""
     </BODY>
 </HTML>
 guillaume@ubuntu:~$
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 File: web_flask/9-states.py, web_flask/templates/9-states.html
@@ -850,7 +850,7 @@ In the browser:
 
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 File: web_flask/10-hbnb_filters.py, web_flask/templates/10-hbnb_filters.html, web_flask/static/
@@ -894,7 +894,7 @@ In the browser:
 
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone_v2
 File: `web_flask/100-hbnb.py, web_flask/templates/100-hbnb.html, web_flask/static/`
