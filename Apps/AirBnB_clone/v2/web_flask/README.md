@@ -865,9 +865,9 @@ Write a script that starts a Flask web application:
 	- If your storage engine is `DBStorage`, you must use `cities` relationship
 	- Otherwise, use the public getter method `cities`
 - After each request you must remove the current SQLAlchemy Session:
-Declare a method to handle @app.teardown_appcontext
-Call in this method storage.close()
-Routes:
+	- Declare a method to handle `@app.teardown_appcontext`
+	- Call in this method `storage.close()`
+- Routes:
 /hbnb: display a HTML page like 8-index.html, done during the 0x01. AirBnB clone - Web static project
 Copy files 3-footer.css, 3-header.css, 4-common.css, 6-filters.css and 8-places.css from web_static/styles/ to the folder web_flask/static/styles
 Copy all files from web_static/images/ to the folder web_flask/static/images
