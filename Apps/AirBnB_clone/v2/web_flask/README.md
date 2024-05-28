@@ -854,7 +854,7 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 
 ![11. HBNB filters](1549b553d726cc37f64440be910cb6b858aa32ae.jpg)
 
-![11. HBNB filters](94b3a416ba1551c59701eb6672ac0a36fbebba14.jpg)
+![11. HBNB filters](task_11_image3.jpg)
 
 ![11. HBNB filters](task_11_image4.jpg)
 
