@@ -833,8 +833,8 @@ Write a script that starts a Flask web application:
         - Use `6-index.html` content as source code for the template `10-hbnb_filters.html`:
             - Replace the content of the `H4` tag under each filter title (`H3` States and `H3` Amenities) by `&nbsp;`
         - `State`, `City` and `Amenity` objects must be loaded from `DBStorage` and **sorted by name** (A->Z)
-- You must use the option strict_slashes=False in your route definition
-- Import this 10-dump to have some data
+- You must use the option `strict_slashes=False` in your route definition
+- Import this [10-dump](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/10-hbnb_filters.sql) to have some data
 
 ## IMPORTANT
 
