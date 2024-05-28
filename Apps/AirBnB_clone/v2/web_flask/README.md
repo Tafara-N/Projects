@@ -831,7 +831,7 @@ Write a script that starts a Flask web application:
         - Copy files `icon.png` and `logo.png` from `web_static/images/` to the folder `web_flask/static/images`
         - Update .popover class in 6-filters.css to allow scrolling in the popover and a max height of 300 pixels.
         - Use 6-index.html content as source code for the template 10-hbnb_filters.html:
-            - Replace the content of the H4 tag under each filter title (H3 States and H3 Amenities) by &nbsp;
+            - Replace the content of the `H4` tag under each filter title (`H3` States and `H3` Amenities) by `&nbsp;`
         - `State`, `City` and `Amenity` objects must be loaded from `DBStorage` and **sorted by name** (A->Z)
 - You must use the option strict_slashes=False in your route definition
 - Import this 10-dump to have some data
