@@ -12,7 +12,7 @@
 - [Rendering Templates]()
 - [Synopsis]()
 - [Variables]()
-- [Comments
+- [Comments]()
 - [Whitespace Control
 - [List of Control Structures (read up to “Call”)
 - [Flask
