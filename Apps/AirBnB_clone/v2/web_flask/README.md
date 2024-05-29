@@ -9,7 +9,7 @@
 - What is a Web Framework?
 - A Minimal Application
 - Routing (except “HTTP Methods”)
-Rendering Templates
+- Rendering Templates
 Synopsis
 Variables
 Comments
