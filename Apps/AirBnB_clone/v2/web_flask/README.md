@@ -16,7 +16,7 @@
 - [Whitespace Control]()
 - [List of Control Structures (read up to “Call”)]()
 - [Flask]()
-- [Jinja
+- [Jinja]()
 - [Recommended YouTube playlist to get you started]()
 
 ## Learning Objectives
