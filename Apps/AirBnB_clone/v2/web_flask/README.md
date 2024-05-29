@@ -7,7 +7,7 @@
 # Resources
 ## Read or watch:
 - What is a Web Framework?
-A Minimal Application
+- A Minimal Application
 Routing (except “HTTP Methods”)
 Rendering Templates
 Synopsis
