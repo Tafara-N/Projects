@@ -13,7 +13,7 @@
 - Synopsis
 - Variables
 - Comments
-Whitespace Control
+- Whitespace Control
 List of Control Structures (read up to “Call”)
 Flask
 Jinja
