@@ -15,7 +15,7 @@
 - [Comments]()
 - [Whitespace Control]()
 - [List of Control Structures (read up to “Call”)]()
-- [Flask
+- [Flask]()
 - [Jinja
 - [Recommended YouTube playlist to get you started]()
 
