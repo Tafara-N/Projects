@@ -2,11 +2,11 @@
 
 *For this project, we expect you to look at this concept:*
 
-AirBnB clone
-Resources
-Read or watch:
+- [AirBnB clone]()
 
-What is a Web Framework?
+# Resources
+## Read or watch:
+- What is a Web Framework?
 A Minimal Application
 Routing (except “HTTP Methods”)
 Rendering Templates
