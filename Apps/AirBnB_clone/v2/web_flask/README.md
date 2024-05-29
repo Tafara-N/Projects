@@ -10,7 +10,7 @@
 - A Minimal Application
 - Routing (except “HTTP Methods”)
 - Rendering Templates
-Synopsis
+- Synopsis
 Variables
 Comments
 Whitespace Control
