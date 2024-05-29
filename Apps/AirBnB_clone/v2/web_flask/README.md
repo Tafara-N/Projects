@@ -11,7 +11,7 @@
 - Routing (except “HTTP Methods”)
 - Rendering Templates
 - Synopsis
-Variables
+- Variables
 Comments
 Whitespace Control
 List of Control Structures (read up to “Call”)
