@@ -29,7 +29,7 @@ At the end of this project, you are expected to be able to [explain to anyone]()
 - What is a route
 - How to handle variables in a route
 - What is a template
-How to create a HTML response in Flask by using a template
+- How to create a HTML response in Flask by using a template
 How to create a dynamic template (loops, conditions…)
 How to display in HTML data from a MySQL database
 Copyright - Plagiarism
