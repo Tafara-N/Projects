@@ -15,7 +15,7 @@
 - [Comments](https://intranet.alxswe.com/rltoken/ykUFuQSE9KD1M7WGY-4v4w)
 - [Whitespace Control](https://intranet.alxswe.com/rltoken/NMLZom50ZVOxQlgYW3rnuQ)
 - [List of Control Structures](https://intranet.alxswe.com/rltoken/5AGhzIt0zSpPJh9SFysdMQ) *(read up to “Call”)*
-- [Flask]()
+- [Flask](https://intranet.alxswe.com/rltoken/VJs151_hsE9g7Cw-Pz5bVg)
 - [Jinja]()
 - [Recommended YouTube playlist to get you started]()
 
