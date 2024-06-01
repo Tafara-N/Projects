@@ -52,8 +52,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
 # HTML/CSS Files
-Allowed editors: `vi`, `vim`, `emacs`
-All your files should end with a new line
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files should end with a new line
 A `README.md` file at the root of the folder of the project is mandatory
 Your code should be W3C compliant and validate with W3C-Validator (except for jinja template)
 All your CSS files should be in the `styles` folder
