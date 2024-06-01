@@ -64,9 +64,14 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - No cross browsers
 
 ## More Info
-Install Flask
-$ pip3 install Flask
 
+### Install Flask
+
+```
+$ pip3 install Flask
+```
+
+![HBNB Web Flask](hbnb_step3.png)
 
 Manual QA Review
 It is your responsibility to request a review for this project from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.
