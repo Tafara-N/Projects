@@ -100,12 +100,11 @@ guillaume@ubuntu:~$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-Directory: web_flask
-- File: 0-hello_route.py, __init__.py
+- Directory: `web_flask`
+- File: `0-hello_route.py, __init__.py`
 
-1. HBNB
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 1. HBNB
+
 Write a script that starts a Flask web application:
 
 Your web application must be listening on 0.0.0.0, port 5000
