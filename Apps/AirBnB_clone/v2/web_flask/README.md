@@ -9,7 +9,7 @@
 - [What is a Web Framework?](https://intranet.alxswe.com/rltoken/64SQpOGx46Ljp0zFJchESg)
 - [A Minimal Application](https://intranet.alxswe.com/rltoken/NopQlHIr9J_9OPX9XRgfvw)
 - [Routing](https://intranet.alxswe.com/rltoken/cQiIhbSdIcg1Ao1MICseBg) *(except “HTTP Methods”)*
-- [Rendering Templates]()
+- [Rendering Templates](https://intranet.alxswe.com/rltoken/DBM65T59nySd0ZRlZZ0CXw)
 - [Synopsis](https://intranet.alxswe.com/rltoken/5Y_A7XB9Qo1JeZgiSUq0yQ)
 - [Variables]()
 - [Comments]()
