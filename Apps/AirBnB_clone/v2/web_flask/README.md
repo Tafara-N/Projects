@@ -16,7 +16,7 @@
 - [Whitespace Control](https://intranet.alxswe.com/rltoken/NMLZom50ZVOxQlgYW3rnuQ)
 - [List of Control Structures](https://intranet.alxswe.com/rltoken/5AGhzIt0zSpPJh9SFysdMQ) *(read up to “Call”)*
 - [Flask](https://intranet.alxswe.com/rltoken/VJs151_hsE9g7Cw-Pz5bVg)
-- [Jinja]()
+- [Jinja](https://intranet.alxswe.com/rltoken/2y_hunzGCCvSot06EW67UQ)
 - [Recommended YouTube playlist to get you started]()
 
 ## Learning Objectives
