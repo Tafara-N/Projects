@@ -10,7 +10,7 @@
 - [A Minimal Application](https://intranet.alxswe.com/rltoken/NopQlHIr9J_9OPX9XRgfvw)
 - [Routing](https://intranet.alxswe.com/rltoken/cQiIhbSdIcg1Ao1MICseBg) *(except “HTTP Methods”)*
 - [Rendering Templates]()
-- [Synopsis]()
+- [Synopsis](https://intranet.alxswe.com/rltoken/5Y_A7XB9Qo1JeZgiSUq0yQ)
 - [Variables]()
 - [Comments]()
 - [Whitespace Control]()
