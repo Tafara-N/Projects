@@ -7,7 +7,7 @@
 # Resources
 ## Read or watch:
 - [What is a Web Framework?](https://intranet.alxswe.com/rltoken/64SQpOGx46Ljp0zFJchESg)
-- [A Minimal Application]()
+- [A Minimal Application](https://intranet.alxswe.com/rltoken/NopQlHIr9J_9OPX9XRgfvw)
 - [Routing (except “HTTP Methods”)]()
 - [Rendering Templates]()
 - [Synopsis]()
