@@ -17,7 +17,10 @@
 - [List of Control Structures](https://intranet.alxswe.com/rltoken/5AGhzIt0zSpPJh9SFysdMQ) *(read up to “Call”)*
 - [Flask](https://intranet.alxswe.com/rltoken/VJs151_hsE9g7Cw-Pz5bVg)
 - [Jinja](https://intranet.alxswe.com/rltoken/2y_hunzGCCvSot06EW67UQ)
-- [Recommended YouTube playlist to get you started]()
+
+**Recommended YouTube playlist to get you started**
+
+![Corey Schafer](https://youtu.be/MwZwr5Tvyxo?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
