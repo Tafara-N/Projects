@@ -11,7 +11,7 @@
 - [Routing](https://intranet.alxswe.com/rltoken/cQiIhbSdIcg1Ao1MICseBg) *(except “HTTP Methods”)*
 - [Rendering Templates](https://intranet.alxswe.com/rltoken/DBM65T59nySd0ZRlZZ0CXw)
 - [Synopsis](https://intranet.alxswe.com/rltoken/5Y_A7XB9Qo1JeZgiSUq0yQ)
-- [Variables]()
+- [Variables](https://intranet.alxswe.com/rltoken/ITzobwYP1Lc4KqEUUcYCGw)
 - [Comments]()
 - [Whitespace Control]()
 - [List of Control Structures (read up to “Call”)]()
