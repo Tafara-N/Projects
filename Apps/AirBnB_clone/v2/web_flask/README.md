@@ -294,10 +294,11 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number_template/python
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
 guillaume@ubuntu:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-Directory: web_flask
+- Directory: `web_flask`
 - File: `5-number_template.py, templates/5-number.html`
 
 6. Odd or even?
