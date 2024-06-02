@@ -169,7 +169,7 @@ guillaume@ubuntu:~$
 - Directory: `web_flask`
 - File: `2-c_route.py`
 
-3. Python is cool!
+### 3. Python is cool!
 mandatory
 Score: 100.0% (Checks completed: 100.0%)
 Write a script that starts a Flask web application:
