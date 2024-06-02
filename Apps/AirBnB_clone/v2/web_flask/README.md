@@ -205,25 +205,29 @@ guillaume@ubuntu:~$
 - Directory: `web_flask`
 - File: `3-python_route.py`
 
-4. Is it a number?
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 4. Is it a number?
+
 Write a script that starts a Flask web application:
 
-Your web application must be listening on 0.0.0.0, port 5000
-Routes:
-/: display “Hello HBNB!”
-/hbnb: display “HBNB”
-/c/<text>: display “C ”, followed by the value of the text variable (replace underscore _ symbols with a space )
-/python/(<text>): display “Python ”, followed by the value of the text variable (replace underscore _ symbols with a space )
-The default value of text is “is cool”
-/number/<n>: display “n is a number” only if n is an integer
-You must use the option strict_slashes=False in your route definition
+- Your web application must be listening on `0.0.0.0`, port `5000`
+- Routes:
+	- `/`: display “Hello HBNB!”
+	- `/hbnb`: display “HBNB”
+	- `/c/<text>`: display “C ”, followed by the value of the `text` variable (replace underscore `_` symbols with a space )
+	- `/python/(<text>)`: display “Python ”, followed by the value of the `text` variable (replace underscore `_` symbols with a space )
+		- The default value of `text` is “is cool”
+	`/number/<n>`: display “`n` is a number” **only** if `n` is an integer
+- You must use the option `strict_slashes=False` in your route definition
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ python3 -m web_flask.4-number_route
 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ....
+```
+
 In another tab:
 
+```
 guillaume@ubuntu:~$ curl 0.0.0.0:5000/number/89 ; echo "" | cat -e
 89 is a number$
 guillaume@ubuntu:~$ curl 0.0.0.0:5000/number/8.9
@@ -237,11 +241,12 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/number/python
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
 guillaume@ubuntu:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-Directory: web_flask
-- File: 4-number_route.py
+- Directory: `web_flask`
+- File: `4-number_route.py`
 
 5. Number template
 mandatory
