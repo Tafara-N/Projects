@@ -550,9 +550,8 @@ guillaume@ubuntu:~$
 - GitHub repository: `AirBnB_clone_v2`
 - File: `web_flask/7-states_list.py, web_flask/templates/7-states_list.html`
 
-9. Cities by states
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 9. Cities by states
+
 Write a script that starts a Flask web application:
 
 Your web application must be listening on 0.0.0.0, port 5000
