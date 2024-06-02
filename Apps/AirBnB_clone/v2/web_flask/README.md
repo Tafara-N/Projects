@@ -746,6 +746,7 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/cities_by_states ; echo ""
 guillaume@ubuntu:~$
 ```
 
+![Cities by states](8-cities_by_states.jpg)
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
