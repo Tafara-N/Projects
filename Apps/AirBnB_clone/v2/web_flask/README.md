@@ -301,7 +301,7 @@ guillaume@ubuntu:~$
 - Directory: `web_flask`
 - File: `5-number_template.py, templates/5-number.html`
 
-6. Odd or even?
+### 6. Odd or even?
 mandatory
 Score: 100.0% (Checks completed: 100.0%)
 Write a script that starts a Flask web application:
