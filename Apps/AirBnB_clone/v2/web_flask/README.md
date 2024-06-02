@@ -170,8 +170,7 @@ guillaume@ubuntu:~$
 - File: `2-c_route.py`
 
 ### 3. Python is cool!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write a script that starts a Flask web application:
 
 Your web application must be listening on 0.0.0.0, port 5000
