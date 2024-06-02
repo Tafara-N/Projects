@@ -365,15 +365,19 @@ guillaume@ubuntu:~$
 
 Before using Flask to display our HBNB data, you will need to update some part of our engine:
 
-Update FileStorage: (models/engine/file_storage.py)
+Update `FileStorage`: (`models/engine/file_storage.py`)
 
-Add a public method def close(self):: call reload() method for deserializing the JSON file to objects
-Update DBStorage: (models/engine/db_storage.py)
+- Add a public method `def close(self):`: call `reload()` method for deserializing the JSON file to objects
 
-Add a public method def close(self):: call remove() method on the private session attribute (self.__session) tips or close() on the class Session tips
-Update State: (models/state.py) - If it’s not already present
+Update `DBStorage`: (`models/engine/db_storage.py`)
 
-If your storage engine is not DBStorage, add a public getter method cities to return the list of City objects from storage linked to the current State
+- Add a public method `def close(self):`: call `remove()` method on the private session attribute (`self.__session`) [tips](https://intranet.alxswe.com/rltoken/_lTxhB5UgQ4nFRoS9ooI5g) or `close()` on the class `Session` [tips](https://intranet.alxswe.com/rltoken/xlPf9pDUFMb599rkoDElvg)
+
+Update `State`: (`models/state.py`) - If it’s not already present
+
+- If your storage engine is not `DBStorage`, add a public getter method `cities` to return the list of `City` objects from `storage` linked to the current `State`
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3
 >>> from models import storage
 >>> from models.state import State
@@ -382,13 +386,19 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 >>> len(storage.all(State))
 5
 >>> # Time to insert new data!
+```
+
 At this moment, in another tab:
 
+```
 guillaume@ubuntu:~/AirBnB_v2$ echo 'INSERT INTO `states` VALUES ("421a55f1-7d82-45d9-b54c-a76916479545","2017-03-25 19:42:40","2017-03-25 19:42:40","Alabama");' | mysql -uroot -p hbnb_dev_db
 Enter password:
 guillaume@ubuntu:~/AirBnB_v2$
+```
+
 And let’s go back the Python console:
 
+```python
 >>> # Time to insert new data!
 >>> len(storage.all(State))
 5
@@ -398,8 +408,11 @@ And let’s go back the Python console:
 >>> len(storage.all(State))
 6
 >>> # perfect!
-And for the getter cities in the State model:
+```
 
+And for the getter `cities` in the `State` model:
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ cat main.py
 #!/usr/bin/python3
 """
