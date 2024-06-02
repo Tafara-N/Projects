@@ -554,34 +554,40 @@ guillaume@ubuntu:~$
 
 Write a script that starts a Flask web application:
 
-Your web application must be listening on 0.0.0.0, port 5000
-You must use storage for fetching data from the storage engine (FileStorage or DBStorage) => from models import storage and storage.all(...)
-To load all cities of a State:
-If your storage engine is DBStorage, you must use cities relationship
-Otherwise, use the public getter method cities
-After each request you must remove the current SQLAlchemy Session:
-Declare a method to handle @app.teardown_appcontext
-Call in this method storage.close()
-Routes:
-/cities_by_states: display a HTML page: (inside the tag BODY)
-H1 tag: “States”
-UL tag: with the list of all State objects present in DBStorage sorted by name (A->Z) tip
-LI tag: description of one State: <state.id>: <B><state.name></B> + UL tag: with the list of City objects linked to the State sorted by name (A->Z)
-LI tag: description of one City: <city.id>: <B><city.name></B>
-Import this 7-dump to have some data
-You must use the option strict_slashes=False in your route definition
-IMPORTANT
+- Your web application must be listening on 0.0.0.0, port 5000
+- You must use storage for fetching data from the storage engine (FileStorage or DBStorage) => from models import storage and storage.all(...)
+- To load all cities of a State:
+- If your storage engine is DBStorage, you must use cities relationship
+- Otherwise, use the public getter method cities
+- After each request you must remove the current SQLAlchemy Session:
+- Declare a method to handle @app.teardown_appcontext
+- Call in this method storage.close()
+- Routes:
+- /cities_by_states: display a HTML page: (inside the tag BODY)
+- H1 tag: “States”
+- UL tag: with the list of all State objects present in DBStorage sorted by name (A->Z) tip
+- LI tag: description of one State: <state.id>: <B><state.name></B> + UL tag: with the list of City objects linked to the State sorted by name (A->Z)
+- LI tag: description of one City: <city.id>: <B><city.name></B>
+- Import this [7-dump](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/7-states_list.sql) to have some data
+- You must use the option strict_slashes=False in your route definition
 
-Make sure you have a running and valid setup_mysql_dev.sql in your AirBnB_clone_v2 repository (Task)
-Make sure all tables are created when you run echo "quit" | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+## IMPORTANT
+
+- Make sure you have a running and valid `setup_mysql_dev.sql` in your `AirBnB_clone_v2` repository ([Task](https://intranet.alxswe.com/rltoken/v5CSUMU7FY9wj_cnBY7P1A))
+- Make sure all tables are created when you run `echo "quit" | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py`
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ curl -o 7-dump.sql "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/7-states_list.sql"
 guillaume@ubuntu:~/AirBnB_v2$ cat 7-dump.sql | mysql -uroot -p
 Enter password:
 guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.8-cities_by_states
 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ....
+```
+
 In another tab:
 
+```
 guillaume@ubuntu:~$ curl 0.0.0.0:5000/cities_by_states ; echo ""
 <!DOCTYPE html>
 <HTML lang="en">
@@ -738,12 +744,12 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/cities_by_states ; echo ""
     </BODY>
 </HTML>
 guillaume@ubuntu:~$
+```
 
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v2`
-- File: web_flask/8-cities_by_states.py, web_flask/templates/8-cities_by_states.html
+- File: `web_flask/8-cities_by_states.py, web_flask/templates/8-cities_by_states.html`
 
 10. States and State
 mandatory
