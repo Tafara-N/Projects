@@ -361,9 +361,8 @@ guillaume@ubuntu:~$
 - Directory: `web_flask`
 - File: `6-number_odd_or_even.py, templates/6-number_odd_or_even.html`
 
-7. Improve engines
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 7. Improve engines
+
 Before using Flask to display our HBNB data, you will need to update some part of our engine:
 
 Update FileStorage: (models/engine/file_storage.py)
