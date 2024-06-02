@@ -489,16 +489,21 @@ Write a script that starts a Flask web application:
 
 ## IMPORTANT
 
-Make sure you have a running and valid setup_mysql_dev.sql in your AirBnB_clone_v2 repository (Task)
-Make sure all tables are created when you run echo "quit" | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+- Make sure you have a running and valid `setup_mysql_dev.sql` in your `AirBnB_clone_v2` repository ([Task](https://intranet.alxswe.com/rltoken/v5CSUMU7FY9wj_cnBY7P1A))
+- Make sure all tables are created when you run `echo "quit" | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py`
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ curl -o 7-dump.sql "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/7-states_list.sql"
 guillaume@ubuntu:~/AirBnB_v2$ cat 7-dump.sql | mysql -uroot -p
 Enter password:
 guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.7-states_list
 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ....
+```
+
 In another tab:
 
+```
 guillaume@ubuntu:~$ curl 0.0.0.0:5000/states_list ; echo ""
 <!DOCTYPE html>
 <HTML lang="en">
@@ -539,10 +544,11 @@ guillaume@ubuntu:~$ curl 0.0.0.0:5000/states_list ; echo ""
     </BODY>
 </HTML>
 guillaume@ubuntu:~$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: web_flask/7-states_list.py, web_flask/templates/7-states_list.html
+- File: `web_flask/7-states_list.py, web_flask/templates/7-states_list.html`
 
 9. Cities by states
 mandatory
