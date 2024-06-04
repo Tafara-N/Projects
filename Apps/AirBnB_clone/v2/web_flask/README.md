@@ -793,6 +793,7 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 
 In another tab:
 
+```
 guillaume@ubuntu:~$ curl 0.0.0.0:5000/states ; echo ""
 <!DOCTYPE html>
 <HTML lang="en">
