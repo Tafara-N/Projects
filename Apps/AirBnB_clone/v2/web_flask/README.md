@@ -774,9 +774,9 @@ If a State object is found with this id:
 H1 tag: “State: ”
 H3 tag: “Cities:”
 UL tag: with the list of City objects linked to the State sorted by name (A->Z)
-LI tag: description of one City: <city.id>: <B><city.name></B>
+LI tag: description of one City: `<city.id>: <B><city.name></B>`
 Otherwise:
-H1 tag: “Not found!”
+- `H1` tag: “Not found!”
 - You must use the option `strict_slashes=False` in your route definition
 - Import this [7-dump]() to have some data
 
