@@ -769,7 +769,7 @@ Routes:
 H1 tag: “States”
 UL tag: with the list of all State objects present in DBStorage sorted by name (A->Z) tip
 LI tag: description of one State: <state.id>: <B><state.name></B>
-/states/<id>: display a HTML page: (inside the tag BODY)
+`/states/<id>`: display a HTML page: (inside the tag `BODY`)
 If a State object is found with this id:
 H1 tag: “State: ”
 H3 tag: “Cities:”
