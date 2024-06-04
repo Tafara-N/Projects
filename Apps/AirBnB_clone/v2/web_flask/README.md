@@ -873,7 +873,7 @@ guillaume@ubuntu:~$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: web_flask/9-states.py, web_flask/templates/9-states.html
+- File: `web_flask/9-states.py, web_flask/templates/9-states.html`
 
 ### 11. HBNB filters
 
