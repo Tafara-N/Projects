@@ -789,6 +789,8 @@ Enter password:
 guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.9-states
 * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ....
+```
+
 In another tab:
 
 guillaume@ubuntu:~$ curl 0.0.0.0:5000/states ; echo ""
