@@ -781,9 +781,8 @@ No unittests needed
 - GitHub repository: `AirBnB_clone`
 - File: console.py
 
-16. Update from dictionary
-#advanced
-Score: 70.83% (Checks completed: 100.0%)
+### 16. Update from dictionary
+
 Update your command interpreter (console.py) to update an instance based on his ID with a dictionary: <class name>.update(<id>, <dictionary representation>).
 
 Errors management must be the same as previously.
@@ -797,7 +796,9 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.show("38f22813-2753-4d42-b37c-57a17f1e4f88")
 [User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'age': 89, 'first_name': 'John', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 17, 10, 788143), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@mail.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}
 (hbnb)
-No unittests needed
+```
+
+**No unittests needed**
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
