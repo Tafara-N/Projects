@@ -707,12 +707,13 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.count()
 2
 (hbnb)
-No unittests needed
+```
+
+**No unittests needed**
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
-- File: console.py
+- File: `console.py`
 
 ### 13. Show
 
