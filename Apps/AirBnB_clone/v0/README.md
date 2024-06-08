@@ -714,20 +714,22 @@ No unittests needed
 - GitHub repository: `AirBnB_clone`
 - File: console.py
 
-13. Show
-#advanced
-Score: 73.75% (Checks completed: 100.0%)
-Update your command interpreter (console.py) to retrieve an instance based on its ID: <class name>.show(<id>).
+### 13. Show
+
+Update your command interpreter (`console.py`) to retrieve an instance based on its ID: `<class name>.show(<id>)`.
 
 Errors management must be the same as previously.
 
+```
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.show("246c227a-d5c1-403d-9bc7-6a47bb9f0f68")
 [User] (246c227a-d5c1-403d-9bc7-6a47bb9f0f68) {'first_name': 'Betty', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611352), 'updated_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611363), 'password': '63a9f0ea7bb98050796b649e85481845', 'email': 'airbnb@mail.com', 'id': '246c227a-d5c1-403d-9bc7-6a47bb9f0f68'}
 (hbnb) User.show("Bar")
 ** no instance found **
 (hbnb)
-No unittests needed
+```
+
+**No unittests needed**
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
