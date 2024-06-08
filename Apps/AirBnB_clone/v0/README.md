@@ -692,7 +692,7 @@ Enjoy your first console!
 
 Update your command interpreter (`console.py`) to retrieve all instances of a class by using: `<class name>.all()`.
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.all()
 [[User] (246c227a-d5c1-403d-9bc7-6a47bb9f0f68) {'first_name': 'Betty', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611352), 'updated_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611363), 'password': '63a9f0ea7bb98050796b649e85481845', 'email': 'airbnb@mail.com', 'id': '246c227a-d5c1-403d-9bc7-6a47bb9f0f68'}, [User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'first_name': 'Betty', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848291), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@mail.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}]
@@ -709,7 +709,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 
 Update your command interpreter (`console.py`) to retrieve the number of instances of a class: `<class name>.count()`.
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.count()
 2
@@ -728,7 +728,7 @@ Update your command interpreter (`console.py`) to retrieve an instance based on 
 
 Errors management must be the same as previously.
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.show("246c227a-d5c1-403d-9bc7-6a47bb9f0f68")
 [User] (246c227a-d5c1-403d-9bc7-6a47bb9f0f68) {'first_name': 'Betty', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611352), 'updated_at': datetime.datetime(2017, 9, 28, 21, 12, 19, 611363), 'password': '63a9f0ea7bb98050796b649e85481845', 'email': 'airbnb@mail.com', 'id': '246c227a-d5c1-403d-9bc7-6a47bb9f0f68'}
@@ -749,7 +749,7 @@ Update your command interpreter (`console.py`) to destroy an instance based on h
 
 Errors management must be the same as previously.
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.count()
 2
@@ -773,7 +773,7 @@ Update your command interpreter (`console.py`) to update an instance based on hi
 
 Errors management must be the same as previously.
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.show("38f22813-2753-4d42-b37c-57a17f1e4f88")
 [User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'first_name': 'Betty', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848291), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@mail.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}
@@ -798,7 +798,7 @@ Update your command interpreter (`console.py`) to update an instance based on hi
 
 Errors management must be the same as previously.
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.show("38f22813-2753-4d42-b37c-57a17f1e4f88")
 [User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'age': 23, 'first_name': 'Bob', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 15, 32, 299055), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@mail.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}
