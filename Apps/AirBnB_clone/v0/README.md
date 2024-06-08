@@ -661,8 +661,8 @@ Public class attributes:
 place_id: string - empty string: it will be the Place.id
 user_id: string - empty string: it will be the User.id
 text: string - empty string
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone`
 - File: `models/state.py, models/city.py, models/amenity.py, models/place.py, models/review.py, tests/`
 
