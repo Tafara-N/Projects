@@ -783,7 +783,7 @@ No unittests needed
 
 ### 16. Update from dictionary
 
-Update your command interpreter (console.py) to update an instance based on his ID with a dictionary: <class name>.update(<id>, <dictionary representation>).
+Update your command interpreter (`console.py`) to update an instance based on his ID with a dictionary: `<class name>.update(<id>, <dictionary representation>)`.
 
 Errors management must be the same as previously.
 
