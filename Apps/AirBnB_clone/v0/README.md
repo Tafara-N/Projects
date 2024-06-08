@@ -666,21 +666,19 @@ text: string - empty string
 - GitHub repository: `AirBnB_clone`
 - File: models/state.py, models/city.py, models/amenity.py, models/place.py, models/review.py, tests/
 
-10. Console 1.0
-mandatory
-Score: 58.53% (Checks completed: 85.29%)
-Update FileStorage to manage correctly serialization and deserialization of all our new classes: Place, State, City, Amenity and Review
+### 10. Console 1.0
+
+Update `FileStorage` to manage correctly serialization and deserialization of all our new classes: `Place`, `State`, `City`, `Amenity` and `Review`
 
 Update your command interpreter (console.py) to allow those actions: show, create, destroy, update and all with all classes created previously.
 
 Enjoy your first console!
 
-No unittests needed for the console
+**No unittests needed for the console**
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
-- File: console.py, models/engine/file_storage.py, tests/
+- File: `console.py, models/engine/file_storage.py, tests/`
 
 ### 11. All instances by class name
 
