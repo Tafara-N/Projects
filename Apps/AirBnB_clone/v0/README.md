@@ -804,8 +804,7 @@ No unittests needed
 - File: `console.py`
 
 17. Unittests for the Console!
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
+
 Write all unittests for console.py, all features!
 
 For testing the console, you should “intercept” STDOUT of it, we highly recommend you to use:
