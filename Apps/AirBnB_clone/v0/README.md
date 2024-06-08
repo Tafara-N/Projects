@@ -700,8 +700,9 @@ No unittests needed
 
 ### 12. Count instances
 
-Update your command interpreter (console.py) to retrieve the number of instances of a class: <class name>.count().
+Update your command interpreter (`console.py`) to retrieve the number of instances of a class: `<class name>.count()`.
 
+```
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.count()
 2
