@@ -787,6 +787,7 @@ Update your command interpreter (`console.py`) to update an instance based on hi
 
 Errors management must be the same as previously.
 
+```
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.show("38f22813-2753-4d42-b37c-57a17f1e4f88")
 [User] (38f22813-2753-4d42-b37c-57a17f1e4f88) {'age': 23, 'first_name': 'Bob', 'last_name': 'Bar', 'created_at': datetime.datetime(2017, 9, 28, 21, 11, 42, 848279), 'updated_at': datetime.datetime(2017, 9, 28, 21, 15, 32, 299055), 'password': 'b9be11166d72e9e3ae7fd407165e4bd2', 'email': 'airbnb@mail.com', 'id': '38f22813-2753-4d42-b37c-57a17f1e4f88'}
