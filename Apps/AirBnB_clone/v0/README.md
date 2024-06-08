@@ -157,7 +157,7 @@ You should use branches and pull requests on GitHub - it will help you as team t
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: README.md, AUTHORS
+- File: README.md, AUTHORS
 
 1. Be pycodestyle compliant!
 mandatory
@@ -200,7 +200,7 @@ guillaume@ubuntu:~/AirBnB$
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: tests/
+- File: tests/
 
 3. BaseModel
 mandatory
@@ -256,7 +256,7 @@ guillaume@ubuntu:~/AirBnB$
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: models/base_model.py, models/__init__.py, tests/
+- File: models/base_model.py, models/__init__.py, tests/
 
 4. Create BaseModel from dictionary
 mandatory
@@ -326,7 +326,7 @@ guillaume@ubuntu:~/AirBnB$
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: models/base_model.py, tests/
+- File: models/base_model.py, tests/
 
 5. Store first object
 mandatory
@@ -423,7 +423,7 @@ guillaume@ubuntu:~/AirBnB$
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: models/engine/file_storage.py, models/engine/__init__.py, models/__init__.py, models/base_model.py, tests/
+- File: models/engine/file_storage.py, models/engine/__init__.py, models/__init__.py, models/base_model.py, tests/
 
 6. Console 0.0.1
 mandatory
@@ -466,7 +466,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 7. Console 0.1
 mandatory
@@ -540,7 +540,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 8. First User
 mandatory
@@ -626,7 +626,7 @@ No unittests needed for the console
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: models/user.py, models/engine/file_storage.py, console.py, tests/
+- File: models/user.py, models/engine/file_storage.py, console.py, tests/
 
 9. More classes!
 mandatory
@@ -664,7 +664,7 @@ text: string - empty string
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: models/state.py, models/city.py, models/amenity.py, models/place.py, models/review.py, tests/
+- File: models/state.py, models/city.py, models/amenity.py, models/place.py, models/review.py, tests/
 
 10. Console 1.0
 mandatory
@@ -680,7 +680,7 @@ No unittests needed for the console
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py, models/engine/file_storage.py, tests/
+- File: console.py, models/engine/file_storage.py, tests/
 
 11. All instances by class name
 #advanced
@@ -696,7 +696,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 12. Count instances
 #advanced
@@ -712,7 +712,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 13. Show
 #advanced
@@ -732,7 +732,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 14. Destroy
 #advanced
@@ -755,7 +755,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 15. Update
 #advanced
@@ -779,7 +779,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 16. Update from dictionary
 #advanced
@@ -802,7 +802,7 @@ No unittests needed
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: console.py
+- File: console.py
 
 17. Unittests for the Console!
 #advanced
@@ -822,4 +822,4 @@ Click here to tweet!
 Repo:
 
 - GitHub repository: `AirBnB_clone`
-File: tests/test_console.py
+- File: tests/test_console.py
