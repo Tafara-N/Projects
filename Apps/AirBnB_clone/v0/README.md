@@ -557,6 +557,7 @@ Update `FileStorage` to manage correctly serialization and deserialization of `U
 
 Update your command interpreter (`console.py`) to allow `show`, `create`, `destroy`, `update` and `all` used with `User`.
 
+```
 guillaume@ubuntu:~/AirBnB$ cat test_save_reload_user.py
 #!/usr/bin/python3
 from models import storage
