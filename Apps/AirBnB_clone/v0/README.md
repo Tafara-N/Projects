@@ -805,7 +805,7 @@ No unittests needed
 
 ### 17. Unittests for the Console!
 
-Write all unittests for console.py, all features!
+Write all unittests for `console.py`, all features!
 
 For testing the console, you should “intercept” STDOUT of it, we highly recommend you to use:
 
