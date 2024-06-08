@@ -822,7 +822,7 @@ Write all unittests for `console.py`, all features!
 
 For testing the console, you should “intercept” STDOUT of it, we **highly** recommend you to use:
 
-```
+```python
 with patch('sys.stdout', new=StringIO()) as f:
     HBNBCommand().onecmd("help show")
 ```
