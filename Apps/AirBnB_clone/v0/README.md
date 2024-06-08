@@ -750,10 +750,11 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) User.destroy("Bar")
 ** no instance found **
 (hbnb)
-No unittests needed
+```
+
+**No unittests needed**
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - File: console.py
 
