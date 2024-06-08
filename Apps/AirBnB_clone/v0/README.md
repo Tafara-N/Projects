@@ -154,7 +154,7 @@ how to use it
 examples
 You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. For format, reference Docker’s AUTHORS page
 You should use branches and pull requests on GitHub - it will help you as team to organize your work
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: README.md, AUTHORS
@@ -164,7 +164,7 @@ mandatory
 Score: 50.0% (Checks completed: 50.0%)
 Write beautiful code that passes the pycodestyle checks.
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 
@@ -197,7 +197,7 @@ Ran 189 tests in 13.135s
 
 OK
 guillaume@ubuntu:~/AirBnB$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: tests/
@@ -253,7 +253,7 @@ JSON of my_model:
     created_at: (<class 'str'>) - 2017-09-28T21:05:54.119427
 
 guillaume@ubuntu:~/AirBnB$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: models/base_model.py, models/__init__.py, tests/
@@ -323,7 +323,7 @@ JSON of my_model:
 --
 False
 guillaume@ubuntu:~/AirBnB$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: models/base_model.py, tests/
@@ -420,7 +420,7 @@ guillaume@ubuntu:~/AirBnB$
 guillaume@ubuntu:~/AirBnB$ cat file.json ; echo ""
 {"BaseModel.e79e744a-55d4-45a3-b74a-ca5fae74e0e2": {"__class__": "BaseModel", "id": "e79e744a-55d4-45a3-b74a-ca5fae74e0e2", "updated_at": "2017-09-28T21:08:06.151750", "created_at": "2017-09-28T21:08:06.151711", "name": "My_First_Model", "my_number": 89}, "BaseModel.080cce84-c574-4230-b82a-9acb74ad5e8c": {"__class__": "BaseModel", "id": "080cce84-c574-4230-b82a-9acb74ad5e8c", "updated_at": "2017-09-28T21:07:51.973308", "created_at": "2017-09-28T21:07:51.973301", "name": "My_First_Model", "my_number": 89}, "BaseModel.ee49c413-023a-4b49-bd28-f2936c95460d": {"__class__": "BaseModel", "id": "ee49c413-023a-4b49-bd28-f2936c95460d", "updated_at": "2017-09-28T21:07:25.047381", "created_at": "2017-09-28T21:07:25.047372", "name": "My_First_Model", "my_number": 89}}
 guillaume@ubuntu:~/AirBnB$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: models/engine/file_storage.py, models/engine/__init__.py, models/__init__.py, models/base_model.py, tests/
@@ -463,7 +463,7 @@ Quit command to exit the program
 guillaume@ubuntu:~/AirBnB$
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -537,7 +537,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb)
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -623,7 +623,7 @@ guillaume@ubuntu:~/AirBnB$ cat file.json ; echo ""
 guillaume@ubuntu:~/AirBnB$
 No unittests needed for the console
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: models/user.py, models/engine/file_storage.py, console.py, tests/
@@ -661,7 +661,7 @@ Public class attributes:
 place_id: string - empty string: it will be the Place.id
 user_id: string - empty string: it will be the User.id
 text: string - empty string
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: models/state.py, models/city.py, models/amenity.py, models/place.py, models/review.py, tests/
@@ -677,7 +677,7 @@ Enjoy your first console!
 
 No unittests needed for the console
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py, models/engine/file_storage.py, tests/
@@ -693,7 +693,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb)
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -709,7 +709,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb)
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -729,7 +729,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb)
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -752,7 +752,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb)
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -776,7 +776,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb)
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -799,7 +799,7 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb)
 No unittests needed
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: console.py
@@ -819,7 +819,7 @@ Well done on completing this project! Let the world hear about this milestone ac
 
 Click here to tweet!
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone`
 - File: tests/test_console.py
