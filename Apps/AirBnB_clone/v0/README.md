@@ -628,7 +628,7 @@ No unittests needed for the console
 - GitHub repository: `AirBnB_clone`
 - File: models/user.py, models/engine/file_storage.py, console.py, tests/
 
-9. More classes!
+### 9. More classes!
 mandatory
 Score: 94.29% (Checks completed: 94.29%)
 Write all those classes that inherit from BaseModel:
