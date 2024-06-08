@@ -758,9 +758,8 @@ No unittests needed
 - File: console.py
 
 ### 15. Update
-#advanced
-Score: 70.83% (Checks completed: 100.0%)
-Update your command interpreter (console.py) to update an instance based on his ID: <class name>.update(<id>, <attribute name>, <attribute value>).
+
+Update your command interpreter (`console.py`) to update an instance based on his ID: `<class name>.update(<id>, <attribute name>, <attribute value>)`.
 
 Errors management must be the same as previously.
 
