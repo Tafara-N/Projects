@@ -698,9 +698,8 @@ No unittests needed
 - GitHub repository: `AirBnB_clone`
 - File: console.py
 
-12. Count instances
-#advanced
-Score: 65.0% (Checks completed: 100.0%)
+### 12. Count instances
+
 Update your command interpreter (console.py) to retrieve the number of instances of a class: <class name>.count().
 
 guillaume@ubuntu:~/AirBnB$ ./console.py
