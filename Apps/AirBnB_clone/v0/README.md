@@ -820,6 +820,5 @@ Well done on completing this project! Let the world hear about this milestone ac
 Click here to tweet!
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - File: `tests/test_console.py`
