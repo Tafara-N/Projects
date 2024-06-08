@@ -535,12 +535,13 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) show BaseModel 49faff9a-6318-451f-87b6-910505c55907
 ** no instance found **
 (hbnb)
-No unittests needed
+```
+
+**No unittests needed**
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
-- File: console.py
+- File: `console.py`
 
 ### 8. First User
 
