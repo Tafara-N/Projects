@@ -514,7 +514,7 @@ Let’s add some rules:
 - A string argument with a space must be between double quote
 - The error management starts from the first argument to the last one
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB$ ./console.py
 (hbnb) all MyModel
 ** class doesn't exist **
