@@ -664,7 +664,7 @@ text: string - empty string
 **Repo:**
 
 - GitHub repository: `AirBnB_clone`
-- File: models/state.py, models/city.py, models/amenity.py, models/place.py, models/review.py, tests/
+- File: `models/state.py, models/city.py, models/amenity.py, models/place.py, models/review.py, tests/`
 
 ### 10. Console 1.0
 
