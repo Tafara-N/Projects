@@ -730,9 +730,8 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 No unittests needed
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
-- File: console.py
+- File: `console.py`
 
 ### 14. Destroy
 
