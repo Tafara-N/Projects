@@ -629,9 +629,8 @@ No unittests needed for the console
 - File: models/user.py, models/engine/file_storage.py, console.py, tests/
 
 ### 9. More classes!
-mandatory
-Score: 94.29% (Checks completed: 94.29%)
-Write all those classes that inherit from BaseModel:
+
+Write all those classes that inherit from `BaseModel`:
 
 - State (models/state.py):
 - Public class attributes:
