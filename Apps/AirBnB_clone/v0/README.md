@@ -380,6 +380,8 @@ Update `models/base_model.py`: to link your `BaseModel` to `FileStorage` by usin
 	- call `save(self)` method of `storage`
 - `__init__(self, *args, **kwargs)`:
 	- if it’s a new instance (not from a dictionary representation), add a call to the method `new(self)` on `storage`
+
+```
 guillaume@ubuntu:~/AirBnB$ cat test_save_reload_base_model.py
 #!/usr/bin/python3
 from models import storage
@@ -425,8 +427,9 @@ guillaume@ubuntu:~/AirBnB$
 guillaume@ubuntu:~/AirBnB$ cat file.json ; echo ""
 {"BaseModel.e79e744a-55d4-45a3-b74a-ca5fae74e0e2": {"__class__": "BaseModel", "id": "e79e744a-55d4-45a3-b74a-ca5fae74e0e2", "updated_at": "2017-09-28T21:08:06.151750", "created_at": "2017-09-28T21:08:06.151711", "name": "My_First_Model", "my_number": 89}, "BaseModel.080cce84-c574-4230-b82a-9acb74ad5e8c": {"__class__": "BaseModel", "id": "080cce84-c574-4230-b82a-9acb74ad5e8c", "updated_at": "2017-09-28T21:07:51.973308", "created_at": "2017-09-28T21:07:51.973301", "name": "My_First_Model", "my_number": 89}, "BaseModel.ee49c413-023a-4b49-bd28-f2936c95460d": {"__class__": "BaseModel", "id": "ee49c413-023a-4b49-bd28-f2936c95460d", "updated_at": "2017-09-28T21:07:25.047381", "created_at": "2017-09-28T21:07:25.047372", "name": "My_First_Model", "my_number": 89}}
 guillaume@ubuntu:~/AirBnB$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone`
 - File: models/engine/file_storage.py, models/engine/__init__.py, models/__init__.py, models/base_model.py, tests/
 
