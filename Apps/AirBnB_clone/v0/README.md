@@ -323,10 +323,11 @@ JSON of my_model:
 --
 False
 guillaume@ubuntu:~/AirBnB$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone`
-- File: models/base_model.py, tests/
+- File: `models/base_model.py, tests/`
 
 ### 5. Store first object
 
