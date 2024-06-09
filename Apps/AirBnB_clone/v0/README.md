@@ -92,10 +92,12 @@ We strongly encourage you to work together on test cases, so that you don’t mi
 GitHub
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
 
-More Info
-Execution
+# More Info
+### Execution
+
 Your shell should work like this in interactive mode:
 
+```shell
 $ ./console.py
 (hbnb) help
 
@@ -107,8 +109,11 @@ EOF  help  quit
 (hbnb)
 (hbnb) quit
 $
+```
+
 But also in non-interactive mode: (like the Shell project in C)
 
+```shell
 $ echo "help" | ./console.py
 (hbnb)
 
