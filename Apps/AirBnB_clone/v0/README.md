@@ -128,20 +128,12 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 $
-All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash
+```
+
+All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
 
 
 
-Video library(8 total)
-Search by title
-HBNB project overview
-HBNB - the console
-Python: Unique Identifier
-Python: Unittests
-Python: BaseModel and inheritance
-Code consistency
-Python: Modules and Packages
-HBNB - storage abstraction
 
 ## Tasks
 
