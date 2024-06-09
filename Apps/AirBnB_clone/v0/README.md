@@ -224,6 +224,8 @@ created_at and updated_at must be converted to string object in ISO format:
 format: %Y-%m-%dT%H:%M:%S.%f (ex: 2017-06-14T22:31:03.285259)
 you can use isoformat() of datetime object
 This method will be the first piece of the serialization/deserialization process: create a dictionary representation with “simple object type” of our BaseModel
+
+```
 guillaume@ubuntu:~/AirBnB$ cat test_base_model.py
 #!/usr/bin/python3
 from models.base_model import BaseModel
