@@ -370,10 +370,10 @@ Write a class `FileStorage` that serializes instances to a JSON file and deseria
 - `reload(self)`: deserializes the JSON file to `__objects` (only if the JSON file (`__file_path`) exists ; otherwise, do nothing. If the file doesn’t exist, no exception should be raised)
 
 Update `models/__init__.py`: to create a unique `FileStorage` instance for your application
+- import `file_storage.py`
+- create the variable `storage`, an instance of `FileStorage`
+- call `reload()` method on this variable
 
-import file_storage.py
-create the variable storage, an instance of FileStorage
-call reload() method on this variable
 Update models/base_model.py: to link your BaseModel to FileStorage by using the variable storage
 
 import the variable storage
