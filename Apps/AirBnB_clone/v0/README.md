@@ -375,11 +375,10 @@ Update `models/__init__.py`: to create a unique `FileStorage` instance for your 
 - call `reload()` method on this variable
 
 Update `models/base_model.py`: to link your `BaseModel` to `FileStorage` by using the variable `storage`
-
-import the variable storage
-in the method save(self):
-call save(self) method of storage
-__init__(self, *args, **kwargs):
+- import the variable `storage`
+- in the method `save(self)`:
+- call `save(self)` method of `storage`
+- `__init__(self, *args, **kwargs)`:
 if it’s a new instance (not from a dictionary representation), add a call to the method new(self) on storage
 guillaume@ubuntu:~/AirBnB$ cat test_save_reload_base_model.py
 #!/usr/bin/python3
