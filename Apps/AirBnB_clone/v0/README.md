@@ -1,8 +1,8 @@
 # Concepts
 *For this project, we expect you to look at these concepts:*
 
-Python packages]()
-AirBnB clone]()
+- [Python packages]()
+- [AirBnB clone]()
 
 ![alt text](65f4a1dd9c51265f49d0.png)
 
