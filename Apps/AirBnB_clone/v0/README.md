@@ -168,11 +168,11 @@ Write beautiful code that passes the pycodestyle checks.
 
 - GitHub repository: `AirBnB_clone`
 
-2. Unittests
-mandatory
-Score: 29.23% (Checks completed: 34.62%)
+### 2. Unittests
+
 All your files, classes, functions must be tested with unit tests
 
+```
 guillaume@ubuntu:~/AirBnB$ python3 -m unittest discover tests
 ...................................................................................
 ...................................................................................
