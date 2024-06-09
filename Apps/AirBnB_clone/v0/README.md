@@ -360,7 +360,7 @@ Terms:
 
 Write a class `FileStorage` that serializes instances to a JSON file and deserializes JSON file to instances:
 - `models/engine/file_storage.py`
-Private class attributes:
+- Private class attributes:
 __file_path: string - path to the JSON file (ex: file.json)
 __objects: dictionary - empty but will store all objects by <class name>.id (ex: to store a BaseModel object with id=12121212, the key will be BaseModel.12121212)
 Public instance methods:
