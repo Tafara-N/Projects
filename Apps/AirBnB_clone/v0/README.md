@@ -277,6 +277,8 @@ each value of this dictionary is the value of this attribute name
 Warning: created_at and updated_at are strings in this dictionary, but inside your BaseModel instance is working with datetime object. You have to convert these strings into datetime object. Tip: you know the string format of these datetime
 otherwise:
 create id and created_at as you did previously (new instance)
+
+```
 guillaume@ubuntu:~/AirBnB$ cat test_base_model_dict.py
 #!/usr/bin/python3
 from models.base_model import BaseModel
