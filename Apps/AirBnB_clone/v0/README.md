@@ -374,7 +374,7 @@ Update `models/__init__.py`: to create a unique `FileStorage` instance for your 
 - create the variable `storage`, an instance of `FileStorage`
 - call `reload()` method on this variable
 
-Update models/base_model.py: to link your BaseModel to FileStorage by using the variable storage
+Update `models/base_model.py`: to link your `BaseModel` to `FileStorage` by using the variable `storage`
 
 import the variable storage
 in the method save(self):
