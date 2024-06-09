@@ -431,7 +431,7 @@ guillaume@ubuntu:~/AirBnB$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
-- File: models/engine/file_storage.py, models/engine/__init__.py, models/__init__.py, models/base_model.py, tests/
+- File: `models/engine/file_storage.py, models/engine/__init__.py, models/__init__.py, models/base_model.py, tests/`
 
 ### 6. Console 0.0.1
 
