@@ -159,13 +159,11 @@ You should use branches and pull requests on GitHub - it will help you as team t
 - GitHub repository: `AirBnB_clone`
 - File: README.md, AUTHORS
 
-1. Be pycodestyle compliant!
-mandatory
-Score: 50.0% (Checks completed: 50.0%)
+### 1. Be pycodestyle compliant!
+
 Write beautiful code that passes the pycodestyle checks.
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 
 ### 2. Unittests
