@@ -1,8 +1,8 @@
 # Concepts
 *For this project, we expect you to look at these concepts:*
 
-- [Python packages]()
-- [AirBnB clone]()
+- [Python packages](https://intranet.alxswe.com/concepts/66)
+- [AirBnB clone](https://intranet.alxswe.com/concepts/74)
 
 ![alt text](hbnb.png)
 
@@ -37,16 +37,16 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 # Resources
 
 **Read or watch:**
-- [cmd module]()
-- [cmd module in depth]()
-- [packages concept page]()
-- [uuid module]()
-- [datetime]()
-- [unittest module]()
-- [args/kwargs]()
-- [Python test cheatsheet]()
-- [cmd module wiki page]()
-- [python unittest]()
+- [cmd module](https://intranet.alxswe.com/rltoken/8ecCwE6veBmm3Nppw4hz5A)
+- [cmd module in depth](https://intranet.alxswe.com/rltoken/uEy4RftSdKypoig9NFTvCg)
+- **packages** concept page
+- [uuid module](https://intranet.alxswe.com/rltoken/KfL9TqwdI69W6ttG6gTPPQ)
+- [datetime](https://intranet.alxswe.com/rltoken/1d8I3jSKgnYAtA1IZfEDpA)
+- [unittest module](https://intranet.alxswe.com/rltoken/IlFiMB8UmqBG2CxA0AD3jA)
+- [args/kwargs](https://intranet.alxswe.com/rltoken/C_a0EKbtvKdMcwIAuSIZng)
+- [Python test cheatsheet](https://intranet.alxswe.com/rltoken/tgNVrKKzlWgS4dfl3mQklw)
+- [cmd module wiki page](https://intranet.alxswe.com/rltoken/EvcaH9uTLlauxuw03WnkOQ)
+- [python unittest](https://intranet.alxswe.com/rltoken/begh14KQA-3ov29KvD_HvA)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
