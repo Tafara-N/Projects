@@ -330,9 +330,12 @@ guillaume@ubuntu:~/AirBnB$
 
 ### 5. Store first object
 
-Now we can recreate a BaseModel from another one by using a dictionary representation:
+Now we can recreate a `BaseModel` from another one by using a dictionary representation:
 
+```
 <class 'BaseModel'> -> to_dict() -> <class 'dict'> -> <class 'BaseModel'>
+```
+
 It’s great but it’s still not persistent: every time you launch the program, you don’t restore all objects created before… The first way you will see here is to save these objects to a file.
 
 Writing the dictionary representation to a file won’t be relevant:
