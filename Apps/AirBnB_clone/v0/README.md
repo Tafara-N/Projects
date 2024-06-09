@@ -355,8 +355,7 @@ Now the flow of serialization-deserialization will be:
 Magic right?
 
 Terms:
-
-simple Python data structure: Dictionaries, arrays, number and string. ex: { '12': { 'numbers': [1, 2, 3], 'name': "John" } }
+- **simple Python data structure**: Dictionaries, arrays, number and string. ex: `{ '12': { 'numbers': [1, 2, 3], 'name': "John" } }`
 JSON string representation: String representing a simple data structure in JSON format. ex: '{ "12": { "numbers": [1, 2, 3], "name": "John" } }'
 Write a class FileStorage that serializes instances to a JSON file and deserializes JSON file to instances:
 
