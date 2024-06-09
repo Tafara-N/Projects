@@ -202,9 +202,8 @@ guillaume@ubuntu:~/AirBnB$
 - GitHub repository: `AirBnB_clone`
 - File: tests/
 
-3. BaseModel
-mandatory
-Score: 91.92% (Checks completed: 100.0%)
+### 3. BaseModel
+
 Write a class `BaseModel` that defines all common attributes/methods for other classes:
 
 - `models/base_model.py`
