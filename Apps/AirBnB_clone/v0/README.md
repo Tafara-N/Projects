@@ -357,9 +357,9 @@ Magic right?
 Terms:
 - **simple Python data structure**: Dictionaries, arrays, number and string. ex: `{ '12': { 'numbers': [1, 2, 3], 'name': "John" } }`
 - **JSON string representation**: String representing a simple data structure in JSON format. ex: `'{ "12": { "numbers": [1, 2, 3], "name": "John" } }'`
-Write a class FileStorage that serializes instances to a JSON file and deserializes JSON file to instances:
 
-models/engine/file_storage.py
+Write a class `FileStorage` that serializes instances to a JSON file and deserializes JSON file to instances:
+- `models/engine/file_storage.py`
 Private class attributes:
 __file_path: string - path to the JSON file (ex: file.json)
 __objects: dictionary - empty but will store all objects by <class name>.id (ex: to store a BaseModel object with id=12121212, the key will be BaseModel.12121212)
