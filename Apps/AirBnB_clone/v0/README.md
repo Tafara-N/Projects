@@ -328,9 +328,8 @@ guillaume@ubuntu:~/AirBnB$
 - GitHub repository: `AirBnB_clone`
 - File: models/base_model.py, tests/
 
-5. Store first object
-mandatory
-Score: 88.33% (Checks completed: 100.0%)
+### 5. Store first object
+
 Now we can recreate a BaseModel from another one by using a dictionary representation:
 
 <class 'BaseModel'> -> to_dict() -> <class 'dict'> -> <class 'BaseModel'>
