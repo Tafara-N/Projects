@@ -253,10 +253,11 @@ JSON of my_model:
     created_at: (<class 'str'>) - 2017-09-28T21:05:54.119427
 
 guillaume@ubuntu:~/AirBnB$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone`
-- File: models/base_model.py, models/__init__.py, tests/
+- File: `models/base_model.py, models/__init__.py, tests/`
 
 4. Create BaseModel from dictionary
 mandatory
