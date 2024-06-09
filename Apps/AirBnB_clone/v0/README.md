@@ -259,14 +259,16 @@ guillaume@ubuntu:~/AirBnB$
 - GitHub repository: `AirBnB_clone`
 - File: `models/base_model.py, models/__init__.py, tests/`
 
-4. Create BaseModel from dictionary
-mandatory
-Score: 79.0% (Checks completed: 100.0%)
-Previously we created a method to generate a dictionary representation of an instance (method to_dict()).
+### 4. Create BaseModel from dictionary
+
+Previously we created a method to generate a dictionary representation of an instance (method `to_dict()`).
 
 Now it’s time to re-create an instance with this dictionary representation.
 
+```
 <class 'BaseModel'> -> to_dict() -> <class 'dict'> -> <class 'BaseModel'>
+```
+
 Update models/base_model.py:
 
 __init__(self, *args, **kwargs):
