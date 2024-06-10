@@ -521,7 +521,7 @@ Flexbox Froggy
 
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 101-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/101-places.css, images/
+- File: `101-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/101-places.css, images/`
 
 ### 11. Responsive design
 
