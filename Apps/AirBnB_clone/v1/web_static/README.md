@@ -486,9 +486,8 @@ Add more information to a Place `article`:
 			- tag `ul` / `li`
 			- no list style
 			- a review is described by:
-- `h3` tag for the user/date description (font size 14px). Ex: “From Bob Dylan the 27th January 2017”
-- `p` tag for the text (font size 12px)
-
+				- `h3` tag for the user/date description (font size 14px). Ex: “From Bob Dylan the 27th January 2017”
+				- `p` tag for the text (font size 12px)
 Requirements:
 - You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, li tags
 - No inline style
