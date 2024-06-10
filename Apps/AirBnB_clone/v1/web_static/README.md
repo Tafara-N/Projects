@@ -459,19 +459,19 @@ Layout: (based on `8-index.html`)
 Add more information to a Place `article`:
 
 - List of Amenities:
-- tag `div`
-- classname `amenities`
-- margin top 40px
-- contains:
-- title:
-- tag `h2`
-- text `Amenities`
-- font size 16px
-- border bottom #DDDDDD 1px
-- list of amenities:
-- tag `ul` / `li`
-- no list style
-- icons on the left: [Pet friendly](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png), [TV](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png), [Wifi](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png), etc… feel free to add more
+	- tag `div`
+	- classname `amenities`
+	- margin top 40px
+	- contains:
+		- title:
+			- tag `h2`
+			- text `Amenities`
+			- font size 16px
+			- border bottom #DDDDDD 1px
+		- list of amenities:
+			- tag `ul` / `li`
+			- no list style
+			- icons on the left: [Pet friendly](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png), [TV](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png), [Wifi](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png), etc… feel free to add more
 - List of Reviews:
 - tag div
 - classname reviews
