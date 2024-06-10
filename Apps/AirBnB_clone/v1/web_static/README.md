@@ -443,12 +443,12 @@ styles/3-footer.css: for the footer style
 styles/6-filters.css: for the filters style
 styles/8-places.css: for the places style
 
+![More Details](more_details.png)
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 8-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/8-places.css, images/
+- File: `8-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/8-places.css, images/`
 
 ### 9. Full details
 
