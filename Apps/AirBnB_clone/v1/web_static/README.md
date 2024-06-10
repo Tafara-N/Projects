@@ -454,40 +454,40 @@ styles/8-places.css: for the places style
 
 Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
-Layout: (based on 8-index.html)
+Layout: (based on `8-index.html`)
 
-Add more information to a Place article:
+Add more information to a Place `article`:
 
-List of Amenities:
-tag div
-classname amenities
-margin top 40px
-contains:
-title:
-tag h2
-text Amenities
-font size 16px
-border bottom #DDDDDD 1px
-list of amenities:
-tag ul / li
-no list style
-icons on the left: Pet friendly, TV, Wifi, etc… feel free to add more
-List of Reviews:
-tag div
-classname reviews
-margin top 40px
-contains:
-title:
-tag h2
-text Reviews
-font size 16px
-border bottom #DDDDDD 1px
-list of review:
-tag ul / li
-no list style
-a review is described by:
-h3 tag for the user/date description (font size 14px). Ex: “From Bob Dylan the 27th January 2017”
-p tag for the text (font size 12px)
+- List of Amenities:
+- tag div
+- classname amenities
+- margin top 40px
+- contains:
+- title:
+- tag h2
+- text Amenities
+- font size 16px
+- border bottom #DDDDDD 1px
+- list of amenities:
+- tag ul / li
+- no list style
+- icons on the left: Pet friendly, TV, Wifi, etc… feel free to add more
+- List of Reviews:
+- tag div
+- classname reviews
+- margin top 40px
+- contains:
+- title:
+- tag h2
+- text Reviews
+- font size 16px
+- border bottom #DDDDDD 1px
+- list of review:
+- tag ul / li
+- no list style
+- a review is described by:
+- h3 tag for the user/date description (font size 14px). Ex: “From Bob Dylan the 27th January 2017”
+- p tag for the text (font size 12px)
 
 Requirements:
 - You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, li tags
