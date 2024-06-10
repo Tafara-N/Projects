@@ -397,17 +397,17 @@ Add more information to a Place `article`:
 	- font size: 30px
 	- align: the top right (with space)
 - Information section:
-tag: div
-classname: information
-height: 80px
-border: top and bottom #DDDDDD 1px
-contains (align vertically):
-Number of guests:
-tag: div
-classname: max_guest
-width: 100px
-fake text
-icon
+	- tag: `div`
+	- classname: `information`
+	- height: 80px
+	- border: top and bottom #DDDDDD 1px
+	- contains (align vertically):
+		- Number of guests:
+			- tag: `div`
+			- classname: `max_guest`
+			- width: 100px
+			- fake text
+			- [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png)
 Number of bedrooms:
 tag: div
 classname: number_rooms
