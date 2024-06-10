@@ -309,8 +309,8 @@ Layout: (based on `5-index.html`)
 	- border #DDDDDD 1px with border radius 4px
 	- no list display
 	- Location filter has 2 levels of `ul`/`li`:
-- state -> cities
-- state name must be display in a `h2` tag (font size 16px)
+		- state -> cities
+		- state name must be display in a `h2` tag (font size 16px)
 
 Requirements:
 - You must use: `header`, `footer`, `section`, `button`, `h3`, `h4`, `ul`, `li` tags
@@ -318,11 +318,11 @@ Requirements:
 - You are not allowed to use the `img` tag
 - You are not allowed to use the `style` tag in the head tag
 - All images must be stored in the `images` folder
-- You must have 4 CSS files:
-- `styles/4-common.css`: for the global style (`body` and `.container` styles)
-- `styles/3-header.css`: for the header style
-- `styles/3-footer.css`: for the footer style
-- `styles/6-filters.css`: for the filters style
+	- You must have 4 CSS files:
+	- `styles/4-common.css`: for the global style (`body` and `.container` styles)
+	- `styles/3-header.css`: for the header style
+	- `styles/3-footer.css`: for the footer style
+	- `styles/6-filters.css`: for the filters style
 
 ![It's (h)over](its_hover.png)
 
