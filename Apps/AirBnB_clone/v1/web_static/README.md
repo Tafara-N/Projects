@@ -292,9 +292,8 @@ styles/5-filters.css: for the filters style
 - Directory: `web_static`
 - File: 5-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/5-filters.css, images/
 
-6. It's (h)over
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 6. It's (h)over
+
 Write an HTML page that displays a header, footer and a filters box with dropdown.
 
 Layout: (based on 5-index.html)
@@ -325,9 +324,9 @@ styles/3-header.css: for the header style
 styles/3-footer.css: for the footer style
 styles/6-filters.css: for the filters style
 
-![It's (h)over](6262f13624dca23ca19db505c44f88faddb82ebb.png)
+![It's (h)over](its_hover.png)
 
-![It's (h)over](6e6bdfa13fa88a5f439d9e2b1dade826dd95529b.png)
+![It's (h)over](its_hover2.png)
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
