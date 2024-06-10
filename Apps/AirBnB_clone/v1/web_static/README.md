@@ -105,7 +105,7 @@ Use inline styling for all your tags
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 0-index.html
 
@@ -124,7 +124,7 @@ The layout must be exactly the same as 0-index.html
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 1-index.html
 
@@ -145,7 +145,7 @@ The layout must be exactly the same as 1-index.html
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 2-index.html, styles/2-common.css, styles/2-header.css, styles/2-footer.css
 
@@ -190,7 +190,7 @@ styles/3-footer.css: for the footer style
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 3-index.html, styles/3-common.css, styles/3-header.css, styles/3-footer.css, images/
 
@@ -245,7 +245,7 @@ styles/4-filters.css: for the filters style
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 4-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/4-filters.css, images/
 
@@ -288,7 +288,7 @@ styles/5-filters.css: for the filters style
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 5-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/5-filters.css, images/
 
@@ -328,7 +328,7 @@ styles/6-filters.css: for the filters style
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 6-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, images/
 
@@ -374,7 +374,7 @@ styles/7-places.css: for the places style
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 7-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/7-places.css, images/
 
@@ -446,7 +446,7 @@ styles/8-places.css: for the places style
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 8-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/8-places.css, images/
 
@@ -506,7 +506,7 @@ styles/100-places.css: for the places style
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 100-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/100-places.css, images/
 
@@ -519,7 +519,7 @@ Flexbox Froggy
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 101-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/101-places.css, images/
 
@@ -535,7 +535,7 @@ redesign search bar depending of the width
 etc.
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 102-index.html, styles/102-common.css, styles/102-header.css, styles/102-footer.css, styles/102-filters.css, styles/102-places.css, images/
 
@@ -554,6 +554,6 @@ Click here to tweet!
 
 **Repo:**
 
-GitHub repository: AirBnB_clone
+- GitHub repository: `AirBnB_clone`
 Directory: web_static
 - File: 103-index.html, styles/103-common.css, styles/103-header.css, styles/103-footer.css, styles/103-filters.css, styles/103-places.css, images/
