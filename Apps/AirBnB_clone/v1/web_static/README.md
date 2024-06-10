@@ -421,13 +421,13 @@ Add more information to a Place `article`:
 			- fake text
 			- [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png)
 - User section:
-- tag: `div`
-- classname: `user`
-- text `Owner: <fake text>`
-- Owner text should be in bold
+	- tag: `div`
+	- classname: `user`
+	- text `Owner: <fake text>`
+	- `Owner` text should be in bold
 - Description section:
-- tag: `div`
-- classname: `description`
+	- tag: `div`
+	- classname: `description`
 Requirements:
 - You must use: `header`, `footer`, `section`, `article`, `button`, `h1`, `h2`, `h3`, `h4`, `ul`, `li` tags
 - No inline style
