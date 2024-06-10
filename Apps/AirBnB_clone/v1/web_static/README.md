@@ -378,7 +378,7 @@ styles/7-places.css: for the places style
 - Directory: `web_static`
 - File: 7-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/7-places.css, images/
 
-8. More details
+### 8. More details
 mandatory
 Score: 100.0% (Checks completed: 100.0%)
 Write an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
@@ -422,13 +422,13 @@ width: 100px
 fake text
 icon
 User section:
-tag: div
-classname: user
-text Owner: <fake text>
+tag: `div`
+classname: `user`
+text `Owner: <fake text>`
 Owner text should be in bold
 Description section:
-tag: div
-classname: description
+tag: `div`
+classname: `description`
 
 Requirements:
 - You must use: `header`, `footer`, `section`, `article`, `button`, `h1`, `h2`, `h3`, `h4`, `ul`, `li` tags
