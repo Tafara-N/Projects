@@ -330,7 +330,7 @@ styles/6-filters.css: for the filters style
 
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 6-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, images/
+- File: `6-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, images/`
 
 ### 7. Display results
 
