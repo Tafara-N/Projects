@@ -325,6 +325,9 @@ styles/3-header.css: for the header style
 styles/3-footer.css: for the footer style
 styles/6-filters.css: for the filters style
 
+![It's (h)over](6262f13624dca23ca19db505c44f88faddb82ebb.png)
+
+![It's (h)over](6e6bdfa13fa88a5f439d9e2b1dade826dd95529b.png)
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
