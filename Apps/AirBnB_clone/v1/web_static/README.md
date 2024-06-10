@@ -459,13 +459,13 @@ Layout: (based on `8-index.html`)
 Add more information to a Place `article`:
 
 - List of Amenities:
-- tag div
-- classname amenities
+- tag `div`
+- classname `amenities`
 - margin top 40px
 - contains:
 - title:
-- tag h2
-- text Amenities
+- tag `h2`
+- text `Amenities`
 - font size 16px
 - border bottom #DDDDDD 1px
 - list of amenities:
