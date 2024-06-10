@@ -539,18 +539,18 @@ etc.
 - Directory: `web_static`
 - File: 102-index.html, styles/102-common.css, styles/102-header.css, styles/102-footer.css, styles/102-filters.css, styles/102-places.css, images/
 
-12. Accessibility
+### 12. Accessibility
 
-Improve the page by adding Accessibility support
+Improve the page by adding [Accessibility support](https://intranet.alxswe.com/rltoken/JO-zonPvzBUfqpYRZDAtug)
 
 Examples:
+- Colors contrast
+- Header tags
+- etc.
 
-Colors contrast
-Header tags
-etc.
 Well done on completing this project! Let the world hear about this milestone achieved.
 
-Click here to tweet!
+[Click here to tweet!](https://twitter.com/intent/tweet?text=I+have+successfully+completed+my+AirBnB+Web+Static+project+on+%23ALX_SE+%40facesofalxse)
 
 **Repo:**
 
