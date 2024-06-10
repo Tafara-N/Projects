@@ -103,7 +103,7 @@ You are not allowed to use the style tag in the head tag
 Use inline styling for all your tags
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -122,7 +122,7 @@ No inline styling
 You must use the style tag in the head tag
 The layout must be exactly the same as 0-index.html
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -143,7 +143,7 @@ styles/2-header.css: for header style
 styles/2-footer.css: for footer style
 The layout must be exactly the same as 1-index.html
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -188,7 +188,7 @@ styles/3-header.css: for the header style
 styles/3-footer.css: for the footer style
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -243,7 +243,7 @@ styles/4-filters.css: for the filters style
 4-index.html won’t be W3C valid, don’t worry, it’s temporary
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -286,7 +286,7 @@ styles/3-footer.css: for the footer style
 styles/5-filters.css: for the filters style
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -326,7 +326,7 @@ styles/3-footer.css: for the footer style
 styles/6-filters.css: for the filters style
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -372,7 +372,7 @@ styles/6-filters.css: for the filters style
 styles/7-places.css: for the places style
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -444,7 +444,7 @@ styles/6-filters.css: for the filters style
 styles/8-places.css: for the places style
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -504,7 +504,7 @@ styles/6-filters.css: for the filters style
 styles/100-places.css: for the places style
 
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -517,7 +517,7 @@ Improve the Places section by using Flexible boxes for all Place articles
 
 Flexbox Froggy
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -533,7 +533,7 @@ Examples:
 no horizontal scrolling
 redesign search bar depending of the width
 etc.
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
@@ -552,7 +552,7 @@ Well done on completing this project! Let the world hear about this milestone ac
 
 Click here to tweet!
 
-Repo:
+**Repo:**
 
 GitHub repository: AirBnB_clone
 Directory: web_static
