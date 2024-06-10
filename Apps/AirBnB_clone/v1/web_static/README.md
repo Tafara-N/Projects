@@ -107,7 +107,7 @@ Use inline styling for all your tags
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 0-index.html
+- File: 0-index.html
 
 1. Head styling
 mandatory
@@ -126,7 +126,7 @@ The layout must be exactly the same as 0-index.html
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 1-index.html
+- File: 1-index.html
 
 2. CSS files
 mandatory
@@ -147,7 +147,7 @@ The layout must be exactly the same as 1-index.html
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 2-index.html, styles/2-common.css, styles/2-header.css, styles/2-footer.css
+- File: 2-index.html, styles/2-common.css, styles/2-header.css, styles/2-footer.css
 
 3. Zoning done!
 mandatory
@@ -192,7 +192,7 @@ styles/3-footer.css: for the footer style
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 3-index.html, styles/3-common.css, styles/3-header.css, styles/3-footer.css, images/
+- File: 3-index.html, styles/3-common.css, styles/3-header.css, styles/3-footer.css, images/
 
 4. Search!
 mandatory
@@ -247,7 +247,7 @@ styles/4-filters.css: for the filters style
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 4-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/4-filters.css, images/
+- File: 4-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/4-filters.css, images/
 
 5. More filters
 mandatory
@@ -290,7 +290,7 @@ styles/5-filters.css: for the filters style
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 5-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/5-filters.css, images/
+- File: 5-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/5-filters.css, images/
 
 6. It's (h)over
 mandatory
@@ -330,7 +330,7 @@ styles/6-filters.css: for the filters style
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 6-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, images/
+- File: 6-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, images/
 
 7. Display results
 mandatory
@@ -376,7 +376,7 @@ styles/7-places.css: for the places style
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 7-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/7-places.css, images/
+- File: 7-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/7-places.css, images/
 
 8. More details
 mandatory
@@ -448,7 +448,7 @@ styles/8-places.css: for the places style
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 8-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/8-places.css, images/
+- File: 8-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/8-places.css, images/
 
 9. Full details
 #advanced
@@ -508,7 +508,7 @@ styles/100-places.css: for the places style
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 100-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/100-places.css, images/
+- File: 100-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/100-places.css, images/
 
 10. Flex
 #advanced
@@ -521,7 +521,7 @@ Flexbox Froggy
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 101-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/101-places.css, images/
+- File: 101-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/101-places.css, images/
 
 11. Responsive design
 #advanced
@@ -537,7 +537,7 @@ etc.
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 102-index.html, styles/102-common.css, styles/102-header.css, styles/102-footer.css, styles/102-filters.css, styles/102-places.css, images/
+- File: 102-index.html, styles/102-common.css, styles/102-header.css, styles/102-footer.css, styles/102-filters.css, styles/102-places.css, images/
 
 12. Accessibility
 
@@ -556,4 +556,4 @@ Click here to tweet!
 
 GitHub repository: AirBnB_clone
 Directory: web_static
-File: 103-index.html, styles/103-common.css, styles/103-header.css, styles/103-footer.css, styles/103-filters.css, styles/103-places.css, images/
+- File: 103-index.html, styles/103-common.css, styles/103-header.css, styles/103-footer.css, styles/103-filters.css, styles/103-places.css, images/
