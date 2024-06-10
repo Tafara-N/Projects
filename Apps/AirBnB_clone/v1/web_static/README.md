@@ -332,9 +332,8 @@ styles/6-filters.css: for the filters style
 - Directory: `web_static`
 - File: 6-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, images/
 
-7. Display results
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+### 7. Display results
+
 Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
 Layout: (based on 6-index.html)
@@ -371,6 +370,7 @@ styles/3-footer.css: for footer style
 styles/6-filters.css: for the filters style
 styles/7-places.css: for the places style
 
+![alt text](display_results.png)
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
