@@ -408,27 +408,26 @@ Add more information to a Place `article`:
 			- width: 100px
 			- fake text
 			- [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png)
-Number of bedrooms:
-tag: div
-classname: number_rooms
-width: 100px
-fake text
-icon
-Number of bathrooms:
-tag: div
-classname: number_bathrooms
-width: 100px
-fake text
-icon
-User section:
-tag: `div`
-classname: `user`
-text `Owner: <fake text>`
-Owner text should be in bold
-Description section:
-tag: `div`
-classname: `description`
-
+		- Number of bedrooms:
+			- tag: div
+			- classname: number_rooms
+			- width: 100px
+			- fake text
+			- [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png)
+		- Number of bathrooms:
+			- tag: div
+			- classname: number_bathrooms
+			- width: 100px
+			- fake text
+			- [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png)
+- User section:
+- tag: `div`
+- classname: `user`
+- text `Owner: <fake text>`
+- Owner text should be in bold
+- Description section:
+- tag: `div`
+- classname: `description`
 Requirements:
 - You must use: `header`, `footer`, `section`, `article`, `button`, `h1`, `h2`, `h3`, `h4`, `ul`, `li` tags
 - No inline style
