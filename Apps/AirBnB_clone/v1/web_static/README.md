@@ -515,10 +515,9 @@ styles/100-places.css: for the places style
 Score: 100.0% (Checks completed: 100.0%)
 Improve the Places section by using Flexible boxes for all Place articles
 
-Flexbox Froggy
+[Flexbox Froggy](https://intranet.alxswe.com/rltoken/PZz46Gkdj5Mo9-AWERPhQA)
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
 - File: `101-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/101-places.css, images/`
