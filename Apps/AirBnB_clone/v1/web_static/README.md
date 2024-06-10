@@ -469,9 +469,9 @@ Add more information to a Place `article`:
 - font size 16px
 - border bottom #DDDDDD 1px
 - list of amenities:
-- tag ul / li
+- tag `ul` / `li`
 - no list style
-- icons on the left: Pet friendly, TV, Wifi, etc… feel free to add more
+- icons on the left: [Pet friendly](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png), [TV](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png), [Wifi](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png), etc… feel free to add more
 - List of Reviews:
 - tag div
 - classname reviews
