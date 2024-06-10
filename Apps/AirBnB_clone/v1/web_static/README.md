@@ -553,7 +553,6 @@ Well done on completing this project! Let the world hear about this milestone ac
 [Click here to tweet!](https://twitter.com/intent/tweet?text=I+have+successfully+completed+my+AirBnB+Web+Static+project+on+%23ALX_SE+%40facesofalxse)
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
 - File: `103-index.html, styles/103-common.css, styles/103-header.css, styles/103-footer.css, styles/103-filters.css, styles/103-places.css, images/`
