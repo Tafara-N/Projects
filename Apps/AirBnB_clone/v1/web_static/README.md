@@ -510,10 +510,9 @@ styles/100-places.css: for the places style
 - Directory: `web_static`
 - File: 100-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/100-places.css, images/
 
-10. Flex
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
-Improve the Places section by using Flexible boxes for all Place articles
+### 10. Flex
+
+Improve the Places section by using [Flexible boxes](https://intranet.alxswe.com/rltoken/Xc-nBlQHexwNaCuKYpZ2-A) for all Place articles
 
 [Flexbox Froggy](https://intranet.alxswe.com/rltoken/PZz46Gkdj5Mo9-AWERPhQA)
 
