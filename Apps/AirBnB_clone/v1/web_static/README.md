@@ -429,19 +429,19 @@ Owner text should be in bold
 Description section:
 tag: div
 classname: description
-Requirements:
 
-You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, li tags
-No inline style
-You are not allowed to use the img tag
-You are not allowed to use the style tag in the head tag
-All images must be stored in the images folder
-You must have 5 CSS files:
-styles/4-common.css: for the global style (i.e. body and .container styles)
-styles/3-header.css: for the header style
-styles/3-footer.css: for the footer style
-styles/6-filters.css: for the filters style
-styles/8-places.css: for the places style
+Requirements:
+- You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, - li tags
+- No inline style
+- You are not allowed to use the img tag
+- You are not allowed to use the style tag in the head tag
+- All images must be stored in the images folder
+- You must have 5 CSS files:
+- `styles/4-common.css`: for the global style (i.e. `body` and `.container` styles)
+- `styles/3-header.css`: for the header style
+- `styles/3-footer.css`: for the footer style
+- `styles/6-filters.css`: for the filters style
+- `styles/8-places.css`: for the places style
 
 ![More Details](more_details.png)
 
