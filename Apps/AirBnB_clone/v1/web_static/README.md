@@ -379,25 +379,24 @@ styles/7-places.css: for the places style
 - File: 7-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/7-places.css, images/
 
 ### 8. More details
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
 
-Layout: (based on 7-index.html)
+Layout: (based on `7-index.html`)
 
-Add more information to a Place article:
+Add more information to a Place `article`:
 
-Price by night:
-tag: div
-classname: price_by_night
-same level as the place name
-font color: #FF5A5F
-border: #FF5A5F 4px rounded
-min width: 60px
-height: 60px
-font size: 30px
-align: the top right (with space)
-Information section:
+- Price by night:
+	- tag: `div`
+	- classname: `price_by_night`
+	- same level as the place name
+	- font color: #FF5A5F
+	- border: #FF5A5F 4px rounded
+	- min width: 60px
+	- height: 60px
+	- font size: 30px
+	- align: the top right (with space)
+- Information section:
 tag: div
 classname: information
 height: 80px
