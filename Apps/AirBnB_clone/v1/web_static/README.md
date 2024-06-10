@@ -450,9 +450,8 @@ styles/8-places.css: for the places style
 - Directory: `web_static`
 - File: 8-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/8-places.css, images/
 
-9. Full details
-#advanced
-Score: 98.85% (Checks completed: 100.0%)
+### 9. Full details
+
 Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
 Layout: (based on 8-index.html)
@@ -489,19 +488,19 @@ no list style
 a review is described by:
 h3 tag for the user/date description (font size 14px). Ex: “From Bob Dylan the 27th January 2017”
 p tag for the text (font size 12px)
-Requirements:
 
-You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, li tags
-No inline style
-You are not allowed to use the img tag
-You are not allowed to use the style tag in the head tag
-All images must be stored in the images folder
-You must have 5 CSS files:
-styles/4-common.css: for the global style (body and .container styles)
-styles/3-header.css: for the header style
-styles/3-footer.css: for the footer style
-styles/6-filters.css: for the filters style
-styles/100-places.css: for the places style
+Requirements:
+- You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, li tags
+- No inline style
+- You are not allowed to use the img tag
+- You are not allowed to use the style tag in the head tag
+- All images must be stored in the images folder
+- You must have 5 CSS files:
+- styles/4-common.css: for the global style (body and .container styles)
+- styles/3-header.css: for the header style
+- styles/3-footer.css: for the footer style
+- styles/6-filters.css: for the filters style
+- styles/100-places.css: for the places style
 
 ![Places: Full Details](full_details.png)
 
