@@ -556,4 +556,4 @@ Click here to tweet!
 
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 103-index.html, styles/103-common.css, styles/103-header.css, styles/103-footer.css, styles/103-filters.css, styles/103-places.css, images/
+- File: `103-index.html, styles/103-common.css, styles/103-header.css, styles/103-footer.css, styles/103-filters.css, styles/103-places.css, images/`
