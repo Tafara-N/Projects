@@ -508,7 +508,7 @@ styles/100-places.css: for the places style
 
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 100-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/100-places.css, images/
+- File: `100-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/100-places.css, images/`
 
 ### 10. Flex
 
