@@ -503,9 +503,9 @@ styles/3-footer.css: for the footer style
 styles/6-filters.css: for the filters style
 styles/100-places.css: for the places style
 
+![Places: Full Details](full_details.png)
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
 - File: `100-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/100-places.css, images/`
