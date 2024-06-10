@@ -523,7 +523,7 @@ Flexbox Froggy
 - Directory: `web_static`
 - File: 101-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/101-places.css, images/
 
-11. Responsive design
+### 11. Responsive design
 #advanced
 Score: 79.0% (Checks completed: 100.0%)
 Improve the page by adding responsive design to display correctly in mobile or small screens.
@@ -533,11 +533,11 @@ Examples:
 no horizontal scrolling
 redesign search bar depending of the width
 etc.
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 102-index.html, styles/102-common.css, styles/102-header.css, styles/102-footer.css, styles/102-filters.css, styles/102-places.css, images/
+- File: `102-index.html, styles/102-common.css, styles/102-header.css, styles/102-footer.css, styles/102-filters.css, styles/102-places.css, images/`
 
 ### 12. Accessibility
 
