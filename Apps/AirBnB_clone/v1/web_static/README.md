@@ -338,24 +338,24 @@ Write an HTML page that displays a header, footer, a filters box with dropdown a
 
 Layout: (based on `6-index.html`)
 
-Add Places section:
-tag: `section`
-classname: `places`
-same level as the filters section, inside `.container`
-contains a title:
-tag: `h1`
-text: `Places`
-align in the top left
-font size: 30px
-contains multiple “Places” as listing (horizontal or vertical) describe by:
-tag: `article`
-width: 390px
-padding and margin 20px
-border #FF5A5F 1px with radius 4px
-contains the place name:
-tag: `h2`
-font size: 30px
-center horizontally
+- Add Places section:
+	- tag: `section`
+	- classname: `places`
+	- same level as the filters section, inside `.container`
+	- contains a title:
+		- tag: `h1`
+		- text: `Places`
+		- align in the top left
+		- font size: 30px
+	- contains multiple “Places” as listing (horizontal or vertical) describe by:
+		- tag: `article`
+		- width: 390px
+		- padding and margin 20px
+		- border #FF5A5F 1px with radius 4px
+		- contains the place name:
+			- tag: `h2`
+			- font size: 30px
+			- center horizontally
 
 Requirements:
 - You must use: `header`, `footer`, `section`, `article`, `button`, `h1`, `h2`, `h3`, `h4`, `ul`, `li` tags
