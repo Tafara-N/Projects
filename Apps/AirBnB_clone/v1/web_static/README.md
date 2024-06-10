@@ -370,7 +370,7 @@ You must have 5 CSS files:
 - `styles/6-filters.css`: for the filters style
 - `styles/7-places.css`: for the places style
 
-![alt text](display_results.png)
+![Display Results](display_results.png)
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
