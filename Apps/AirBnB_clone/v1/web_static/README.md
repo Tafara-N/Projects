@@ -429,7 +429,7 @@ Add more information to a Place `article`:
 - Description section:
 	- tag: `div`
 	- classname: `description`
-	
+
 Requirements:
 - You must use: `header`, `footer`, `section`, `article`, `button`, `h1`, `h2`, `h3`, `h4`, `ul`, `li` tags
 - No inline style
