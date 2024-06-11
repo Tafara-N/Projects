@@ -237,8 +237,8 @@ Requirements:
 - You must have 4 CSS files:
 - `styles/4-common.css`: for the global style (`body` and `.container` styles)
 - `styles/3-header.css`: for the header style
-styles/3-footer.css: for the footer style
-styles/4-filters.css: for the filters style
+- `styles/3-footer.css`: for the footer style
+- `styles/4-filters.css`: for the filters style
 - `4-index.html` won’t be W3C valid, don’t worry, it’s temporary
 
 
