@@ -281,7 +281,7 @@ You are not allowed to use the `style` tag in the `head` tag
 All images must be stored in the `images` folder
 You must have 4 CSS files:
 `styles/4-common.css`: for the global style (`body` and `.container` styles)
-styles/3-header.css`: for the header style
+`styles/3-header.css`: for the header style
 `styles/3-footer.css`: for the footer style
 `styles/5-filters.css`: for the filters style
 
