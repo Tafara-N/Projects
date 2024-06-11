@@ -210,9 +210,9 @@ Layout: (based on `3-index.html`)
 - tag `section`
 - classname filters
 - inside the `.container`
-color white
-height: 70px
-width: 100% of the container
+- color white
+- height: 70px
+- width: 100% of the container
 border 1px #DDDDDD with radius 4px
 Button search:
 tag `button`
