@@ -253,7 +253,7 @@ styles/4-filters.css: for the filters style
 
 Write an HTML page that displays a header, footer and a filters box.
 
-Layout: (based on 4-index.html)
+Layout: (based on `4-index.html`)
 
 Locations and Amenities filters:
 tag: div
