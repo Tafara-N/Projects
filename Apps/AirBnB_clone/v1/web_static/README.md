@@ -249,9 +249,8 @@ styles/4-filters.css: for the filters style
 - Directory: `web_static`
 - File: 4-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/4-filters.css, images/
 
-5. More filters
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 5. More filters
+
 Write an HTML page that displays a header, footer and a filters box.
 
 Layout: (based on 4-index.html)
