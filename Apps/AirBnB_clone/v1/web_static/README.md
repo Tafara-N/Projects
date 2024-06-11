@@ -213,9 +213,9 @@ Layout: (based on `3-index.html`)
 - color white
 - height: 70px
 - width: 100% of the container
-border 1px #DDDDDD with radius 4px
-Button search:
-tag `button`
+- border 1px #DDDDDD with radius 4px
+- Button search:
+- tag `button`
 text Search
 font size: 18px
 inside the section filters
