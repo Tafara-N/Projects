@@ -275,7 +275,7 @@ text with fake contents
 
 Requirements:
 - You must use: `header`, `footer`, `section`, `button`, `h3`, `h4` tags
-No inline style
+- No inline style
 You are not allowed to use the `img` tag
 You are not allowed to use the `style` tag in the `head` tag
 All images must be stored in the `images` folder
