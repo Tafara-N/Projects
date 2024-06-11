@@ -231,7 +231,7 @@ Requirements:
 
 - You must use: `header`, `footer`, `section`, `button` tags
 - No inline style
-- You are not allowed to use the img tag
+- You are not allowed to use the `img` tag
 You are not allowed to use the style tag in the head tag
 All images must be stored in the images folder
 You must have 4 CSS files:
