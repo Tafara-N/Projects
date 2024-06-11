@@ -194,7 +194,7 @@ styles/3-footer.css: for the footer style
 - Directory: `web_static`
 - File: 3-index.html, styles/3-common.css, styles/3-header.css, styles/3-footer.css, images/
 
-4. Search!
+### 4. Search!
 mandatory
 Score: 100.0% (Checks completed: 100.0%)
 Write an HTML page that displays a header, footer and a filters box with a search button.
