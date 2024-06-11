@@ -219,9 +219,9 @@ Layout: (based on `3-index.html`)
 - text Search
 - font size: 18px
 - inside the section filters
-background color #FF5A5F
-text color #FFFFFF
-height: 48px
+- background color #FF5A5F
+- text color #FFFFFF
+- height: 48px
 width: 20% of the section filters
 no borders
 border radius: 4px
