@@ -263,7 +263,7 @@ Layout: (based on `4-index.html`)
 - width: 25% of the section filters
 - border right #DDDDDD 1px only for the first left filter
 - contains a title:
-tag: `h3`
+- tag: `h3`
 font weight: 600
 text States or Amenities
 contains a subtitle:
