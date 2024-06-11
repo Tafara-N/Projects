@@ -207,9 +207,9 @@ max width 1000px
 margin top and bottom 30px - it should be 30px under the bottom of the header (screenshot)
 center horizontally
 Filter section:
-tag section
+tag `section`
 classname filters
-inside the .container
+inside the `.container`
 color white
 height: 70px
 width: 100% of the container
