@@ -215,7 +215,7 @@ height: 70px
 width: 100% of the container
 border 1px #DDDDDD with radius 4px
 Button search:
-tag button
+tag `button`
 text Search
 font size: 18px
 inside the section filters
