@@ -229,7 +229,7 @@ center vertically and at 30px of the right border
 change opacity to 90% when the mouse is on the button
 Requirements:
 
-You must use: header, footer, section, button tags
+You must use: `header`, `footer`, `section`, `button` tags
 No inline style
 You are not allowed to use the img tag
 You are not allowed to use the style tag in the head tag
