@@ -267,7 +267,7 @@ tag: `h3`
 font weight: 600
 text States or Amenities
 contains a subtitle:
-tag: h4
+tag: `h4`
 font weight: 400
 font size: 14px
 text with fake contents
