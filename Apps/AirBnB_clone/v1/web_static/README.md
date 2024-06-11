@@ -269,8 +269,8 @@ Layout: (based on `4-index.html`)
 - contains a subtitle:
 - tag: `h4`
 - font weight: 400
-font size: 14px
-text with fake contents
+- font size: 14px
+- text with fake contents
 
 Requirements:
 - You must use: `header`, `footer`, `section`, `button`, `h3`, `h4` tags
