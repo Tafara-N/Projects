@@ -272,8 +272,8 @@ tag: h4
 font weight: 400
 font size: 14px
 text with fake contents
-Requirements:
 
+Requirements:
 You must use: header, footer, section, button, h3, h4 tags
 No inline style
 You are not allowed to use the img tag
