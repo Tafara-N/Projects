@@ -198,10 +198,10 @@ styles/3-footer.css: for the footer style
 
 Write an HTML page that displays a header, footer and a filters box with a search button.
 
-Layout: (based on 3-index.html)
+Layout: (based on `3-index.html`)
 
 Container:
-between header and footer tags, add a div:
+between `header` and `footer` tags, add a `div`:
 classname: container
 max width 1000px
 margin top and bottom 30px - it should be 30px under the bottom of the header (screenshot)
