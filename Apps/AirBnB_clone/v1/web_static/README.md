@@ -76,6 +76,470 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ### Quiz questions
 
+### Question #0
+
+In the following code, is the text `Best School` red?
+
+*css:*
+
+```css
+h2 {
+    color: red;
+}
+```
+
+*html:*
+
+```html
+<h1>Best School</h1>
+```
+
+- [ ] No
+
+- [ ] Yes
+
+Question #1
+In the following code, is the text Best School red?
+
+css:
+
+h1 .my_title {
+    color: green;
+}
+
+.my_title {
+    color: red;
+}
+html:
+
+<h1>
+    <span class="my_title">Best School</span>
+</h1>
+
+No
+
+
+Yes
+
+Tips:
+CSS selector math
+
+Question #2
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+h1.title {
+    font-size: 16px;
+}
+
+No
+
+
+Yes
+
+Question #3
+In the following code, is the text Best School red?
+
+css:
+
+h1 {
+    color: green;
+}
+
+span.my_title {
+    color: red;
+}
+html:
+
+<h1>
+    <span class="my_title">Best School</span>
+</h1>
+
+No
+
+
+Yes
+
+Tips:
+CSS selector math
+
+Question #4
+In the following code, is the text Best School red?
+
+css:
+
+h1.title {
+    color: red;
+}
+html:
+
+<h1>Best School</h1>
+
+No
+
+
+Yes
+
+Question #5
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+* {
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 12px 4px;
+}
+
+No
+
+
+Yes
+
+Tips:
+margin and padding support 4 different syntaxes: margin
+
+Question #6
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+h3,
+div.full_text
+div.small_text h4
+div.filters p.title {
+    font-size: 20px;
+}
+
+No
+
+
+Yes
+
+Tips:
+, separates multiple selector, without it’s specific selector
+
+Question #7
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+No
+
+
+Yes
+
+Question #8
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+* {
+    font-size: 14px;
+}
+
+No
+
+
+Yes
+
+Tips:
+Universal selectors
+
+Question #9
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+div.filters h2 {
+    font-size: 16px;
+}
+
+No
+
+
+Yes
+
+Question #10
+Is the following HTML markup valid?
+
+<html></html>
+(elements are correctly tagged, we don’t care about !Doctype here)
+
+
+No
+
+
+Yes
+
+Question #11
+In the following code, is the text Best School red?
+
+css:
+
+h3 span.text,
+h1,
+div.title {
+    color: red;
+}
+html:
+
+<h1>Best School</h1>
+
+No
+
+
+Yes
+
+Question #12
+Is the following HTML markup valid?
+
+<html>
+    <head>
+    </head>
+    <body>
+        <img src="logo.png" />
+    </body>
+</html>
+(elements are correctly tagged, we don’t care about !Doctype here)
+
+
+No
+
+
+Yes
+
+Tips:
+<img /> is an empty element
+
+Question #13
+Is the following HTML markup valid?
+
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+(elements are correctly tagged, we don’t care about !Doctype here)
+
+
+No
+
+
+Yes
+
+Question #14
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+* {
+    font-size: 14px;
+    font-weight: 400
+    text-align: center;
+}
+
+No
+
+
+Yes
+
+Tips:
+Betty for CSS!
+
+Question #15
+Is the following HTML markup valid?
+
+<html>
+    <head>
+    </head>
+    <body>
+    <body>
+</html>
+(elements are correctly tagged, we don’t care about !Doctype here)
+
+
+No
+
+
+Yes
+
+Tips:
+Each HTML tag must be closed
+
+Question #16
+Is the following HTML markup valid?
+
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Best <b>School</h1></b>
+    </body>
+</html>
+(elements are correctly tagged, we don’t care about !Doctype here)
+
+
+No
+
+
+Yes
+
+Tips:
+“Always close something before opening a new thing”
+
+Question #17
+Is the following HTML markup valid?
+
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>
+            <a href="www.google.com">Go to <b>Google</b>
+        </h1>
+    </body>
+</html>
+(elements are correctly tagged, we don’t care about !Doctype here)
+
+
+No
+
+
+Yes
+
+Question #18
+Is the following HTML markup valid?
+
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>
+            <a href="www.google.com'>Google</a>
+        </h1>
+    </body>
+</html>
+(elements are correctly tagged, we don’t care about !Doctype here)
+
+
+No
+
+
+Yes
+
+Tips:
+Number of quotes is important!
+
+Question #19
+In the following code, is the text Best School red?
+
+css:
+
+h1 {
+    color: red;
+}
+html:
+
+<h1>Best School</h1>
+
+No
+
+
+Yes
+
+Question #20
+In the following code, is the text Best School red?
+
+css:
+
+h1 div.title {
+    color: red;
+}
+html:
+
+<h1>Best School</h1>
+
+No
+
+
+Yes
+
+Question #21
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+h3,
+div.full_text,
+div.small_text h4,
+div.filters p.title {
+    font-size: 20px;
+}
+
+No
+
+
+Yes
+
+Question #22
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+div.filters p.title h2 span.text.big {
+    font-size: 20px;
+}
+
+No
+
+
+Yes
+
+Question #23
+Is following CSS syntax valid?
+
+body {
+    color: #FF0000;
+}
+
+* {
+    font-size: 14px;
+    text-align: center;
+
+    h1 {
+        margin: 30px;
+    }
+}
+
+No
+
+
+Yes
+
+Tips:
+CSS vs SCSS
+
 
 ## Tasks
 
