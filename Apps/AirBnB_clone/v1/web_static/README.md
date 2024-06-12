@@ -215,18 +215,18 @@ Layout: (based on `3-index.html`)
 	- width: 100% of the container
 	- border 1px #DDDDDD with radius 4px
 - Button search:
-- tag `button`
-- text Search
-- font size: 18px
-- inside the section filters
-- background color #FF5A5F
-- text color #FFFFFF
-- height: 48px
-- width: 20% of the section filters
-- no borders
-- border radius: 4px
-- center vertically and at 30px of the right border
-- change opacity to 90% when the mouse is on the button
+	- tag `button`
+	- text `Search`
+	- font size: 18px
+	- inside the section filters
+	- background color #FF5A5F
+	- text color #FFFFFF
+	- height: 48px
+	- width: 20% of the section filters
+	- no borders
+	- border radius: 4px
+	- center vertically and at 30px of the right border
+	- change opacity to 90% when the mouse is on the button
 
 Requirements:
 - You must use: `header`, `footer`, `section`, `button` tags
