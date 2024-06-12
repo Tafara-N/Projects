@@ -282,9 +282,11 @@ body {
 **Tips:**
 - [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
 
-Question #9
+### Question #9
+
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -292,44 +294,51 @@ body {
 div.filters h2 {
     font-size: 16px;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #10
 
-Question #10
 Is the following HTML markup valid?
 
+```html
 <html></html>
-(elements are correctly tagged, we don’t care about !Doctype here)
+```
 
+(elements are correctly tagged, we don’t care about `!Doctype` here)
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #11
 
-Question #11
-In the following code, is the text Best School red?
+In the following code, is the text `Best School` red?
 
-css:
+*css:*
 
+```css
 h3 span.text,
 h1,
 div.title {
     color: red;
 }
-html:
+```
 
+*html:*
+
+```html
 <h1>Best School</h1>
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
-
-Question #12
+### Question #12
 Is the following HTML markup valid?
 
 <html>
