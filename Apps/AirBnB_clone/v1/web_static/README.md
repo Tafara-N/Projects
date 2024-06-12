@@ -3,7 +3,7 @@
 *For this project, we expect you to look at these concepts:*
 
 - [HTML/CSS](https://intranet.alxswe.com/concepts/2)
-- [The trinity of front-end quality]()
+- [The trinity of front-end quality](https://intranet.alxswe.com/concepts/4)
 
 # Background Context
 
