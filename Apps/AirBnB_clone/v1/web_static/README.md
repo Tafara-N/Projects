@@ -129,10 +129,11 @@ h1 .my_title {
 **Tips:**
 - [CSS selector math](http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)
 
+### Question #2
 
-Question #2
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -140,17 +141,19 @@ body {
 h1.title {
     font-size: 16px;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #3
 
-Question #3
-In the following code, is the text Best School red?
+In the following code, is the text `Best School` red?
 
-css:
+*css:*
 
+```css
 h1 {
     color: green;
 }
@@ -158,40 +161,50 @@ h1 {
 span.my_title {
     color: red;
 }
-html:
+```
 
+*html:*
+
+```html
 <h1>
     <span class="my_title">Best School</span>
 </h1>
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+**Tips:**
+- [CSS selector math](http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)
 
-Tips:
-CSS selector math
+### Question #4
 
-Question #4
-In the following code, is the text Best School red?
+In the following code, is the text `Best School` red?
 
-css:
+*css:*
 
+```css
 h1.title {
     color: red;
 }
-html:
+```
 
+*html:*
+
+```html
 <h1>Best School</h1>
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #5
 
-Question #5
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -201,18 +214,20 @@ body {
     text-align: center;
     margin: 30px 12px 4px;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+**Tips:**
+- `margin` and `padding` support 4 different syntaxes: [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
 
-Tips:
-margin and padding support 4 different syntaxes: margin
+### Question #6
 
-Question #6
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -223,16 +238,16 @@ div.small_text h4
 div.filters p.title {
     font-size: 20px;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+**Tips:**
+- `,` separates multiple selector, without it’s specific selector
 
-Tips:
-, separates multiple selector, without it’s specific selector
-
-Question #7
+### Question #7
 Is following CSS syntax valid?
 
 body {
