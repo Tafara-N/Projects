@@ -248,20 +248,24 @@ div.filters p.title {
 - `,` separates multiple selector, without it’s specific selector
 
 ### Question #7
+
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #8
 
-Question #8
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -269,14 +273,14 @@ body {
 * {
     font-size: 14px;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
-
-Tips:
-Universal selectors
+**Tips:**
+- [Universal selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors)
 
 Question #9
 Is following CSS syntax valid?
