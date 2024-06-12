@@ -123,10 +123,9 @@ You must use the style tag in the head tag
 The layout must be exactly the same as 0-index.html
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 1-index.html
+- File: `1-index.html`
 
 ### 2. CSS files
 
