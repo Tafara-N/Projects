@@ -96,12 +96,12 @@ height: 60px
 width: 100%
 text Best School center vertically and horizontally
 always at the bottom at the page
-Requirements:
 
-You must use the header and footer tags
-You are not allowed to import any files
-You are not allowed to use the style tag in the head tag
-Use inline styling for all your tags
+Requirements:
+- You must use the `header` and `footer` tags
+- You are not allowed to import any files
+- You are not allowed to use the `style tag` in the `head` tag
+- Use inline styling for all your tags
 
 ![Inline Styling](inline_styling.png)
 
