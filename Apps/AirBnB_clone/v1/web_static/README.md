@@ -282,7 +282,7 @@ Requirements:
 	`styles/3-footer.css`: for the footer style
 	`styles/5-filters.css`: for the filters style
 
-
+![More Filters](more_filters.png)
 **Repo:**
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
