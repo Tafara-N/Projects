@@ -128,20 +128,19 @@ The layout must be exactly the same as 0-index.html
 - Directory: `web_static`
 - File: 1-index.html
 
-2. CSS files
-mandatory
-Score: 99.05% (Checks completed: 100.0%)
-Write an HTML page that displays a header and a footer by using CSS files (same as 1-index.html)
+### 2. CSS files
+
+Write an HTML page that displays a header and a footer by using CSS files (same as `1-index.html`)
 
 Requirements:
+- You must use the `header` and `footer` tags
+- No inline styling
+- You must have 3 CSS files:
+	- `styles/2-common.css`: for global style (i.e. the `body` style)
+	- `styles/2-header.css`: for header style
+	- `styles/2-footer.css`: for footer style
 
-You must use the header and footer tags
-No inline styling
-You must have 3 CSS files:
-styles/2-common.css: for global style (i.e. the body style)
-styles/2-header.css: for header style
-styles/2-footer.css: for footer style
-The layout must be exactly the same as 1-index.html
+The layout must be exactly the same as `1-index.html`
 
 **Repo:**
 
