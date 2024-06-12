@@ -255,8 +255,8 @@ Layout: (based on `4-index.html`)
 
 - Locations and Amenities filters:
 - tag: `div`
-- classname: locations for location tag and amenities for the other
-- inside the section filters (same level as the button Search)
+- classname: `locations` for location tag and `amenities` for the other
+- inside the section filters (same level as the `button` Search)
 - height: 100% of the section filters
 - width: 25% of the section filters
 - border right #DDDDDD 1px only for the first left filter
