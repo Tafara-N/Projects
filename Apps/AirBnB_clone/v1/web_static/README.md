@@ -156,12 +156,12 @@ Write an HTML page that displays a header and footer by using CSS files (same as
 Layout:
 
 - Common:
-- no margin
-- no padding
-- font color: #484848
-- font size: 14px
-- font family: `Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;`
-- [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon.png) in the browser tab
+	- no margin
+	- no padding
+	- font color: #484848
+	- font size: 14px
+	- font family: `Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;`
+	- [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon.png) in the browser tab
 - Header:
 	- color: white
 	- height: 70px
