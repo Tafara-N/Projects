@@ -72,6 +72,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## More Info
 
+![HBNB](hbnb_step1.png)
 
 Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
