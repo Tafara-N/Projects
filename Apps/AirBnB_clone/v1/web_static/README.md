@@ -560,9 +560,11 @@ div.filters p.title {
 
 - [ ] Yes
 
-Question #22
+### Question #22
+
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -570,15 +572,17 @@ body {
 div.filters p.title h2 span.text.big {
     font-size: 20px;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #23
 
-Question #23
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -591,15 +595,14 @@ body {
         margin: 30px;
     }
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
-
-Tips:
-CSS vs SCSS
-
+**Tips:**
+- CSS vs SCSS
 
 ## Tasks
 
