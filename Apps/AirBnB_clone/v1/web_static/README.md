@@ -264,11 +264,11 @@ Layout: (based on `4-index.html`)
 		- tag: `h3`
 		- font weight: 600
 		- text `States` or `Amenities`
-- contains a subtitle:
-- tag: `h4`
-- font weight: 400
-- font size: 14px
-- text with fake contents
+	- contains a subtitle:
+		- tag: `h4`
+		- font weight: 400
+		- font size: 14px
+		- text with fake contents
 
 Requirements:
 - You must use: `header`, `footer`, `section`, `button`, `h3`, `h4` tags
