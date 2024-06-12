@@ -143,10 +143,9 @@ Requirements:
 The layout must be exactly the same as `1-index.html`
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 2-index.html, styles/2-common.css, styles/2-header.css, styles/2-footer.css
+- File: `2-index.html, styles/2-common.css, styles/2-header.css, styles/2-footer.css`
 
 ### 3. Zoning done!
 
