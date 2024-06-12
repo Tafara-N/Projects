@@ -339,8 +339,10 @@ div.title {
 - [ ] Yes
 
 ### Question #12
+
 Is the following HTML markup valid?
 
+```html
 <html>
     <head>
     </head>
@@ -348,37 +350,41 @@ Is the following HTML markup valid?
         <img src="logo.png" />
     </body>
 </html>
-(elements are correctly tagged, we don’t care about !Doctype here)
+```
 
+(elements are correctly tagged, we don’t care about `!Doctype` here)
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+**Tips:**
+- `<img />` is an empty element
 
-Tips:
-<img /> is an empty element
+### Question #13
 
-Question #13
 Is the following HTML markup valid?
 
+```html
 <html>
     <head>
     </head>
     <body>
     </body>
 </html>
-(elements are correctly tagged, we don’t care about !Doctype here)
+```
 
+(elements are correctly tagged, we don’t care about `!Doctype` here)
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #14
 
-Question #14
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -388,38 +394,42 @@ body {
     font-weight: 400
     text-align: center;
 }
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+**Tips:**
+- Betty for CSS!
 
-Tips:
-Betty for CSS!
+### Question #15
 
-Question #15
 Is the following HTML markup valid?
 
+```html
 <html>
     <head>
     </head>
     <body>
     <body>
 </html>
-(elements are correctly tagged, we don’t care about !Doctype here)
+```
 
+(elements are correctly tagged, we don’t care about `!Doctype` here)
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+**Tips:**
+- Each HTML tag must be closed
 
-Tips:
-Each HTML tag must be closed
+### Question #16
 
-Question #16
 Is the following HTML markup valid?
 
+```html
 <html>
     <head>
     </head>
@@ -427,16 +437,16 @@ Is the following HTML markup valid?
         <h1>Best <b>School</h1></b>
     </body>
 </html>
-(elements are correctly tagged, we don’t care about !Doctype here)
+```
 
+(elements are correctly tagged, we don’t care about `!Doctype` here)
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
-
-Tips:
-“Always close something before opening a new thing”
+**Tips:**
+- “Always close something before opening a new thing”
 
 Question #17
 Is the following HTML markup valid?
