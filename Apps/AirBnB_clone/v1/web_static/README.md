@@ -78,14 +78,13 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 ## Tasks
 
 ### 0. Inline styling
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 Write an HTML page that displays a header and a footer.
 
 Layout:
 
-Body:
-no margin
+- Body:
+- no margin
 no padding
 Header:
 color #FF0000 (red)
@@ -106,10 +105,9 @@ Use inline styling for all your tags
 
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 0-index.html
+- File: `0-index.html`
 
 ### 1. Head styling
 
