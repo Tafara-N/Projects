@@ -201,11 +201,11 @@ Write an HTML page that displays a header, footer and a filters box with a searc
 Layout: (based on `3-index.html`)
 
 - Container:
-- between `header` and `footer` tags, add a `div`:
-- classname: container
-- max width 1000px
-- margin top and bottom 30px - it should be 30px under the bottom of the header (screenshot)
-- center horizontally
+	- between `header` and `footer` tags, add a `div`:
+		- classname: `container`
+		- max width 1000px
+		- margin top and bottom 30px - it should be 30px under the bottom of the `header` (screenshot)
+		- center horizontally
 - Filter section:
 - tag `section`
 - classname filters
