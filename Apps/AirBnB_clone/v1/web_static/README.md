@@ -74,8 +74,10 @@ More Info
 
 Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
-0. Inline styling
+
+## Tasks
+
+### 0. Inline styling
 mandatory
 Score: 100.0% (Checks completed: 100.0%)
 Write an HTML page that displays a header and a footer.
