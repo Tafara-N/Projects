@@ -448,9 +448,11 @@ Is the following HTML markup valid?
 **Tips:**
 - “Always close something before opening a new thing”
 
-Question #17
+### Question #17
+
 Is the following HTML markup valid?
 
+```html
 <html>
     <head>
     </head>
@@ -460,17 +462,19 @@ Is the following HTML markup valid?
         </h1>
     </body>
 </html>
-(elements are correctly tagged, we don’t care about !Doctype here)
+```
 
+(elements are correctly tagged, we don’t care about `!Doctype` here)
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #18
 
-Question #18
 Is the following HTML markup valid?
 
+```html
 <html>
     <head>
     </head>
@@ -480,54 +484,66 @@ Is the following HTML markup valid?
         </h1>
     </body>
 </html>
-(elements are correctly tagged, we don’t care about !Doctype here)
+```
 
+(elements are correctly tagged, we don’t care about `!Doctype` here)
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+**Tips:**
+- Number of quotes is important!
 
-Tips:
-Number of quotes is important!
+### Question #19
 
-Question #19
-In the following code, is the text Best School red?
+In the following code, is the text `Best School` red?
 
-css:
+*css:*
 
+```css
 h1 {
     color: red;
 }
-html:
+```
 
+*html:*
+
+```html
 <h1>Best School</h1>
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #20
 
-Question #20
-In the following code, is the text Best School red?
+In the following code, is the text `Best School` red?
 
-css:
+*css:*
 
+```css
 h1 div.title {
     color: red;
 }
-html:
+```
 
+*html:*
+
+```html
 <h1>Best School</h1>
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
+### Question #21
 
-Question #21
 Is following CSS syntax valid?
 
+```css
 body {
     color: #FF0000;
 }
@@ -538,11 +554,11 @@ div.small_text h4,
 div.filters p.title {
     font-size: 20px;
 }
+```
 
-No
+- [ ] No
 
-
-Yes
+- [ ] Yes
 
 Question #22
 Is following CSS syntax valid?
