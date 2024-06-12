@@ -163,11 +163,11 @@ Layout:
 - font family: `Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;`
 - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon.png) in the browser tab
 - Header:
-- color: white
-- height: 70px
-- width: 100%
-- border bottom 1px #CCCCCC
-- [logo](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/logo.png) align on left and center vertically (20px space at the left)
+	- color: white
+	- height: 70px
+	- width: 100%
+	- border bottom 1px #CCCCCC
+	- [logo](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/logo.png) align on left and center vertically (20px space at the left)
 - Footer:
 	- color white
 	- height: 60px
