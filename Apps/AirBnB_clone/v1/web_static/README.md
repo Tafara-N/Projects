@@ -263,7 +263,7 @@ Layout: (based on `4-index.html`)
 - contains a title:
 - tag: `h3`
 - font weight: 600
-- text States or Amenities
+- text `States` or `Amenities`
 - contains a subtitle:
 - tag: `h4`
 - font weight: 400
