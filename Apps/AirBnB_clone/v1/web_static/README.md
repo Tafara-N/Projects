@@ -29,7 +29,7 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 ## Read or watch:
 - [Learn to Code HTML & CSS](https://intranet.alxswe.com/rltoken/T9KyiA6_Tm3Ny6oTn08S-A) (*until “Creating Lists” included*)
 - [Inline Styles in HTML](https://intranet.alxswe.com/rltoken/7NdYbImFNofpB_FXXn3otg)
-- [Specifics on CSS Specificity]()
+- [Specifics on CSS Specificity](https://intranet.alxswe.com/rltoken/z_OTPFCjmhXJJi7KJqBCbQ)
 - [CSS SpeciFishity]()
 - [Introduction to HTML]()
 - [CSS]()
