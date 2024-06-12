@@ -98,11 +98,13 @@ h2 {
 
 - [ ] Yes
 
-Question #1
-In the following code, is the text Best School red?
+### Question #1
 
-css:
+In the following code, is the text `Best School` red?
 
+*css:*
+
+```css
 h1 .my_title {
     color: green;
 }
@@ -110,19 +112,24 @@ h1 .my_title {
 .my_title {
     color: red;
 }
-html:
+```
 
+*html:*
+
+```html
 <h1>
     <span class="my_title">Best School</span>
 </h1>
+```
 
-No
+- [ ] No
 
+- [ ] Yes
 
-Yes
-
+```
 Tips:
-CSS selector math
+[CSS selector math](http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)
+```
 
 Question #2
 Is following CSS syntax valid?
