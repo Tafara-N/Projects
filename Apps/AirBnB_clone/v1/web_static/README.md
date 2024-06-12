@@ -192,7 +192,7 @@ styles/3-footer.css: for the footer style
 
 - GitHub repository: `AirBnB_clone`
 - Directory: `web_static`
-- File: 3-index.html, styles/3-common.css, styles/3-header.css, styles/3-footer.css, images/
+- File: `3-index.html, styles/3-common.css, styles/3-header.css, styles/3-footer.css, images/`
 
 ### 4. Search!
 
