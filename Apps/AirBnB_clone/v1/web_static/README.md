@@ -241,6 +241,7 @@ Requirements:
 	- `styles/4-filters.css`: for the filters style
 - `4-index.html` won’t be **W3C valid**, don’t worry, it’s temporary
 
+![Search](search.png)
 
 **Repo:**
 - GitHub repository: `AirBnB_clone`
