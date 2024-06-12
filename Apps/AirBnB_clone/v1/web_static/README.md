@@ -126,10 +126,9 @@ h1 .my_title {
 
 - [ ] Yes
 
-```
-Tips:
-[CSS selector math](http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)
-```
+**Tips:**
+- [CSS selector math](http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf)
+
 
 Question #2
 Is following CSS syntax valid?
