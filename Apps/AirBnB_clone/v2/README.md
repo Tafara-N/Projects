@@ -185,7 +185,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: console.py, models/, tests/
+- File: console.py, models/, tests/
 
 3. MySQL setup development
 mandatory
@@ -213,7 +213,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: setup_mysql_dev.sql
+- File: setup_mysql_dev.sql
 
 4. MySQL setup test
 mandatory
@@ -241,7 +241,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: setup_mysql_test.sql
+- File: setup_mysql_test.sql
 
 5. Delete object
 mandatory
@@ -315,7 +315,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: models/engine/file_storage.py
+- File: models/engine/file_storage.py
 
 6. DBStorage - States and Cities
 mandatory
@@ -468,7 +468,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: models/base_model.py, models/city.py, models/state.py, models/engine/db_storage.py, models/__init__.py
+- File: models/base_model.py, models/city.py, models/state.py, models/engine/db_storage.py, models/__init__.py
 
 7. DBStorage - User
 mandatory
@@ -513,7 +513,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: models/user.py
+- File: models/user.py
 
 8. DBStorage - Place
 mandatory
@@ -596,7 +596,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: models/place.py, models/user.py, models/city.py
+- File: models/place.py, models/user.py, models/city.py
 
 9. DBStorage - Review
 mandatory
@@ -652,7 +652,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: models/review.py, models/user.py, models/place.py
+- File: models/review.py, models/user.py, models/place.py
 
 10. DBStorage - Amenity... and BOOM!
 mandatory
@@ -810,4 +810,4 @@ guillaume@ubuntu:~/AirBnB_v2$
 Repo:
 
 - GitHub repository: `AirBnB_clone_v2`
-File: models/amenity.py, models/place.py
+- File: models/amenity.py, models/place.py
