@@ -23,7 +23,7 @@ Environment variables will be your best friend for this project!
 - [MySQL 8.0 SQL Statement Syntax](https://intranet.alxswe.com/rltoken/n6ePnCDwnbQMbxGgeoe1VA)
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/3nWKduPHOPRUFGNEtT-SMw), **without the help of Google:**
 
 General
 What is Unit testing and how to implement it in a large project
