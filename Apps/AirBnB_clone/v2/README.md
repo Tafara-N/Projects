@@ -470,27 +470,28 @@ guillaume@ubuntu:~/AirBnB_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/base_model.py, models/city.py, models/state.py, models/engine/db_storage.py, models/__init__.py
 
-7. DBStorage - User
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Update User: (models/user.py)
+### 7. DBStorage - User
 
-User inherits from BaseModel and Base (respect the order)
-Add or replace in the class User:
-class attribute __tablename__
-represents the table name, users
-class attribute email
-represents a column containing a string (128 characters)
-can’t be null
-class attribute password
-represents a column containing a string (128 characters)
-can’t be null
-class attribute first_name
-represents a column containing a string (128 characters)
-can be null
-class attribute last_name
-represents a column containing a string (128 characters)
-can be null
+Update `User`: (`models/user.py`)
+
+- `User` inherits from `BaseModel` and `Base` (respect the order)
+- Add or replace in the class `User`:
+	- class attribute `__tablename__`
+		- represents the table name, `users`
+	- class attribute `email`
+		- represents a column containing a string (128 characters)
+		- can’t be null
+	- class attribute `password`
+		- represents a column containing a string (128 characters)
+		- can’t be null
+	- class attribute `first_name`
+		- represents a column containing a string (128 characters)
+		- can be null
+	- class attribute `last_name`
+		- represents a column containing a string (128 characters)
+		- can be null
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ echo 'create User email="gui@hbtn.io" password="guipwd" first_name="Guillaume" last_name="Snow"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
 (hbnb) 4f3f4b42-a4c3-4c20-a492-efff10d00c0b
 (hbnb)
@@ -510,10 +511,11 @@ updated_at: 2017-11-10 01:17:26
 first_name: Guillaume
  last_name: Snow
 guillaume@ubuntu:~/AirBnB_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: models/user.py
+- File: `models/user.py`
 
 8. DBStorage - Place
 mandatory
