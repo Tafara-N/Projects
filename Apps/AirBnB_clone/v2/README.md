@@ -318,9 +318,8 @@ guillaume@ubuntu:~/AirBnB_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/engine/file_storage.py
 
-6. DBStorage - States and Cities
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 6. DBStorage - States and Cities
+
 SQLAlchemy will be your best friend!
 
 It’s time to change your storage engine and use SQLAlchemy
