@@ -69,17 +69,15 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge cases
 
 ## SQL Scripts
-Allowed editors: vi, vim, emacs
-All your files will be executed on Ubuntu 20.04 LTS using MySQL 8.0
-Your files will be executed with SQLAlchemy version 1.4.x
-All your files should end with a new line
-All your SQL queries should have a comment just before (i.e. syntax above)
-All your files should start by a comment describing the task
-All SQL keywords should be in uppercase (SELECT, WHERE…)
-A README.md file, at the root of the folder of the project, is mandatory
-The length of your files will be tested using wc
-GitHub
-There should be one project repository per group. If you clone/fork/whatever a partner’s project repository with the same name before the second deadline, you risk a 0% score.
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be executed on `Ubuntu 20.04 LTS` using MySQL `8.0`
+- Your files will be executed with `SQLAlchemy` version `1.4.x`
+- All your files should end with a new line
+- All your SQL queries should have a comment just before (i.e. syntax above)
+- All your files should start by a comment describing the task
+- All SQL keywords should be in uppercase (`SELECT`, `WHERE`…)
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- The length of your files will be tested using `wc`
 
 More Info
 
