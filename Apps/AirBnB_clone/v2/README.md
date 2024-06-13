@@ -1,4 +1,4 @@
-Background Context
+# Background Context
 Environment variables will be your best friend for this project!
 
 HBNB_ENV: running environment. It can be “dev” or “test” for the moment (“production” soon!)
