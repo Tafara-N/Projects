@@ -18,7 +18,7 @@ Environment variables will be your best friend for this project!
 - [args/kwargs](https://intranet.alxswe.com/rltoken/F6YRBSrkkkTTMVc66iaMgA)
 - [SQLAlchemy tutorial](https://intranet.alxswe.com/rltoken/GYWCmxokUZKAr-T93iQPcQ)
 - [How To Create a New User and Grant Permissions in MySQL](https://intranet.alxswe.com/rltoken/m4ogDCoKVm3Us0FybYh1tA)
-- [Python3 and environment variables]()
+- [Python3 and environment variables](https://intranet.alxswe.com/rltoken/FJCSaX1TCf0HAOzhsH_eWA)
 - [SQLAlchemy]()
 - [MySQL 8.0 SQL Statement Syntax]()
 
