@@ -93,11 +93,8 @@ SELECT id, name FROM students WHERE batch_id = 3 ORDER BY created_at DESC LIMIT 
 $
 ```
 
-Video library(2 total)
-Search by title
-HBNB - storage abstraction
-AirBnB console
-Tasks
+## Tasks
+
 0. Fork me if you can!
 mandatory
 Score: 100.0% (Checks completed: 100.0%)
