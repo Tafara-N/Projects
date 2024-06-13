@@ -322,9 +322,9 @@ guillaume@ubuntu:~/AirBnB_v2$
 
 SQLAlchemy will be your best friend!
 
-It’s time to change your storage engine and use SQLAlchemy
+It’s time to change your storage engine and use `SQLAlchemy`
 
-
+![DBStorage](dbstorage.jpg)
 
 In the following steps, you will make multiple changes:
 
