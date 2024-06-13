@@ -811,4 +811,4 @@ guillaume@ubuntu:~/AirBnB_v2$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: models/amenity.py, models/place.py
+- File: `models/amenity.py, models/place.py`
