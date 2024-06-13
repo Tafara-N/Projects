@@ -654,10 +654,9 @@ guillaume@ubuntu:~/AirBnB_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/review.py, models/user.py, models/place.py
 
-10. DBStorage - Amenity... and BOOM!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Update Amenity: (models/amenity.py)
+### 10. DBStorage - Amenity... and BOOM!
+
+Update `Amenity`: (`models/amenity.py`)
 
 Amenity inherits from BaseModel and Base (respect the order)
 Add or replace in the class Amenity:
