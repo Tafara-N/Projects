@@ -620,12 +620,11 @@ Update `Review`: (`models/review.py`)
 
 Update `User`: (`models/user.py`)
 - Add or replace in the class `User`:
-	class attribute `reviews` must represent a relationship with the class `Review`. If the `User` object is deleted, all linked `Review` objects must be automatically deleted. Also, the reference from a `Review` object to his `User` should be named `user`
+	- class attribute `reviews` must represent a relationship with the class `Review`. If the `User` object is deleted, all linked `Review` objects must be automatically deleted. Also, the reference from a `Review` object to his `User` should be named `user`
 
 Update `Place`: (`models/place.py`)
-
-for DBStorage: class attribute reviews must represent a relationship with the class Review. If the Place object is deleted, all linked Review objects must be automatically deleted. Also, the reference from a Review object to his Place should be named place
-for FileStorage: getter attribute reviews that returns the list of Review instances with place_id equals to the current Place.id => It will be the FileStorage relationship between Place and Review
+- for `DBStorage`: class attribute `reviews` must represent a relationship with the class `Review`. If the `Place` object is deleted, all linked `Review` objects must be automatically deleted. Also, the reference from a `Review` object to his `Place` should be named `place`
+- for `FileStorage`: getter attribute `reviews` that returns the list of `Review` instances with `place_id` equals to the current `Place.id` => It will be the `FileStorage` relationship between `Place` and `Review`
 
 ```
 guillaume@ubuntu:~/AirBnB_v2$
