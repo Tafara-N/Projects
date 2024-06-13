@@ -17,7 +17,7 @@ Environment variables will be your best friend for this project!
 - [unittest module](https://intranet.alxswe.com/rltoken/g0tzN6ea1hWCj5OF99HB9w)
 - [args/kwargs](https://intranet.alxswe.com/rltoken/F6YRBSrkkkTTMVc66iaMgA)
 - [SQLAlchemy tutorial](https://intranet.alxswe.com/rltoken/GYWCmxokUZKAr-T93iQPcQ)
-- [How To Create a New User and Grant Permissions in MySQL]()
+- [How To Create a New User and Grant Permissions in MySQL](https://intranet.alxswe.com/rltoken/m4ogDCoKVm3Us0FybYh1tA)
 - [Python3 and environment variables]()
 - [SQLAlchemy]()
 - [MySQL 8.0 SQL Statement Syntax]()
