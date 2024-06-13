@@ -658,15 +658,16 @@ guillaume@ubuntu:~/AirBnB_v2$
 
 Update `Amenity`: (`models/amenity.py`)
 
-Amenity inherits from BaseModel and Base (respect the order)
-Add or replace in the class Amenity:
-class attribute __tablename__
-represents the table name, amenities
-class attribute name
-represents a column containing a string (128 characters)
-can’t be null
-class attribute place_amenities must represent a relationship Many-To-Many between the class Place and Amenity. Please see below more detail: place_amenity in the Place update
-Update Place: (models/place.py)
+- Amenity inherits from BaseModel and Base (respect the order)
+- Add or replace in the class Amenity:
+- class attribute __tablename__
+- represents the table name, amenities
+- class attribute name
+- represents a column containing a string (128 characters)
+- can’t be null
+- class attribute place_amenities must represent a relationship Many-To-Many - between the class Place and Amenity. Please see below more detail: place_amenity in the Place update
+
+Update `Place`: (`models/place.py`)
 
 Add an instance of SQLAlchemy Table called place_amenity for creating the relationship Many-To-Many between Place and Amenity:
 table name place_amenity
