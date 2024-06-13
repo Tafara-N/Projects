@@ -653,7 +653,7 @@ guillaume@ubuntu:~/AirBnB_v2$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: models/review.py, models/user.py, models/place.py
+- File: `models/review.py, models/user.py, models/place.py`
 
 ### 10. DBStorage - Amenity... and BOOM!
 
