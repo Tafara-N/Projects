@@ -96,8 +96,7 @@ $
 ## Tasks
 
 0. Fork me if you can!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+
 In the industry, you will work on an existing codebase 90% of the time. Your first thoughts upon looking at it might include:
 
 “Who did this code?”
@@ -109,7 +108,7 @@ In the industry, you will work on an existing codebase 90% of the time. Your fir
 “… I will refactor everything…”
 But the worst thing you could possibly do is to redo everything. Please don’t do that! Note: the existing codebase might be perfect, or it might have errors. Don’t always trust the existing codebase!
 
-For this project you will fork this codebase:
+For this project you will fork this [codebase](https://github.com/justinmajetich/AirBnB_clone.git):
 
 update the repository name to AirBnB_clone_v2
 update the README.md with your information but don’t delete the initial authors
