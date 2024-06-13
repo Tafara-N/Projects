@@ -12,7 +12,7 @@ Environment variables will be your best friend for this project!
 # Resources
 
 ## Read or watch:
-- [cmd module]()
+- [cmd module](https://intranet.alxswe.com/rltoken/OG2OW5Pbjs-ds3ZHT0ow4g)
 - **packages** concept page
 - [unittest module]()
 - [args/kwargs]()
