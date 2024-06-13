@@ -606,8 +606,8 @@ Update `Review`: (`models/review.py`)
 - Add or replace in the class `Review`:
 	- class attribute `__tablename__`
 		- represents the table name, `reviews`
-- class attribute `text`
-represents a column containing a string (1024 characters)
+	- class attribute `text`
+		- represents a column containing a string (1024 characters)
 can’t be null
 class attribute `place_id`
 represents a column containing a string (60 characters)
