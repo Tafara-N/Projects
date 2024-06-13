@@ -23,7 +23,7 @@ SQLAlchemy]()
 MySQL 8.0 SQL Statement Syntax]()
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
 
 General
 What is Unit testing and how to implement it in a large project
