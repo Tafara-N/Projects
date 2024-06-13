@@ -33,9 +33,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to create a MySQL database
 - How to create a MySQL user and grant it privileges
 - What ORM means
-How to map a Python Class to a MySQL table
-How to handle 2 different storage engines with the same codebase
-How to use environment variables
+- How to map a Python Class to a MySQL table
+- How to handle 2 different storage engines with the same codebase
+- How to use environment variables
 Copyright - Plagiarism
 You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
