@@ -79,15 +79,20 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A `README.md` file, at the root of the folder of the project, is mandatory
 - The length of your files will be tested using `wc`
 
-More Info
+# More Info
 
+![HBNB](hbnb_step2.png)
 
-Comments for your SQL file:
+### Comments for your SQL file:
+
+```sql
 $ cat my_script.sql
 -- first 3 students in the Batch ID=3
 -- because Batch 3 is the best!
 SELECT id, name FROM students WHERE batch_id = 3 ORDER BY created_at DESC LIMIT 3;
 $
+```
+
 Video library(2 total)
 Search by title
 HBNB - storage abstraction
