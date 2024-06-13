@@ -807,7 +807,8 @@ amenity_id: b80aec52-d0c9-420a-8471-3254572954b6
   place_id: db549ae1-4500-4d0c-9b50-4b4978ed229e
 amenity_id: b80aec52-d0c9-420a-8471-3254572954b6
 guillaume@ubuntu:~/AirBnB_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/amenity.py, models/place.py
