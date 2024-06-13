@@ -609,10 +609,10 @@ Update `Review`: (`models/review.py`)
 	- class attribute `text`
 		- represents a column containing a string (1024 characters)
  		- can’t be null
-class attribute `place_id`
-represents a column containing a string (60 characters)
-can’t be null
-is a foreign key to `places.id`
+	- class attribute `place_id`
+		- represents a column containing a string (60 characters)
+		- can’t be null
+		- is a foreign key to `places.id`
 class attribute `user_id`
 represents a column containing a string (60 characters)
 can’t be null
