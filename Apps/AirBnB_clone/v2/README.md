@@ -113,7 +113,7 @@ update the repository name to AirBnB_clone_v2
 update the README.md with your information but don’t delete the initial authors
 If you are the owner of this repository, please create a new repository named AirBnB_clone_v2 with the same content of AirBnB_clone
 
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 
@@ -145,7 +145,7 @@ get the number of current records in the table states (my using a MySQLdb for ex
 execute the console command
 get (again) the number of current records in the table states (same method, with MySQLdb)
 if the difference is +1 => test passed
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 
@@ -182,7 +182,7 @@ guillaume@ubuntu:~/AirBnB_v2$ cat test_params_create | ./console.py
 (hbnb) [[Place] (76b65327-9e94-4632-b688-aaa22ab8a124) {'number_bathrooms': 2, 'longitude': -122.431297, 'city_id': '0001', 'user_id': '0001', 'latitude': 37.773972, 'price_by_night': 300, 'name': 'My little house', 'id': '76b65327-9e94-4632-b688-aaa22ab8a124', 'max_guest': 10, 'number_rooms': 4, 'updated_at': datetime.datetime(2017, 11, 10, 4, 41, 7, 843774), 'created_at': datetime.datetime(2017, 11, 10, 4, 41, 7, 843747)}]
 (hbnb)
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: console.py, models/, tests/
@@ -210,7 +210,7 @@ GRANT USAGE ON *.* TO 'hbnb_dev'@'localhost'
 GRANT SELECT ON `performance_schema`.* TO 'hbnb_dev'@'localhost'
 GRANT ALL PRIVILEGES ON `hbnb_dev_db`.* TO 'hbnb_dev'@'localhost'
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: setup_mysql_dev.sql
@@ -238,7 +238,7 @@ GRANT USAGE ON *.* TO 'hbnb_test'@'localhost'
 GRANT SELECT ON `performance_schema`.* TO 'hbnb_test'@'localhost'
 GRANT ALL PRIVILEGES ON `hbnb_test_db`.* TO 'hbnb_test'@'localhost'
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: setup_mysql_test.sql
@@ -312,7 +312,7 @@ All States: 2
 All States: 1
 [State] (37705d25-8903-4318-9303-6d6d336a22c1) {'name': 'Nevada', 'created_at': datetime.datetime(2017, 11, 10, 1, 13, 34, 619133), 'id': '37705d25-8903-4318-9303-6d6d336a22c1'}
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/engine/file_storage.py
@@ -465,7 +465,7 @@ updated_at: 2017-11-10 00:53:19
       name: San Jose
   state_id: 95a5abab-aa65-4861-9bc6-1da4a36069aa
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/base_model.py, models/city.py, models/state.py, models/engine/db_storage.py, models/__init__.py
@@ -510,7 +510,7 @@ updated_at: 2017-11-10 01:17:26
 first_name: Guillaume
  last_name: Snow
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/user.py
@@ -593,7 +593,7 @@ number_bathrooms: 1
         latitude: 37.774
        longitude: -122.431
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/place.py, models/user.py, models/city.py
@@ -649,7 +649,7 @@ updated_at: 2017-11-10 04:06:25
   place_id: ed72aa02-3286-4891-acbc-9d9fc80a1103
    user_id: d93638d9-8233-4124-8f4e-17786592908b
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/review.py, models/user.py, models/place.py
@@ -807,7 +807,7 @@ amenity_id: b80aec52-d0c9-420a-8471-3254572954b6
   place_id: db549ae1-4500-4d0c-9b50-4b4978ed229e
 amenity_id: b80aec52-d0c9-420a-8471-3254572954b6
 guillaume@ubuntu:~/AirBnB_v2$
-Repo:
+**Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
 - File: models/amenity.py, models/place.py
