@@ -54,10 +54,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
 ## Python Unit Tests
-Allowed editors: vi, vim, emacs
+Allowed editors: `vi`, `vim`, `emacs`
 All your files should end with a new line
-All your test files should be inside a folder tests
-You have to use the unittest module
+All your test files should be inside a folder `tests`
+You have to use the [unittest module](https://intranet.alxswe.com/rltoken/g0tzN6ea1hWCj5OF99HB9w)
 All your test files should be python files (extension: .py)
 All your test files and folders should start by test_
 Your file organization in the tests folder should be the same as your project: ex: for models/base_model.py, unit tests must be in: tests/test_models/test_base_model.py
