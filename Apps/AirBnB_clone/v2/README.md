@@ -668,26 +668,25 @@ Update `Amenity`: (`models/amenity.py`)
 	- class attribute `place_amenities must` represent a relationship [Many-To-Many](https://intranet.alxswe.com/rltoken/LiU5umFamh-YbwWkgd8kNw) - between the class `Place` and `Amenity`. Please see below more detail: `place_amenity` in the `Place` update
 
 Update `Place`: (`models/place.py`)
+- Add an instance of [SQLAlchemy Table](https://intranet.alxswe.com/rltoken/Pngd-iHVu-kUMyq5VaC9PQ) called `place_amenity` for creating the relationship [Many-To-Many](https://intranet.alxswe.com/rltoken/LiU5umFamh-YbwWkgd8kNw) between `Place` and `Amenity`:
+- table name place_amenity
+- metadata = Base.metadata
+- 2 columns:
+- place_id, a string of 60 characters foreign key of places.id, primary key in the table and never null
+- amenity_id, a string of 60 characters foreign key of amenities.id, primary key in the table and never null
+- Update Place class:
+- for DBStorage: class attribute amenities must represent a relationship with the class Amenity but also as secondary to place_amenity with option viewonly=False (place_amenity has been define previously)
+- for FileStorage:
+- Getter attribute amenities that returns the list of Amenity instances based on the attribute amenity_ids that contains all Amenity.id linked to the Place
+- Setter attribute amenities that handles append method for adding an Amenity.id to the attribute amenity_ids. This method should accept only Amenity object, otherwise, do nothing.
+- What’s a Many-to-Many relationship?
+- In our system, we don’t want to duplicate amenities (for example, having 10000 time the amenity Wifi), so they will be unique. But, at least 2 places can have the same amenity (like Wifi for example). We are in the case of:
 
-Add an instance of SQLAlchemy Table called place_amenity for creating the relationship Many-To-Many between Place and Amenity:
-table name place_amenity
-metadata = Base.metadata
-2 columns:
-place_id, a string of 60 characters foreign key of places.id, primary key in the table and never null
-amenity_id, a string of 60 characters foreign key of amenities.id, primary key in the table and never null
-Update Place class:
-for DBStorage: class attribute amenities must represent a relationship with the class Amenity but also as secondary to place_amenity with option viewonly=False (place_amenity has been define previously)
-for FileStorage:
-Getter attribute amenities that returns the list of Amenity instances based on the attribute amenity_ids that contains all Amenity.id linked to the Place
-Setter attribute amenities that handles append method for adding an Amenity.id to the attribute amenity_ids. This method should accept only Amenity object, otherwise, do nothing.
-What’s a Many-to-Many relationship?
-In our system, we don’t want to duplicate amenities (for example, having 10000 time the amenity Wifi), so they will be unique. But, at least 2 places can have the same amenity (like Wifi for example). We are in the case of:
+- an amenity can be linked to multiple places
+- a place can have multiple amenities
+- = Many-To-Many
 
-an amenity can be linked to multiple places
-a place can have multiple amenities
-= Many-To-Many
-
-To make this link working, we will create a third table called place_amenity that will create these links.
+- To make this link working, we will create a third table called place_amenity that will create these links.
 
 And you are good, you have a new engine!
 
