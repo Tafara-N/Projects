@@ -373,8 +373,8 @@ Update `City`: (`models/city.py`)
 - City inherits from `BaseModel` and `Base` (respect the order)
 - Add or replace in the class `City`:
 	- class attribute `__tablename__` -
-represents the table name, cities
-class attribute name
+		- represents the table name, `cities`
+	- class attribute `name`
 represents a column containing a string (128 characters)
 can’t be null
 class attribute state_id
