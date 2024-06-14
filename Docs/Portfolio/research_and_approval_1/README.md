@@ -86,23 +86,21 @@ In a section named “Technologies”:
 List the libraries, languages, platforms, frameworks, hardware, books, resources that will be necessary to complete your project.
 For 2 of these technology choices, describe another option and what were the trade-offs between the chosen technology and the alternate. Explain what led to the final decision to use a particular technology.
 
-4. Challenge statement
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+### 4. Challenge statement
+
 In a section named “Challenge”:
 
-Describe the problem the Portfolio Project is intended to solve.
-Explain what the Portfolio Project will not solve
-Explain who the Portfolio Project will help and/or who the users will be
-Is this project relevant or dependent on a specific locale?
+- Describe the problem the Portfolio Project is intended to solve.
+- Explain what the Portfolio Project will not solve
+- Explain who the Portfolio Project will help and/or who the users will be
+- Is this project relevant or dependent on a specific locale?
 
-5. Risks
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+### 5. Risks
+
 In a section named “Risks”:
 
-Describe the technical risks, the potential impact, and what safeguards or alternatives you have in mind
-Describe non-technical risks, the potential impact, and what strategies are in place to prevent these negative outcomes
+- Describe the technical risks, the potential impact, and what safeguards or alternatives you have in mind
+- Describe non-technical risks, the potential impact, and what strategies are in place to prevent these negative outcomes
 
 ### 6. Infrastructure
 
