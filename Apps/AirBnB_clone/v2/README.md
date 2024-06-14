@@ -377,7 +377,7 @@ Update `City`: (`models/city.py`)
 	- class attribute `name`
 		- represents a column containing a string (128 characters)
 		- can’t be null
-class attribute state_id
+	- class attribute `state_id`
 represents a column containing a string (60 characters)
 can’t be null
 is a foreign key to states.id
