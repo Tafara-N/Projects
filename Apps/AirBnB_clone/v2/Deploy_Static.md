@@ -14,17 +14,16 @@ Before starting, please fork the repository AirBnB_clone_v2 from your partner if
 
 
 
-Resources
-Read or watch:
-
-- [How to use Fabric]()
-- [How to use Fabric in Python]()
-- [Fabric and command line options]()
-- [CI/CD concept page]()
-- [Nginx configuration for beginners]()
-- [Difference between root and alias on NGINX]()
-- [Fabric for Python 3]()
-- [Fabric Documentation]()
+# Resources
+## Read or watch:
+- [How to use Fabric](https://intranet.alxswe.com/rltoken/O0PSIn8xJeyeKZadiQCwDQ)
+- [How to use Fabric in Python](https://intranet.alxswe.com/rltoken/ExX8laA65oUjSH8BuEEoeQ)
+- [Fabric and command line options](https://intranet.alxswe.com/rltoken/RsyBHJIhoVBhOcQN-xP4cg)
+- [CI/CD concept page](https://intranet.alxswe.com/rltoken/M_3lKmMAGA2KWujegl-ibA)
+- [Nginx configuration for beginners](https://intranet.alxswe.com/rltoken/Ik7Ax-XDGGPZ__BRN2MK5g)
+- [Difference between root and alias on NGINX](https://intranet.alxswe.com/rltoken/jgPdZF4sWxGLhs7uhYOONw)
+- [Fabric for Python 3](https://intranet.alxswe.com/rltoken/ljadvnqOr21Gy_UsVRIUPQ)
+- [Fabric Documentation](https://intranet.alxswe.com/rltoken/iVwVTXoFjfHxJMnL_JlSpg)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/MLmzWvIjzIfTODyWZojfRQ), **without the help of Google:**
