@@ -518,7 +518,7 @@ Update `User`: (`models/user.py`)
 		- represents a column containing a string (128 characters)
 		- can be null
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ echo 'create User email="gui@hbtn.io" password="guipwd" first_name="Guillaume" last_name="Snow"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
 (hbnb) 4f3f4b42-a4c3-4c20-a492-efff10d00c0b
 (hbnb)
