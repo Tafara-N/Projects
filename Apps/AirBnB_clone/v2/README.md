@@ -219,22 +219,24 @@ GRANT USAGE ON *.* TO 'hbnb_dev'@'localhost'
 GRANT SELECT ON `performance_schema`.* TO 'hbnb_dev'@'localhost'
 GRANT ALL PRIVILEGES ON `hbnb_dev_db`.* TO 'hbnb_dev'@'localhost'
 guillaume@ubuntu:~/AirBnB_v2$
+```
+
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v2`
-- File: setup_mysql_dev.sql
+- File: `setup_mysql_dev.sql`
 
-4. MySQL setup test
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 4. MySQL setup test
+
 Write a script that prepares a MySQL server for the project:
 
-A database hbnb_test_db
-A new user hbnb_test (in localhost)
-The password of hbnb_test should be set to hbnb_test_pwd
-hbnb_test should have all privileges on the database hbnb_test_db (and only this database)
-hbnb_test should have SELECT privilege on the database performance_schema (and only this database)
-If the database hbnb_test_db or the user hbnb_test already exists, your script should not fail
+- A database `hbnb_test_db`
+- A new user `hbnb_test` (in `localhost`)
+- The password of `hbnb_test` should be set to `hbnb_test_pwd`
+- `hbnb_test` should have all privileges on the database `hbnb_test_db` (and **only this database**)
+- `hbnb_test` should have `SELECT` privilege on the database `performance_schema` (and **only this database**)
+- If the database `hbnb_test_db` or the user `hbnb_test` already exists, your script should not fail
+
+```
 guillaume@ubuntu:~/AirBnB_v2$ cat setup_mysql_test.sql | mysql -hlocalhost -uroot -p
 Enter password:
 guillaume@ubuntu:~/AirBnB_v2$ echo "SHOW DATABASES;" | mysql -uhbnb_test -p | grep hbnb_test_db
@@ -247,10 +249,11 @@ GRANT USAGE ON *.* TO 'hbnb_test'@'localhost'
 GRANT SELECT ON `performance_schema`.* TO 'hbnb_test'@'localhost'
 GRANT ALL PRIVILEGES ON `hbnb_test_db`.* TO 'hbnb_test'@'localhost'
 guillaume@ubuntu:~/AirBnB_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: setup_mysql_test.sql
+- File: `setup_mysql_test.sql`
 
 5. Delete object
 mandatory
