@@ -15,6 +15,9 @@ In this first deployment project, you will be deploying your `web_static` work. 
 
 Before starting, please fork the repository `AirBnB_clone_v2` from your partner if you don’t have it
 
+![AirBnB Diagram](aribnb_diagram_0.jpg)
+
+![AirBnB Diagram](aribnb_diagram_0-1.jpg)
 
 
 # Resources
