@@ -274,21 +274,22 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: 2-do_deploy_web_static.py
 
-3. Full deployment
-mandatory
-Score: 38.46% (Checks completed: 38.46%)
-Write a Fabric script (based on the file 2-do_deploy_web_static.py) that creates and distributes an archive to your web servers, using the function deploy:
+### 3. Full deployment
 
-Prototype: def deploy():
-The script should take the following steps:
-Call the do_pack() function and store the path of the created archive
-Return False if no archive has been created
-Call the do_deploy(archive_path) function, using the new path of the new archive
-Return the return value of do_deploy
-All remote commands must be executed on both of web your servers (using env.hosts = ['<IP web-01>', 'IP web-02'] variable in your script)
-You must use this script to deploy it on your servers: xx-web-01 and xx-web-02
+Write a Fabric script (based on the file `2-do_deploy_web_static.py`) that creates and distributes an archive to your web servers, using the function `deploy`:
+
+- Prototype: def deploy():
+- The script should take the following steps:
+	- Call the `do_pack()` function and store the path of the created archive
+	- Return `False` if no archive has been created
+	- Call the `do_deploy(archive_path)` function, using the new path of the new archive
+	- Return the return value of `do_deploy`
+- All remote commands must be executed on both of web your servers (using `env.hosts = ['<IP web-01>', 'IP web-02']` variable in your script)
+- You must use this script to deploy it on your servers: `xx-web-01` and `xx-web-02`
+
 In the following example, the SSH key and the username used for accessing to the server are passed in the command line. Of course, you could define them as Fabric environment variables (ex: env.user =…)
 
+```shell
 guillaume@ubuntu:~/AirBnB_clone_v2$ fab -f 3-deploy_web_static.py deploy -i my_ssh_private_key -u ubuntu
 [52.55.249.213] Executing task 'deploy'
 Packing web_static to versions/web_static_20170315015620.tgz
@@ -375,10 +376,11 @@ guillaume@ubuntu:~/AirBnB_clone_v2$ curl 54.157.32.137/hbnb_static/0-index.html
     </body>
 </html>
 guillaume@ubuntu:~/AirBnB_clone_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: 3-deploy_web_static.py
+- File: `3-deploy_web_static.py`
 
 ### 4. Keep it clean!
 
