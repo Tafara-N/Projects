@@ -4,7 +4,7 @@
 
 - [Portfolio Project Deeper Overview](https://intranet.alxswe.com/concepts/102042)
 - [Portfolio Project Overview](https://intranet.alxswe.com/concepts/137)
-- [Maze project]()
+- [Maze project](https://intranet.alxswe.com/concepts/133)
 
 ![What’s this “Research & project approval”?](be601df25eea91eaaf0d.gif)
 
