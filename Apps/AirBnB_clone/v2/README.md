@@ -115,13 +115,11 @@ For this project you will fork this [codebase](https://github.com/justinmajetich
 If you are the owner of this repository, please create a new repository named `AirBnB_clone_v2` with the same content of `AirBnB_clone`
 
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v2`
 
-1. Bug free!
-mandatory
-Score: 45.14% (Checks completed: 50.0%)
-Do you remember the unittest module?
+### 1. Bug free!
+
+Do you remember the `unittest module`?
 
 This codebase contains many test cases. Some are missing, but the ones included cover the basic functionality of the program.
 
