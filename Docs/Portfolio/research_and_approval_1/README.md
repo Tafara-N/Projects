@@ -13,14 +13,15 @@ Before starting any coding, you will need to research and define your portfolio 
 This first part is focused on creating a Project Proposal and requires that a google Document is submitted for Manual Review by a technical staff member. Please take time to brainstorm, research, and explore what currently exists during this first phase.
 
 **Examples of the past**
+
 Explore some student projects from previous cohorts!
 
-Puppr (GitHub) – by Laura Roudge (Cohort 8), Drew Maring (Cohort 8), and Marc Cavigli (Cohort 8)
-OCR for Whiteboarding(GitHub) – by John Cooke (Cohort 8)
-Lyrical Learning (GitHub) – by David Kwan (Cohort 8)
-Eggify (GitHub) – by Athena Deng (Cohort 7) & Samie Azad (Cohort 7)
-IdeaDog (GitHub) – by Brennan D Baraban (Cohort 7)
-Job Odyssey (GitHub) – by Susan Su (Cohort 7) & Christopher Choe (Cohort 7)
+- Puppr ([GitHub](https://intranet.alxswe.com/rltoken/AyGvpWenXZWHeqHoBcScGA)) – by [Laura Roudge (Cohort 8)](https://intranet.alxswe.com/rltoken/m5rGc4Hj9f9dmF3k3OqEog), [Drew Maring (Cohort 8)](https://intranet.alxswe.com/rltoken/MDkrhTm1R1Qd1C0lIxwKHw), and [Marc Cavigli (Cohort 8)](https://intranet.alxswe.com/rltoken/Rvj0vOji2rb5hJlyI7CzYg)
+- OCR for Whiteboarding([GitHub](https://intranet.alxswe.com/rltoken/YlDFt-_gmrWv5ojMn5RyBw)) – by [John Cooke (Cohort 8)](https://intranet.alxswe.com/rltoken/sOq8YIeuG_d3R42_eC2WAg)
+- Lyrical Learning ([GitHub](https://intranet.alxswe.com/rltoken/nftYC6VX-RtFs39QjY15Hg)) – by David Kwan (Cohort 8)
+- Eggify ([GitHub](https://intranet.alxswe.com/rltoken/0-W_Ybq6iI5OX8SyhxYGDQ)) – by Athena Deng (Cohort 7) & Samie Azad (Cohort 7)
+- IdeaDog ([GitHub](https://intranet.alxswe.com/rltoken/F1V9oW1LVgojsfpmXDBNYQ)) – by Brennan D Baraban (Cohort 7)
+- Job Odyssey ([GitHub](https://intranet.alxswe.com/rltoken/RkrrfaCIsVvWIrE_KkCPlw)) – by Susan Su (Cohort 7) & Christopher Choe (Cohort 7)
 
 **Some things to think about**
 
