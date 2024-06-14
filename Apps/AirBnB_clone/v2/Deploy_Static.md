@@ -136,21 +136,23 @@ ubuntu@89-web-01:~/$ curl localhost/hbnb_static/index.html
   </body>
 </html>
 ubuntu@89-web-01:~/$
+```
+
 **Repo:**
-
 - GitHub repository: `AirBnB_clone_v2`
-- File: 0-setup_web_static.sh
+- File: `0-setup_web_static.sh`
 
-1. Compress before sending
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Fabric script that generates a .tgz archive from the contents of the web_static folder of your AirBnB Clone repo, using the function do_pack.
+### 1. Compress before sending
 
-Prototype: def do_pack():
-All files in the folder web_static must be added to the final archive
-All archives must be stored in the folder versions (your function should create this folder if it doesn’t exist)
-The name of the archive created must be web_static_<year><month><day><hour><minute><second>.tgz
-The function do_pack must return the archive path if the archive has been correctly generated. Otherwise, it should return None
+Write a Fabric script that generates a `.tgz` archive from the contents of the `web_static` folder of your AirBnB Clone repo, using the function `do_pack`.
+
+- Prototype: `def do_pack():`
+- All files in the folder `web_static` must be added to the final archive
+- All archives must be stored in the folder `versions` (your function should create this folder if it doesn’t exist)
+- The name of the archive created must be `web_static_<year><month><day><hour><minute><second>.tgz`
+- The function `do_pack` must return the archive path if the archive has been correctly generated. Otherwise, it should return `None`
+
+```shell
 guillaume@ubuntu:~/AirBnB_clone_v2$ fab -f 1-pack_web_static.py do_pack
 Packing web_static to versions/web_static_20170314233357.tgz
 [localhost] local: tar -cvzf versions/web_static_20170314233357.tgz web_static
@@ -201,10 +203,11 @@ Done.
 guillaume@ubuntu:~/AirBnB_clone_v2$ ls -l versions/web_static_20170314233357.tgz
 -rw-rw-r-- 1 guillaume guillaume 21283 Mar 14 23:33 versions/web_static_20170314233357.tgz
 guillaume@ubuntu:~/AirBnB_clone_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: 1-pack_web_static.py
+- File: `1-pack_web_static.py`
 
 ### 2. Deploy archive!
 
