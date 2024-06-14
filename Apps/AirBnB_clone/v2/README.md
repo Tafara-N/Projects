@@ -101,9 +101,9 @@ In the industry, you will work on an existing codebase 90% of the time. Your fir
 - “Who did this code?”
 - “How it works?”
 - “Where are unittests?”
-“Where is this?”
-“Why did they do that like this?”
-“I don’t understand anything.”
+- “Where is this?”
+- “Why did they do that like this?”
+- “I don’t understand anything.”
 “… I will refactor everything…”
 But the worst thing you could possibly do is to redo everything. Please don’t do that! Note: the existing codebase might be perfect, or it might have errors. Don’t always trust the existing codebase!
 
