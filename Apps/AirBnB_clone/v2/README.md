@@ -544,59 +544,62 @@ guillaume@ubuntu:~/AirBnB_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: `models/user.py`
 
-8. DBStorage - Place
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Update Place: (models/place.py)
+### 8. DBStorage - Place
 
-Place inherits from BaseModel and Base (respect the order)
-Add or replace in the class Place:
-class attribute __tablename__
-represents the table name, places
-class attribute city_id
-represents a column containing a string (60 characters)
-can’t be null
-is a foreign key to cities.id
-class attribute user_id
-represents a column containing a string (60 characters)
-can’t be null
-is a foreign key to users.id
-class attribute name
-represents a column containing a string (128 characters)
-can’t be null
-class attribute description
-represents a column containing a string (1024 characters)
-can be null
-class attribute number_rooms
-represents a column containing an integer
-can’t be null
-default value: 0
-class attribute number_bathrooms
-represents a column containing an integer
-can’t be null
-default value: 0
-class attribute max_guest
-represents a column containing an integer
-can’t be null
-default value: 0
-class attribute price_by_night
-represents a column containing an integer
-can’t be null
-default value: 0
-class attribute latitude
-represents a column containing a float
-can be null
-class attribute longitude
-represents a column containing a float
-can be null
-Update User: (models/user.py)
+Update `Place`: (`models/place.py`)
 
-Add or replace in the class User:
-class attribute places must represent a relationship with the class Place. If the User object is deleted, all linked Place objects must be automatically deleted. Also, the reference from a Place object to his User should be named user
+- `Place` inherits from `BaseModel` and `Base` (respect the order)
+- Add or replace in the class `Place`:
+	- class attribute `__tablename__`
+		- represents the table name, `places`
+	- class attribute `city_id`
+		- represents a column containing a string (60 characters)
+		- can’t be null
+		- is a foreign key to `cities.id`
+	- class attribute `user_id`
+		- represents a column containing a string (60 characters)
+		- can’t be null
+		- is a foreign key to `users.id`
+	- class attribute `name`
+		- represents a column containing a string (128 characters)
+		- can’t be null
+	- class attribute `description`
+		- represents a column containing a string (1024 characters)
+		- can be null
+	- class attribute `number_rooms`
+		- represents a column containing an integer
+		- can’t be null
+		- default value: `0`
+	- class attribute `number_bathrooms`
+		- represents a column containing an integer
+		- can’t be null
+		- default value: `0`
+	- class attribute `max_guest`
+		- represents a column containing an integer
+		- can’t be null
+		- default value: `0`
+	- class attribute `price_by_night`
+		- represents a column containing an integer
+		- can’t be null
+		- default value: `0`
+	- class attribute `latitude`
+		- represents a column containing a float
+		- can be null
+	- class attribute `longitude`
+		- represents a column containing a float
+		- can be null
+
+Update `User`: (`models/user.py`)
+
+- Add or replace in the class `User`:
+	- class attribute `places` must represent a relationship with the class `Place`. If the `User` object is deleted, all linked `Place` objects must be automatically deleted. Also, the reference from a `Place` object to his `User` should be named `user`
+
 Update City: (models/city.py)
 
-Add or replace in the class City:
-class attribute places must represent a relationship with the class Place. If the City object is deleted, all linked Place objects must be automatically deleted. Also, the reference from a Place object to his City should be named cities
+- Add or replace in the class `City`:
+class attribute `places` must represent a relationship with the class `Place`. If the `City` object is deleted, all linked `Place` objects must be automatically deleted. Also, the reference from a `Place` object to his `City` should be named `cities`
+
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ echo 'create Place city_id="4b457e66-c7c8-4f63-910f-fd91c3b7140b" user_id="4f3f4b42-a4c3-4c20-a492-efff10d00c0b" name="Lovely_place" number_rooms=3 number_bathrooms=1 max_guest=6 price_by_night=120 latitude=37.773972 longitude=-122.431297' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
 (hbnb) ed72aa02-3286-4891-acbc-9d9fc80a1103
 (hbnb)
@@ -622,10 +625,11 @@ number_bathrooms: 1
         latitude: 37.774
        longitude: -122.431
 guillaume@ubuntu:~/AirBnB_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: models/place.py, models/user.py, models/city.py
+- File: `models/place.py, models/user.py, models/city.py`
 
 ### 9. DBStorage - Review
 
