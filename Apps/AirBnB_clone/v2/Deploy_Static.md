@@ -28,22 +28,19 @@ Fabric Documentation
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
-What is Fabric
-How to deploy code to a server easily
-What is a tgz archive
-How to execute Fabric command locally
-How to execute Fabric command remotely
-How to transfer files with Fabric
-How to manage Nginx configuration
-What is the difference between root and alias in a Nginx configuration
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+## General
+
+- What is Fabric
+- How to deploy code to a server easily
+- What is a `tgz` archive
+- How to execute Fabric command locally
+- How to execute Fabric command remotely
+- How to transfer files with Fabric
+- How to manage Nginx configuration
+- What is the difference between `root` and `alias` in a Nginx configuration
 
 # Requirements
+
 ## Python Scripts
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using `python3` (version `3.4.0`)
