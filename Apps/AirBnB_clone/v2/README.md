@@ -420,10 +420,10 @@ New engine `DBStorage`: (`models/engine/db_storage.py`)
 			- value = object
 	- `new(self, obj)`: add the object to the current database session (`self.__session`)
 	- `save(self)`: commit all changes of the current database session (`self.__session`)
-	- `delete(self, obj=None)`: delete from the current database session obj if not None
-	- reload(self):
-- create all tables in the database (feature of SQLAlchemy) (WARNING: all classes who inherit from Base must be imported before calling Base.metadata.create_all(engine))
-- create the current database session (self.__session) from the engine (self.__engine) by using a sessionmaker - the option expire_on_commit must be set to False ; and scoped_session - to make sure your Session is thread-safe
+	- `delete(self, obj=None)`: delete from the current database session `obj` if not `None`
+	- `reload(self)`:
+- create all tables in the database (feature of SQLAlchemy) (WARNING: all classes who inherit from `Base` must be imported before calling `Base.metadata.create_all(engine)`)
+- create the current database session (`self.__session`) from the engine (`self.__engine`) by using a [sessionmaker](https://intranet.alxswe.com/rltoken/FhKkGICnmM0DN4TrlfJw3g) - the option expire_on_commit must be set to False ; and scoped_session - to make sure your Session is thread-safe
 Update __init__.py: (models/__init__.py)
 
 Add a conditional depending of the value of the environment variable HBNB_TYPE_STORAGE:
