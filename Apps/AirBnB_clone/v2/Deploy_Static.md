@@ -380,22 +380,23 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: 3-deploy_web_static.py
 
-4. Keep it clean!
-#advanced
-Score: 100.0% (Checks completed: 100.0%)
-Write a Fabric script (based on the file 3-deploy_web_static.py) that deletes out-of-date archives, using the function do_clean:
+### 4. Keep it clean!
 
-Prototype: def do_clean(number=0):
-number is the number of the archives, including the most recent, to keep.
-If number is 0 or 1, keep only the most recent version of your archive.
-if number is 2, keep the most recent, and second most recent versions of your archive.
-etc.
-Your script should:
-Delete all unnecessary archives (all archives minus the number to keep) in the versions folder
-Delete all unnecessary archives (all archives minus the number to keep) in the /data/web_static/releases folder of both of your web servers
-All remote commands must be executed on both of your web servers (using the env.hosts = ['<IP web-01>', 'IP web-02'] variable in your script)
+Write a Fabric script (based on the file `3-deploy_web_static.py`) that deletes out-of-date archives, using the function `do_clean`:
+
+- Prototype: `def do_clean(number=0):`
+	- `number` is the number of the archives, including the most recent, to keep.
+	- If `number` is 0 or 1, keep only the most recent version of your archive.
+	- if `number` is 2, keep the most recent, and second most recent versions of your archive.
+	- etc.
+- Your script should:
+	- Delete all unnecessary archives (all archives minus the number to keep) in the `versions` folder
+	- Delete all unnecessary archives (all archives minus the number to keep) in the `/data/web_static/releases` folder of both of your web servers
+- All remote commands must be executed on both of your web servers (using the `env.hosts = ['<IP web-01>', 'IP web-02']` variable in your script)
+
 In the following example, the SSH key and the username used for accessing to the server are passed in the command line. Of course, you could define them as Fabric environment variables (ex: env.user =…)
 
+```shell
 guillaume@ubuntu:~/AirBnB_clone_v2$ ls -ltr versions
 -rw-r--r-- 1 vagrant vagrant 27280335 Mar 15  2017 web_static_20170315015414.tgz
 -rw-r--r-- 1 vagrant vagrant 27280335 Mar 15  2017 web_static_20170315015448.tgz
@@ -414,7 +415,7 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 
 ### 5. Puppet for setup
 
-Redo the task #0 but by using Puppet:
+Redo the task `#0` but by using Puppet:
 
 ```shell
 ubuntu@89-web-01:~/$ puppet apply 101-setup_web_static.pp
