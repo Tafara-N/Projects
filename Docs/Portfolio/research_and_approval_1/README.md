@@ -1,9 +1,10 @@
-Concepts
-For this project, we expect you to look at these concepts:
+# Concepts
 
-Portfolio Project Deeper Overview
-Portfolio Project Overview
-Maze project
+*For this project, we expect you to look at these concepts:*
+
+- [Portfolio Project Deeper Overview]()
+- [Portfolio Project Overview]()
+- [Maze project]()
 
 
 What’s this “Research & project approval”?
