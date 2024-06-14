@@ -123,10 +123,13 @@ Do you remember the `unittest module`?
 
 This codebase contains many test cases. Some are missing, but the ones included cover the basic functionality of the program.
 
+```
 guillaume@ubuntu:~/AirBnB_v2$ python3 -m unittest discover tests 2>&1 /dev/null | tail -n 1
 OK
 guillaume@ubuntu:~/AirBnB_v2$
-All your unittests must pass without any errors at anytime in this project, with each storage engine!. Same for PEP8!
+```
+
+All your unittests **must** pass without any errors at anytime in this project, **with each storage engine!**. Same for PEP8!
 
 guillaume@ubuntu:~/AirBnB_v2$ HBNB_ENV=test HBNB_MYSQL_USER=hbnb_test HBNB_MYSQL_PWD=hbnb_test_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_test_db HBNB_TYPE_STORAGE=db python3 -m unittest discover tests 2>&1 /dev/null | tail -n 1
 OK
