@@ -399,12 +399,12 @@ New engine `DBStorage`: (`models/engine/db_storage.py`)
 - Private class attributes:
 	- `__engine`: set to `None`
 	- `__session`: set to `None`
-Public instance methods:
-__init__(self):
-create the engine (self.__engine)
-the engine must be linked to the MySQL database and user created before (hbnb_dev and hbnb_dev_db):
-dialect: mysql
-driver: mysqldb
+- Public instance methods:
+	- `__init__(self)`:
+		- create the engine (`self.__engine`)
+		- the engine must be linked to the MySQL database and user created before (`hbnb_dev` and `hbnb_dev_db`):
+			- dialect: `mysql`
+			- driver: `mysqldb`
 all of the following values must be retrieved via environment variables:
 MySQL user: HBNB_MYSQL_USER
 MySQL password: HBNB_MYSQL_PWD
