@@ -109,10 +109,10 @@ In the industry, you will work on an existing codebase 90% of the time. Your fir
 But the worst thing you could possibly do is to **redo everything**. Please don’t do that! **Note: the existing codebase might be perfect, or it might have errors. Don’t always trust the existing codebase!**
 
 For this project you will fork this [codebase](https://github.com/justinmajetich/AirBnB_clone.git):
+- update the repository name to `AirBnB_clone_v2`
+- update the `README.md` with your information **but don’t delete the initial authors**
 
-update the repository name to AirBnB_clone_v2
-update the README.md with your information but don’t delete the initial authors
-If you are the owner of this repository, please create a new repository named AirBnB_clone_v2 with the same content of AirBnB_clone
+If you are the owner of this repository, please create a new repository named `AirBnB_clone_v2` with the same content of `AirBnB_clone`
 
 **Repo:**
 
