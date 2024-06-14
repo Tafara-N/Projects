@@ -1,10 +1,13 @@
-Concepts
-For this project, we expect you to look at these concepts:
+# Concepts
 
-CI/CD
-AirBnB clone
-Background Context
-Ever since you completed project 0x0F. Load balancer of the SysAdmin track, you’ve had 2 web servers + 1 load balancer but nothing to distribute with them.
+*For this project, we expect you to look at these concepts:*
+
+- [CI/CD]()
+- [AirBnB clone]()
+
+# Background Context
+
+Ever since you completed project [0x0F. Load balancer](https://intranet.alxswe.com/rltoken/YJeqZ68SzQ9ffIqyvk85FQ) of the SysAdmin track, you’ve had 2 web servers + 1 load balancer but nothing to distribute with them.
 
 It’s time to make your work public!
 
