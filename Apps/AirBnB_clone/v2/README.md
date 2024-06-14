@@ -429,14 +429,17 @@ Update `__init__.py`: (`models/__init__.py`)
 
 - Add a conditional depending of the value of the environment variable `HBNB_TYPE_STORAGE`:
 	- If equal to `db`:
-Import `DBStorage` class in this file
-Create an instance of `DBStorage` and store it in the variable `storage` (the line `storage.reload()` should be executed after this instantiation)
-Else:
-Import `FileStorage` class in this file
-Create an instance of `FileStorage` and store it in the variable `storage` (the line `storage.reload()` should be executed after this instantiation)
+		Import `DBStorage` class in this file
+		Create an instance of `DBStorage` and store it in the variable `storage` (the line `storage.reload()` should be executed after this instantiation)
+	- Else:
+		Import `FileStorage` class in this file
+		Create an instance of `FileStorage` and store it in the variable `storage` (the line `storage.reload()` should be executed after this instantiation)
+
 This “switch” will allow you to change storage type directly by using an environment variable (example below)
+
 State creation:
 
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ echo 'create State name="California"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
 (hbnb) 95a5abab-aa65-4861-9bc6-1da4a36069aa
 (hbnb)
@@ -453,8 +456,11 @@ created_at: 2017-11-10 00:49:54
 updated_at: 2017-11-10 00:49:54
       name: California
 guillaume@ubuntu:~/AirBnB_v2$
+```
+
 City creation:
 
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ echo 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Francisco"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
 (hbnb) 4b457e66-c7c8-4f63-910f-fd91c3b7140b
 (hbnb)
@@ -463,6 +469,9 @@ guillaume@ubuntu:~/AirBnB_v2$ echo 'all City' | HBNB_MYSQL_USER=hbnb_dev HBNB_MY
 (hbnb) [[City] (4b457e66-c7c8-4f63-910f-fd91c3b7140b) {'id': '4b457e66-c7c8-4f63-910f-fd91c3b7140b', 'updated_at': datetime.datetime(2017, 11, 10, 0, 52, 53), 'state_id': '95a5abab-aa65-4861-9bc6-1da4a36069aa', 'name': 'San Francisco', 'created_at': datetime.datetime(2017, 11, 10, 0, 52, 53)]
 (hbnb)
 guillaume@ubuntu:~/AirBnB_v2$
+```
+
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ echo 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Jose"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
 (hbnb) a7db3cdc-30e0-4d80-ad8c-679fe45343ba
 (hbnb)
@@ -482,10 +491,11 @@ updated_at: 2017-11-10 00:53:19
       name: San Jose
   state_id: 95a5abab-aa65-4861-9bc6-1da4a36069aa
 guillaume@ubuntu:~/AirBnB_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: models/base_model.py, models/city.py, models/state.py, models/engine/db_storage.py, models/__init__.py
+- File: `models/base_model.py, models/city.py, models/state.py, models/engine/db_storage.py, models/__init__.py`
 
 ### 7. DBStorage - User
 
