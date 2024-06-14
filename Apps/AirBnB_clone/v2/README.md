@@ -236,7 +236,7 @@ Write a script that prepares a MySQL server for the project:
 - `hbnb_test` should have `SELECT` privilege on the database `performance_schema` (and **only this database**)
 - If the database `hbnb_test_db` or the user `hbnb_test` already exists, your script should not fail
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ cat setup_mysql_test.sql | mysql -hlocalhost -uroot -p
 Enter password:
 guillaume@ubuntu:~/AirBnB_v2$ echo "SHOW DATABASES;" | mysql -uhbnb_test -p | grep hbnb_test_db
@@ -255,13 +255,14 @@ guillaume@ubuntu:~/AirBnB_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: `setup_mysql_test.sql`
 
-5. Delete object
-mandatory
-Score: 70.59% (Checks completed: 70.59%)
-Update FileStorage: (models/engine/file_storage.py)
+### 5. Delete object
 
-Add a new public instance method: def delete(self, obj=None): to delete obj from __objects if it’s inside - if obj is equal to None, the method should not do anything
-Update the prototype of def all(self) to def all(self, cls=None) - that returns the list of objects of one type of class. Example below with State - it’s an optional filtering
+Update `FileStorage`: (`models/engine/file_storage.py`)
+
+- Add a new public instance method: `def delete(self, obj=None):` to delete `obj` from `__objects` if it’s inside - if `obj` is equal to `None`, the method should not do anything
+- Update the prototype of `def all(self)` to `def all(self, cls=None)` - that returns the list of objects of one type of class. Example below with `State` - it’s an optional filtering
+
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ cat main_delete.py
 #!/usr/bin/python3
 """ Test delete feature
@@ -324,10 +325,11 @@ All States: 2
 All States: 1
 [State] (37705d25-8903-4318-9303-6d6d336a22c1) {'name': 'Nevada', 'created_at': datetime.datetime(2017, 11, 10, 1, 13, 34, 619133), 'id': '37705d25-8903-4318-9303-6d6d336a22c1'}
 guillaume@ubuntu:~/AirBnB_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: models/engine/file_storage.py
+- File: `models/engine/file_storage.py`
 
 ### 6. DBStorage - States and Cities
 
