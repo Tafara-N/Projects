@@ -139,7 +139,7 @@ ubuntu@89-web-01:~/$
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
-File: 0-setup_web_static.sh
+- File: 0-setup_web_static.sh
 
 1. Compress before sending
 mandatory
@@ -204,7 +204,7 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
-File: 1-pack_web_static.py
+- File: 1-pack_web_static.py
 
 2. Deploy archive!
 mandatory
@@ -272,7 +272,7 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
-File: 2-do_deploy_web_static.py
+- File: 2-do_deploy_web_static.py
 
 3. Full deployment
 mandatory
@@ -378,7 +378,7 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 **Repo:**
 
 - GitHub repository: `AirBnB_clone_v2`
-File: 3-deploy_web_static.py
+- File: 3-deploy_web_static.py
 
 4. Keep it clean!
 #advanced
@@ -410,7 +410,7 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-File: 100-clean_web_static.py
+- File: 100-clean_web_static.py
 
 ### 5. Puppet for setup
 
@@ -449,4 +449,4 @@ ubuntu@89-web-01:~/$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-File: 101-setup_web_static.pp
+- File: 101-setup_web_static.pp
