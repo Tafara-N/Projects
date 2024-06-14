@@ -167,8 +167,9 @@ Update the `def do_create(self, arg):` function of your command interpreter (`co
 		- all underscores `_` must be replace by spaces . Example: You want to set the string `My little house` to the attribute `name`, your command line must be `name="My_little_house"`
 	- Float: `<unit>.<decimal>` => contains a dot .
 	- Integer: `<number>` => default case
-If any parameter doesn’t fit with these requirements or can’t be recognized correctly by your program, it must be skipped
-Don’t forget to add tests for this new feature!
+- If any parameter doesn’t fit with these requirements or can’t be recognized correctly by your program, it must be skipped
+
+**Don’t forget to add tests for this new feature!**
 
 Also, this new feature will be tested here only with FileStorage engine.
 
