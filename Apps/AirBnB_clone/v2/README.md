@@ -341,33 +341,34 @@ It’s time to change your storage engine and use `SQLAlchemy`
 
 In the following steps, you will make multiple changes:
 
-the biggest one is the transition between FileStorage and DBStorage: In the industry, you will never find a system who can work with both in the same time - but you will find a lot of services who can manage multiple storage systems. (for example, logs service: in memory, in disk, in database, in ElasticSearch etc…) - The main concept behind is the abstraction: Make your code running without knowing how it’s stored.
-add attributes for SQLAlchemy: they will be class attributes, like previously, with a “weird” value. Don’t worry, these values are for description and mapping to the database. If you change one of these values, or add/remove one attribute of the a model, you will have to delete the database and recreate it in SQL. (Yes it’s not optimal, but for development purposes, it’s ok. In production, we will add “migration mechanism” - for the moment, don’t spend time on it.)
+- the biggest one is the transition between `FileStorage` and `DBStorage`: In the industry, you will never find a system who can work with both in the same time - but you will find a lot of services who can manage multiple storage systems. (for example, logs service: in memory, in disk, in database, in ElasticSearch etc…) - The main concept behind is the **abstraction**: Make your code running without knowing how it’s stored.
+- add attributes for SQLAlchemy: they will be class attributes, like previously, with a “weird” value. Don’t worry, these values are for description and mapping to the database. If you change one of these values, or add/remove one attribute of the a model, you will have to delete the database and recreate it in SQL. (Yes it’s not optimal, but for development purposes, it’s ok. In production, we will add “migration mechanism” - for the moment, don’t spend time on it.)
+
 Please follow all these steps:
 
-Update BaseModel: (models/base_model.py)
+Update `BaseModel`: (`models/base_model.py`)
+- Create `Base = declarative_base()` before the class definition of `BaseModel`
+- **Note! BaseModel does /not/ inherit from Base. All other classes will inherit from BaseModel to get common values (id, `created_at`, `updated_at`), where inheriting from Base will actually cause SQLAlchemy to attempt to map it to a table.**
+- Add or replace in the class `BaseModel`:
+	- class attribute `id`
+		- represents a column containing a unique string (60 characters)
+		- can’t be null
+		- primary key
+	- class attribute `created_at`
+		- represents a column containing a datetime
+		- can’t be null
+		- default value is the current datetime (use `datetime.utcnow()`)
+	- class attribute `updated_at`
+		- represents a column containing a datetime
+		- can’t be null
+		- default value is the current datetime (use `datetime.utcnow()`)
+- Move the `models.storage.new(self)` from `def __init__(self, *args, **kwargs):` to `def save(self):` and call it just before `models.storage.save()`
+- In `def __init__(self, *args, **kwargs):`, manage `kwargs` to create instance attribute from this dictionary. Ex: `kwargs={ 'name': "California" }` => `self.name = "California"` if it’s not already the case
+- Update the `to_dict()` method of the class `BaseModel`:
+	- remove the key `_sa_instance_state` from the dictionary returned by this method **only if this key exists**
+- Add a new public instance method: `def delete(self):` to delete the current instance from the storage (`models.storage`) by calling the method `delete`
 
-Create Base = declarative_base() before the class definition of BaseModel
-Note! BaseModel does /not/ inherit from Base. All other classes will inherit from BaseModel to get common values (id, created_at, updated_at), where inheriting from Base will actually cause SQLAlchemy to attempt to map it to a table.
-Add or replace in the class BaseModel:
-class attribute id
-represents a column containing a unique string (60 characters)
-can’t be null
-primary key
-class attribute created_at
-represents a column containing a datetime
-can’t be null
-default value is the current datetime (use datetime.utcnow())
-class attribute updated_at
-represents a column containing a datetime
-can’t be null
-default value is the current datetime (use datetime.utcnow())
-Move the models.storage.new(self) from def __init__(self, *args, **kwargs): to def save(self): and call it just before models.storage.save()
-In def __init__(self, *args, **kwargs):, manage kwargs to create instance attribute from this dictionary. Ex: kwargs={ 'name': "California" } => self.name = "California" if it’s not already the case
-Update the to_dict() method of the class BaseModel:
-remove the key _sa_instance_state from the dictionary returned by this method only if this key exists
-Add a new public instance method: def delete(self): to delete the current instance from the storage (models.storage) by calling the method delete
-Update City: (models/city.py)
+Update `City`: (`models/city.py`)
 
 City inherits from BaseModel and Base (respect the order)
 Add or replace in the class City:
