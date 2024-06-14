@@ -17,14 +17,14 @@ Before starting, please fork the repository AirBnB_clone_v2 from your partner if
 Resources
 Read or watch:
 
-How to use Fabric
-How to use Fabric in Python
-Fabric and command line options
-CI/CD concept page
-Nginx configuration for beginners
-Difference between root and alias on NGINX
-Fabric for Python 3
-Fabric Documentation
+- [How to use Fabric]()
+- [How to use Fabric in Python]()
+- [Fabric and command line options]()
+- [CI/CD concept page]()
+- [Nginx configuration for beginners]()
+- [Difference between root and alias on NGINX]()
+- [Fabric for Python 3]()
+- [Fabric Documentation]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/MLmzWvIjzIfTODyWZojfRQ), **without the help of Google:**
