@@ -171,8 +171,9 @@ Update the `def do_create(self, arg):` function of your command interpreter (`co
 
 **Don’t forget to add tests for this new feature!**
 
-Also, this new feature will be tested here only with FileStorage engine.
+Also, this new feature will be tested here only with `FileStorage` engine.
 
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ cat test_params_create
 create State name="California"
 create State name="Arizona"
@@ -188,10 +189,11 @@ guillaume@ubuntu:~/AirBnB_v2$ cat test_params_create | ./console.py
 (hbnb) [[Place] (76b65327-9e94-4632-b688-aaa22ab8a124) {'number_bathrooms': 2, 'longitude': -122.431297, 'city_id': '0001', 'user_id': '0001', 'latitude': 37.773972, 'price_by_night': 300, 'name': 'My little house', 'id': '76b65327-9e94-4632-b688-aaa22ab8a124', 'max_guest': 10, 'number_rooms': 4, 'updated_at': datetime.datetime(2017, 11, 10, 4, 41, 7, 843774), 'created_at': datetime.datetime(2017, 11, 10, 4, 41, 7, 843747)}]
 (hbnb)
 guillaume@ubuntu:~/AirBnB_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: console.py, models/, tests/
+- File: `console.py, models/, tests/`
 
 3. MySQL setup development
 mandatory
