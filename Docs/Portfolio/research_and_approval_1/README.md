@@ -12,7 +12,7 @@ Before starting any coding, you will need to research and define your portfolio 
 
 This first part is focused on creating a Project Proposal and requires that a google Document is submitted for Manual Review by a technical staff member. Please take time to brainstorm, research, and explore what currently exists during this first phase.
 
-Examples of the past
+**Examples of the past**
 Explore some student projects from previous cohorts!
 
 Puppr (GitHub) – by Laura Roudge (Cohort 8), Drew Maring (Cohort 8), and Marc Cavigli (Cohort 8)
