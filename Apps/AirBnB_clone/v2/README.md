@@ -151,13 +151,12 @@ For example, “you want to validate that the `create State name="California"` c
 - execute the console command
 - get (again) the number of current records in the table `states` (same method, with `MySQLdb`)
 - if the difference is `+1` => test passed
-**Repo:**
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
 
-2. Console improvements
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
+### 2. Console improvements
+
 Update the def do_create(self, arg): function of your command interpreter (console.py) to allow for object creation with given parameters:
 
 Command syntax: create <Class name> <param 1> <param 2> <param 3>...
