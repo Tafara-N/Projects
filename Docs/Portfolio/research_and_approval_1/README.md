@@ -21,7 +21,7 @@ Explore some student projects from previous cohorts!
 - Lyrical Learning ([GitHub](https://intranet.alxswe.com/rltoken/nftYC6VX-RtFs39QjY15Hg)) – by [David Kwan (Cohort 8)](https://intranet.alxswe.com/rltoken/fPhJzGARXYbOvTUyCgku6Q)
 - Eggify ([GitHub](https://intranet.alxswe.com/rltoken/0-W_Ybq6iI5OX8SyhxYGDQ)) – by [Athena Deng (Cohort 7)](https://intranet.alxswe.com/rltoken/_g6Zz_hYcwEYecXkBq98Hw) & [Samie Azad (Cohort 7)](https://intranet.alxswe.com/rltoken/6ErsGSP_2vvJV3REc--RKQ)
 - IdeaDog ([GitHub](https://intranet.alxswe.com/rltoken/F1V9oW1LVgojsfpmXDBNYQ)) – by [Brennan D Baraban (Cohort 7)](https://intranet.alxswe.com/rltoken/gBDqwJz1UEpfnlXLJkSJFA)
-- Job Odyssey ([GitHub](https://intranet.alxswe.com/rltoken/RkrrfaCIsVvWIrE_KkCPlw)) – by Susan Su (Cohort 7) & Christopher Choe (Cohort 7)
+- Job Odyssey ([GitHub](https://intranet.alxswe.com/rltoken/RkrrfaCIsVvWIrE_KkCPlw)) – by [Susan Su (Cohort 7)](https://intranet.alxswe.com/rltoken/hYfutlm7ZvxrEcLtlcrSGQ) & [Christopher Choe (Cohort 7)](https://intranet.alxswe.com/rltoken/hQKWStTqRelSRw9F4UJEOQ)
 
 **Some things to think about**
 
