@@ -206,26 +206,27 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 - GitHub repository: `AirBnB_clone_v2`
 - File: 1-pack_web_static.py
 
-2. Deploy archive!
-mandatory
-Score: 100.0% (Checks completed: 100.0%)
-Write a Fabric script (based on the file 1-pack_web_static.py) that distributes an archive to your web servers, using the function do_deploy:
+### 2. Deploy archive!
 
-Prototype: def do_deploy(archive_path):
-Returns False if the file at the path archive_path doesn’t exist
-The script should take the following steps:
-Upload the archive to the /tmp/ directory of the web server
-Uncompress the archive to the folder /data/web_static/releases/<archive filename without extension> on the web server
-Delete the archive from the web server
-Delete the symbolic link /data/web_static/current from the web server
-Create a new the symbolic link /data/web_static/current on the web server, linked to the new version of your code (/data/web_static/releases/<archive filename without extension>)
-All remote commands must be executed on your both web servers (using env.hosts = ['<IP web-01>', 'IP web-02'] variable in your script)
-Returns True if all operations have been done correctly, otherwise returns False
-You must use this script to deploy it on your servers: xx-web-01 and xx-web-02
-In the following example, the SSH key and the username used for accessing to the server are passed in the command line. Of course, you could define them as Fabric environment variables (ex: env.user =...)
+Write a Fabric script (based on the file `1-pack_web_static.py`) that distributes an archive to your web servers, using the function `do_deploy`:
 
-Disclaimer: commands execute by Fabric displayed below are linked to the way we implemented the archive function do_pack - like the mv command - depending of your implementation of it, you may don’t need it
+- Prototype: `def do_deploy(archive_path):`
+- Returns `False` if the file at the path archive_path doesn’t exist
+- The script should take the following steps:
+	- Upload the archive to the `/tmp/` directory of the web server
+	- Uncompress the archive to the folder `/data/web_static/releases/<archive filename without extension>` on the web server
+	- Delete the archive from the web server
+	- Delete the symbolic link `/data/web_static/current` from the web server
+	- Create a new the symbolic link `/data/web_static/current` on the web server, linked to the new version of your code (`/data/web_static/releases/<archive filename without extension>`)
+- All remote commands must be executed on your both web servers (using `env.hosts = ['<IP web-01>', 'IP web-02']` variable in your script)
+- Returns `True` if all operations have been done correctly, otherwise returns `False`
+- You must use this script to deploy it on your servers: `xx-web-01` and `xx-web-02`
 
+In the following example, the SSH key and the username used for accessing to the server are passed in the command line. Of course, you could define them as Fabric environment variables (ex: `env.user =...`)
+
+Disclaimer: commands execute by Fabric displayed below are linked to the way we implemented the archive function `do_pack` - like the `mv` command - depending of your implementation of it, you may don’t need it
+
+```shell
 guillaume@ubuntu:~/AirBnB_clone_v2$ fab -f 2-do_deploy_web_static.py do_deploy:archive_path=versions/web_static_20170315003959.tgz -i my_ssh_private_key -u ubuntu
 [52.55.249.213] Executing task 'do_deploy'
 [52.55.249.213] put: versions/web_static_20170315003959.tgz -> /tmp/web_static_20170315003959.tgz
@@ -269,10 +270,11 @@ guillaume@ubuntu:~/AirBnB_clone_v2$ curl 54.157.32.137/hbnb_static/0-index.html
     </body>
 </html>
 guillaume@ubuntu:~/AirBnB_clone_v2$
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: 2-do_deploy_web_static.py
+- File: `2-do_deploy_web_static.py`
 
 ### 3. Full deployment
 
