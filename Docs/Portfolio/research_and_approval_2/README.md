@@ -115,21 +115,19 @@ Tools: [SqlDBM](https://intranet.alxswe.com/rltoken/6NDhFhDLlvGnO5IQPjNxsA)
 Example: ![Data Modelling](83eed8d2d8a6b390f16f.gif)
 
 ### 5. User Stories
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-First, research what user stories are, and how to write them. Also note some pitfalls of creating user stories that are too general.
+
+First, research what [user stories](https://intranet.alxswe.com/rltoken/MP_p24nJnvQxErkP0IpZtA) are, and how to write them. Also note [some pitfalls](https://intranet.alxswe.com/rltoken/FLr9JQQFgm0zz3ZEfqKCwA) of creating user stories that are too general.
 
 In the “User Stories” section:
 
-Define 3-5 detailed user stories that will be satisfied when your MVP is complete.
+- Define 3-5 detailed user stories that will be satisfied when your MVP is complete.
 
 6. Mockups
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
+![Mock Ups](mock_ups.png)
 
-If there is any visual interface to your Portfolio Project, this section is required. If your project lives on the commandline, or in script, then do not include this section. Use a prototyping tool, like Balsamiq, to draft your user-facing visual interfaces.
+If there is any visual interface to your Portfolio Project, this section is required. If your project lives on the commandline, or in script, then do not include this section. Use a prototyping tool, like [Balsamiq](https://intranet.alxswe.com/rltoken/gr0KAmc8Pgs7IMawbJtlIQ), to draft your user-facing visual interfaces.
 
 In a section called “Mockups”:
 
-Include a mockup of each view that will need to be created for your MVP
+- Include a mockup of each view that will need to be created for your MVP
