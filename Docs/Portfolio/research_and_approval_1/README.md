@@ -54,34 +54,29 @@ More Info
 Manual QA Review
 Review and approval for your portfolio project can be done by a peer.
 
-Tasks
-0. Share your project proposal!
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+## Tasks
+
+### 0. Share your project proposal!
+
 Share a link here to a Google Document where each of the following tasks are addressed.
 
-Add URLs here:
+### 1. Project name and tag line
 
-1. Project name and tag line
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Rename the document to be the Project’s name.
 
 At the top of the document restate the project name as a header. Add a tagline below which is exactly one sentence (or phrase) that best summarizes your project.
 
 
-2. Team Members
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+### 2. Team Members
+
 In a section named “Team”, answer:
 
 What are the names of the team members?
 What role will each person play in completing the project?
 Why have those roles been decided?
 
-3. Technologies
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+### 3. Technologies
+
 In a section named “Technologies”:
 
 List the libraries, languages, platforms, frameworks, hardware, books, resources that will be necessary to complete your project.
