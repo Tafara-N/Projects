@@ -71,9 +71,9 @@ At the top of the document restate the project name as a header. Add a tagline b
 
 In a section named “Team”, answer:
 
-What are the names of the team members?
-What role will each person play in completing the project?
-Why have those roles been decided?
+- What are the names of the team members?
+- What role will each person play in completing the project?
+- Why have those roles been decided?
 
 ### 3. Technologies
 
