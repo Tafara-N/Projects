@@ -410,12 +410,13 @@ guillaume@ubuntu:~/AirBnB_clone_v2$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: 100-clean_web_static.py
+- File: `100-clean_web_static.py`
 
 ### 5. Puppet for setup
 
 Redo the task #0 but by using Puppet:
 
+```shell
 ubuntu@89-web-01:~/$ puppet apply 101-setup_web_static.pp
 ....
 ubuntu@89-web-01:~/$ ls -l /data
@@ -449,4 +450,4 @@ ubuntu@89-web-01:~/$
 
 **Repo:**
 - GitHub repository: `AirBnB_clone_v2`
-- File: 101-setup_web_static.pp
+- File: `101-setup_web_static.pp`
