@@ -422,18 +422,18 @@ New engine `DBStorage`: (`models/engine/db_storage.py`)
 	- `save(self)`: commit all changes of the current database session (`self.__session`)
 	- `delete(self, obj=None)`: delete from the current database session `obj` if not `None`
 	- `reload(self)`:
-- create all tables in the database (feature of SQLAlchemy) (WARNING: all classes who inherit from `Base` must be imported before calling `Base.metadata.create_all(engine)`)
-- create the current database session (`self.__session`) from the engine (`self.__engine`) by using a [sessionmaker](https://intranet.alxswe.com/rltoken/FhKkGICnmM0DN4TrlfJw3g) - the option `expire_on_commit` must be set to `False` ; and [scoped_session](https://intranet.alxswe.com/rltoken/kSil6Cs0L7bWTXNJTrk9yw) - to make sure your Session is thread-safe
+		- create all tables in the database (feature of SQLAlchemy) (WARNING: all classes who inherit from `Base` must be imported before calling `Base.metadata.create_all(engine)`)
+		- create the current database session (`self.__session`) from the engine (`self.__engine`) by using a [sessionmaker](https://intranet.alxswe.com/rltoken/FhKkGICnmM0DN4TrlfJw3g) - the option `expire_on_commit` must be set to `False` ; and [scoped_session](https://intranet.alxswe.com/rltoken/kSil6Cs0L7bWTXNJTrk9yw) - to make sure your Session is thread-safe
 
 Update `__init__.py`: (`models/__init__.py`)
 
-Add a conditional depending of the value of the environment variable HBNB_TYPE_STORAGE:
-If equal to db:
-Import DBStorage class in this file
-Create an instance of DBStorage and store it in the variable storage (the line storage.reload() should be executed after this instantiation)
+- Add a conditional depending of the value of the environment variable `HBNB_TYPE_STORAGE`:
+	- If equal to `db`:
+Import `DBStorage` class in this file
+Create an instance of `DBStorage` and store it in the variable `storage` (the line `storage.reload()` should be executed after this instantiation)
 Else:
-Import FileStorage class in this file
-Create an instance of FileStorage and store it in the variable storage (the line storage.reload() should be executed after this instantiation)
+Import `FileStorage` class in this file
+Create an instance of `FileStorage` and store it in the variable `storage` (the line `storage.reload()` should be executed after this instantiation)
 This “switch” will allow you to change storage type directly by using an environment variable (example below)
 State creation:
 
