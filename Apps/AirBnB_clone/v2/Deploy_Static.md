@@ -133,7 +133,7 @@ What is the Fabric command to upload a file (from local to remote)?
 
 - [ ] `get`
 
-- [ ] `put
+- [ ] `put`
 
 - [ ] `run`
 
