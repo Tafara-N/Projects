@@ -64,8 +64,11 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.3-1~ubuntu20.04.1 via apt-get) without any errors
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-More Info
-Install Fabric for Python 3 - version 1.14.post1
+# More Info
+
+### Install Fabric for Python 3 - version 1.14.post1
+
+```
 $ pip3 uninstall Fabric
 $ sudo apt-get install libffi-dev
 $ sudo apt-get install libssl-dev
@@ -79,11 +82,81 @@ $ pip3 install cryptography==2.8
 $ pip3 install bcrypt==3.1.7
 $ pip3 install PyNaCl==1.3.0
 $ pip3 install Fabric3==1.14.post1
-Video library(1 total)
-Search by title
-Deploy static files with Fabric
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
+```
+
+## Quiz questions
+
+### Question #0
+
+What is the default name of a Fabric file?
+
+- [ ] Fabricfile
+
+- [ ] Dockerfile
+
+- [ ] fabfile.py
+
+- [ ] Fabric.py
+
+### Question #1
+
+What is the Fabric command to execute a shell command locally?
+
+- [ ] `local`
+
+- [ ] `put`
+
+- [ ] `get`
+
+- [ ] `run`
+
+### Question #2
+
+What is the Fabric command to download a file (from remote to local)?
+
+- [ ] `local`
+
+- [ ] `get`
+
+- [ ] `put`
+
+- [ ] `run`
+
+### Question #3
+
+What is the Fabric command to upload a file (from local to remote)?
+
+- [ ] `local`
+
+- [ ] `get`
+
+- [ ] `put
+
+- [ ] `run`
+
+### Question #4
+
+What is the Fabric command to execute a shell command remotely?
+
+- [ ] `local`
+
+- [ ] `put`
+
+- [ ] `get`
+
+- [ ] `run`
+
+### Question #5
+
+What is the Fabric command for asking information to the user?
+
+- [ ] `local`
+
+- [ ] `put`
+
+- [ ] `prompt`
+
+- [ ] `ask`
 
 ## Tasks
 
@@ -92,17 +165,17 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Write a Bash script that sets up your web servers for the deployment of `web_static`. It must:
 
 - Install Nginx if it not already installed
-- Create the folder /data/ if it doesn’t already exist
-- Create the folder /data/web_static/ if it doesn’t already exist
-- Create the folder /data/web_static/releases/ if it doesn’t already exist
-- Create the folder /data/web_static/shared/ if it doesn’t already exist
-- Create the folder /data/web_static/releases/test/ if it doesn’t already exist
-- Create a fake HTML file /data/web_static/releases/test/index.html (with simple content, to test your Nginx configuration)
-- Create a symbolic link /data/web_static/current linked to the /data/web_static/releases/test/ folder. If the symbolic link already exists, it should be deleted and recreated every time the script is ran.
-- Give ownership of the /data/ folder to the ubuntu user AND group (you can assume this user and group exist). This should be recursive; everything inside should be created/owned by this user/group.
-- Update the Nginx configuration to serve the content of /data/web_static/current/ to hbnb_static (ex: https://mydomainname.tech/hbnb_static). Don’t forget to restart Nginx after updating the configuration:
-- Use `alias` inside your Nginx configuration
-- [Tip](https://intranet.alxswe.com/rltoken/Wiu7_JKqjRgCeb34DbrYog)
+- Create the folder `/data/` if it doesn’t already exist
+- Create the folder `/data/web_static/` if it doesn’t already exist
+- Create the folder `/data/web_static/releases/` if it doesn’t already exist
+- Create the folder `/data/web_static/shared/` if it doesn’t already exist
+- Create the folder `/data/web_static/releases/test/` if it doesn’t already exist
+- Create a fake HTML file `/data/web_static/releases/test/index.html` (with simple content, to test your Nginx configuration)
+- Create a symbolic link `/data/web_static/current` linked to the `/data/web_static/releases/test/` folder. If the symbolic link already exists, it should be deleted and recreated every time the script is ran.
+- Give ownership of the `/data/` folder to the `ubuntu` user AND group (you can assume this user and group exist). This should be recursive; everything inside should be created/owned by this user/group.
+- Update the Nginx configuration to serve the content of `/data/web_static/current/` to `hbnb_static` (ex: `https://mydomainname.tech/hbnb_static`). Don’t forget to restart Nginx after updating the configuration:
+	- Use `alias` inside your Nginx configuration
+	- [Tip](https://intranet.alxswe.com/rltoken/Wiu7_JKqjRgCeb34DbrYog)
 
 Your program should always exit successfully. **Don’t forget to run your script on both of your web servers.**
 
