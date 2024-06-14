@@ -2,7 +2,7 @@
 
 *For this project, we expect you to look at these concepts:*
 
-- [Portfolio Project Deeper Overview]()
+- [Portfolio Project Deeper Overview](https://intranet.alxswe.com/concepts/102042)
 - [Portfolio Project Overview]()
 - [Maze project]()
 
