@@ -369,9 +369,10 @@ Update `BaseModel`: (`models/base_model.py`)
 - Add a new public instance method: `def delete(self):` to delete the current instance from the storage (`models.storage`) by calling the method `delete`
 
 Update `City`: (`models/city.py`)
+
 - City inherits from `BaseModel` and `Base` (respect the order)
-Add or replace in the class `City`:
-class attribute __tablename__ -
+- Add or replace in the class `City`:
+	- class attribute `__tablename__` -
 represents the table name, cities
 class attribute name
 represents a column containing a string (128 characters)
