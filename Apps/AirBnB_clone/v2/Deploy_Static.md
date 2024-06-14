@@ -25,8 +25,9 @@ Nginx configuration for beginners
 Difference between root and alias on NGINX
 Fabric for Python 3
 Fabric Documentation
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/MLmzWvIjzIfTODyWZojfRQ), **without the help of Google:**
 
 ## General
 
