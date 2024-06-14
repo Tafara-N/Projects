@@ -393,11 +393,12 @@ Update `State`: (`models/state.py`)
 		- can’t be null
 	- for `DBStorage`: class attribute `cities` must represent a relationship with the class `City`. If the `State` object is deleted, all linked `City` objects must be automatically deleted. Also, the reference from a `City` object to his `State` should be named `state`
 	- for `FileStorage`: getter attribute `cities` that returns the list of `City` instances with `state_id` equals to the current `State.id` => It will be the `FileStorage` relationship between `State` and `City`
-New engine DBStorage: (models/engine/db_storage.py)
 
-Private class attributes:
-__engine: set to None
-__session: set to None
+New engine `DBStorage`: (`models/engine/db_storage.py`)
+
+- Private class attributes:
+	- `__engine`: set to `None`
+	- `__session`: set to `None`
 Public instance methods:
 __init__(self):
 create the engine (self.__engine)
