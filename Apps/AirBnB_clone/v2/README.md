@@ -410,8 +410,8 @@ New engine `DBStorage`: (`models/engine/db_storage.py`)
 			- MySQL password: `HBNB_MYSQL_PWD`
 			- MySQL host: `HBNB_MYSQL_HOST` (here = `localhost`)
 			- MySQL database: `HBNB_MYSQL_DB`
-don’t forget the option pool_pre_ping=True when you call create_engine
-drop all tables if the environment variable HBNB_ENV is equal to test
+		- don’t forget the option `pool_pre_ping=True` when you call `create_engine`
+		- drop all tables if the environment variable `HBNB_ENV` is equal to `test`
 all(self, cls=None):
 query on the current database session (self.__session) all objects depending of the class name (argument cls)
 if cls=None, query all types of objects (User, State, City, Amenity, Place and Review)
