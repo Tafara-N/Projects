@@ -659,7 +659,7 @@ Update `Place`: (`models/place.py`)
 - for `DBStorage`: class attribute `reviews` must represent a relationship with the class `Review`. If the `Place` object is deleted, all linked `Review` objects must be automatically deleted. Also, the reference from a `Review` object to his `Place` should be named `place`
 - for `FileStorage`: getter attribute `reviews` that returns the list of `Review` instances with `place_id` equals to the current `Place.id` => It will be the `FileStorage` relationship between `Place` and `Review`
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB_v2$
 guillaume@ubuntu:~/AirBnB_v2$ echo 'create User email="bob@hbtn.io" password="bobpwd" first_name="Bob" last_name="Dylan"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
 (hbnb) d93638d9-8233-4124-8f4e-17786592908b
@@ -728,7 +728,7 @@ To make this link working, we will create a third table called `place_amenity` t
 
 And you are good, you have a new engine!
 
-```
+```shell
 guillaume@ubuntu:~/AirBnB_v2$ cat main_place_amenities.py
 #!/usr/bin/python3
 """ Test link Many-To-Many Place <> Amenity
