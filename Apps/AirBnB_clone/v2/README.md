@@ -375,8 +375,8 @@ Update `City`: (`models/city.py`)
 	- class attribute `__tablename__` -
 		- represents the table name, `cities`
 	- class attribute `name`
-represents a column containing a string (128 characters)
-can’t be null
+		- represents a column containing a string (128 characters)
+		- can’t be null
 class attribute state_id
 represents a column containing a string (60 characters)
 can’t be null
