@@ -122,7 +122,7 @@ In the “User Stories” section:
 
 - Define 3-5 detailed user stories that will be satisfied when your MVP is complete.
 
-6. Mockups
+### 6. Mockups
 
 ![Mock Ups](mock_ups.png)
 
