@@ -4,7 +4,7 @@
 
 *For this project, we expect you to look at these concepts:*
 
-- [Web Stack Portfolio Project Criteria]()
+- [Web Stack Portfolio Project Criteria](https://intranet.alxswe.com/concepts/102912)
 - [Portfolio Project Idea Bank]()
 - [Portfolio Project Idea Bank]()
 - [Portfolio project]()
