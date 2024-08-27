@@ -55,7 +55,7 @@ More Info
 Manual QA Review
 Review and approval for your portfolio project must be done by a peer.
 
-The team will record a pitch and share the link to the recording in the below task 0
+- **The team will record a pitch and share the link to the recording in the below task 0**
 
 ## Tasks
 
