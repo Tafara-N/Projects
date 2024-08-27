@@ -4,10 +4,10 @@
 
 *For this project, we expect you to look at these concepts:*
 
-Web Stack Portfolio Project Criteria
-Portfolio Project Idea Bank
-Portfolio Project Idea Bank
-Portfolio project
+- [Web Stack Portfolio Project Criteria
+- [Portfolio Project Idea Bank
+- [Portfolio Project Idea Bank
+- [Portfolio project
 
 # Last run!
 
