@@ -48,7 +48,7 @@ To end the curriculum, the portfolio project is split in 3 parts:
 Ready? Go!
 
 ## Resources
-- [How To Create an Effective Software Project Plan]()
+- [How To Create an Effective Software Project Plan](https://www.indeed.com/career-advice/career-development/software-project-plan)
 - [11 tips to plan, organize, and execute software engineering processes]()
 - [How to organize a one-man project?]()
 - [Software project planning]()
