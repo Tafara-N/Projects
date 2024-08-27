@@ -73,15 +73,15 @@ When you know these answers, you will have to prepare a pitch:
 
 - Max 10min of pitch (please repeat to not go over)
 - Google slide presentation with:
-- Name of the project
-- List of team members
-- Description of the project
-- Learning objectives
-- Technologies used
-- Third services used if applicable
-- Challenges already identified
-- Schedule of work (by using Trello or Kanban board or other) - don’t forget that you have less then 4 weeks (27 days exactly)
-- Mock-ups if applicable
+    - Name of the project
+    - List of team members
+    - Description of the project
+    - Learning objectives
+    - Technologies used
+    - Third services used if applicable
+    - Challenges already identified
+    - Schedule of work (by using Trello or Kanban board or other) - don’t forget that you have less then 4 weeks (27 days exactly)
+    - Mock-ups if applicable
 Video Recording of one or more team members presenting the pitch (using the Google Slide presentation)
 Please post your slides and the recording to your web-stack portfolio pitch here.
 
