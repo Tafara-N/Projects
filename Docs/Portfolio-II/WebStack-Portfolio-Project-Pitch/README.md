@@ -8,7 +8,9 @@ Web Stack Portfolio Project Criteria
 Portfolio Project Idea Bank
 Portfolio Project Idea Bank
 Portfolio project
-Last run!
+
+# Last run!
+
 Yes! the portfolio project of the Webstack specialization will be your last-major-project!
 
 ## Make your choice
