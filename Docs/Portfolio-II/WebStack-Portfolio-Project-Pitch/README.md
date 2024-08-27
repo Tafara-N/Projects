@@ -51,8 +51,11 @@ Ready? Go!
 - [How to organize a one-man project?
 - [Software project planning
 - [Software Planning and Technical Documentation
-More Info
-Manual QA Review
+
+# More Info
+
+## Manual QA Review
+
 Review and approval for your portfolio project must be done by a peer.
 
 - **The team will record a pitch and share the link to the recording in the below task 0**
