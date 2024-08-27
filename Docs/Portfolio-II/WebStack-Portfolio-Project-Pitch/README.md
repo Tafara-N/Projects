@@ -15,11 +15,11 @@ Be before starting any coding, you will need to research and define the project.
 
 This project is important:
 
-Because it will end your pathway at ALX
-It’s summarize the entire Back-end specialization
-The weight of this project is important in your overall score
-You can be as creative as you want
-And the most important: You should be proud of it - it will be THE project to show off during interview
+- Because it will end your pathway at ALX
+- It’s summarize the entire Back-end specialization
+- The weight of this project is important in your overall score
+- You can be as creative as you want
+- And the most important: You should be proud of it - it will be THE project to show off during interview
 
 ## Solo or by team?
 
