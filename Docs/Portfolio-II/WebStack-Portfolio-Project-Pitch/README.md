@@ -56,8 +56,10 @@ Manual QA Review
 Review and approval for your portfolio project must be done by a peer.
 
 The team will record a pitch and share the link to the recording in the below task 0
-Tasks
-0. Pitch me your idea!
+
+## Tasks
+
+### 0. Pitch me your idea!
 mandatory
 As mentioned in the beginning of this project, you have some questions to ask yourself:
 
@@ -84,7 +86,7 @@ Please post your slides and the recording to your web-stack portfolio pitch here
 
 Let’s do it! 💪
 
-Note:
+> **Note:**
 
 If you are multiple people in your team, decide who is going to do the review.
 
