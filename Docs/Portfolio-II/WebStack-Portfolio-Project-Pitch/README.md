@@ -68,10 +68,11 @@ As mentioned in the beginning of this project, you have some questions to ask yo
 - How do I want to build it?
 - Is it possible to build it in less than 2 weeks?
 - Do I like what I’m doing?
+
 When you know these answers, you will have to prepare a pitch:
 
-Max 10min of pitch (please repeat to not go over)
-Google slide presentation with:
+- Max 10min of pitch (please repeat to not go over)
+- Google slide presentation with:
 Name of the project
 List of team members
 Description of the project
