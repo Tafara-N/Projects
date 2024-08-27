@@ -46,11 +46,11 @@ The development
 Ready? Go!
 
 ## Resources
-- [How To Create an Effective Software Project Plan
-- [11 tips to plan, organize, and execute software engineering processes
-- [How to organize a one-man project?
-- [Software project planning
-- [Software Planning and Technical Documentation
+- [How To Create an Effective Software Project Plan]()
+- [11 tips to plan, organize, and execute software engineering processes]()
+- [How to organize a one-man project?]()
+- [Software project planning]()
+- [Software Planning and Technical Documentation]()
 
 # More Info
 
