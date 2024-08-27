@@ -6,8 +6,6 @@
 
 - [Web Stack Portfolio Project Criteria](https://intranet.alxswe.com/concepts/102912)
 - [Portfolio Project Idea Bank](https://intranet.alxswe.com/concepts/102160)
-- [Portfolio Project Idea Bank]()
-- [Portfolio project]()
 
 # Last run!
 
