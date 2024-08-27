@@ -60,7 +60,7 @@ The team will record a pitch and share the link to the recording in the below ta
 ## Tasks
 
 ### 0. Pitch me your idea!
-mandatory
+
 As mentioned in the beginning of this project, you have some questions to ask yourself:
 
 👨‍💻 Solo or team 👩‍💻 👨‍💻 👩‍💻 👨‍💻?
