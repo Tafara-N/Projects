@@ -45,12 +45,12 @@ The pitch (this project)
 The development
 Ready? Go!
 
-Resources
-How To Create an Effective Software Project Plan
-11 tips to plan, organize, and execute software engineering processes
-How to organize a one-man project?
-Software project planning
-Software Planning and Technical Documentation
+## Resources
+- [How To Create an Effective Software Project Plan
+- [11 tips to plan, organize, and execute software engineering processes
+- [How to organize a one-man project?
+- [Software project planning
+- [Software Planning and Technical Documentation
 More Info
 Manual QA Review
 Review and approval for your portfolio project must be done by a peer.
