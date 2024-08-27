@@ -52,7 +52,7 @@ Ready? Go!
 - [11 tips to plan, organize, and execute software engineering processes](https://www.teamwork.com/blog/software-engineering-processes/)
 - [How to organize a one-man project?](https://softwareengineering.stackexchange.com/questions/98101/how-to-organize-a-one-man-project)
 - [Software project planning](https://www.youtube.com/watch?v=X6CkWPjLkhg)
-- [Software Planning and Technical Documentation]()
+- [Software Planning and Technical Documentation](https://www.youtube.com/watch?v=2qlcY9LkFik)
 
 # More Info
 
