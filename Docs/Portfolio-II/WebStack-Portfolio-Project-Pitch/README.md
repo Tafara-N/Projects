@@ -8,7 +8,8 @@ Portfolio project
 Last run!
 Yes! the portfolio project of the Webstack specialization will be your last-major-project!
 
-Make your choice
+## Make your choice
+
 You will have almost 2 weeks to develop your portfolio project - during this period you will be alone or by team - to create a fully functional web application.
 
 Be before starting any coding, you will need to research and define the project.
