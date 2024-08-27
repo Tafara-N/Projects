@@ -20,7 +20,8 @@ It’s summarize the entire Back-end specialization
 The weight of this project is important in your overall score
 You can be as creative as you want
 And the most important: You should be proud of it - it will be THE project to show off during interview
-Solo or by team?
+
+## Solo or by team?
 Good question right?
 
 The first question you should ask yourself is: what I want to do?
