@@ -83,6 +83,7 @@ When you know these answers, you will have to prepare a pitch:
     - Schedule of work (by using [Trello](https://trello.com/en) or [Kanban board](https://kanbanflow.com/) or other) - don’t forget that you have less then 4 weeks (27 days exactly)
     - Mock-ups if applicable
 - Video Recording of one or more team members presenting the pitch (using the Google Slide presentation)
+
 Please post your slides and the recording to your web-stack portfolio pitch here.
 
 Let’s do it! 💪
