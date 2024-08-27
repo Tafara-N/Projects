@@ -22,9 +22,10 @@ You can be as creative as you want
 And the most important: You should be proud of it - it will be THE project to show off during interview
 
 ## Solo or by team?
+
 Good question right?
 
-The first question you should ask yourself is: what I want to do?
+The first question you should ask yourself is: **what I want to do?**
 
 Front-end app? Mobile app? Back-end app? API service? e-commerce website? cloud platform for videos streaming? or better: a learning platform?
 
