@@ -2,7 +2,7 @@
 
 ## Concepts
 
-For this project, we expect you to look at these concepts:
+*For this project, we expect you to look at these concepts:*
 
 Web Stack Portfolio Project Criteria
 Portfolio Project Idea Bank
