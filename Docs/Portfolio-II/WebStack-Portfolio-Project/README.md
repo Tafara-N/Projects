@@ -4,12 +4,14 @@ For this project, we expect you to look at these concepts:
 Portfolio Project Idea Bank
 Portfolio Project Idea Bank
 Portfolio project
-GO!
+
+# GO!
+
 Yes it’s time to white-board, to code, to troubleshoot bugs, to re-code, to solve other bugs, to refactor, etc..
 
 Development is not a long quiet river, but it can be really fun!
 
-Starting today, you are building YOUR project - be proud of it!
+Starting today, you are building **YOUR** project - be proud of it!
 
 # Evaluation - Show off!
 
