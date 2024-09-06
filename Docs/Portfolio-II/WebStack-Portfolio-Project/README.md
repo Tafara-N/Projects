@@ -52,7 +52,7 @@ We’ve created a tutorial video to inspire you with our expectations. Think of 
 
 A few points to consider while preparing your video:
 
-- **Maximum Video Duration:** The video should not exceed 3 minutes, ensuring it is concise and engaging.
+- **Maximum Video Duration:** The video should not exceed **3 minutes**, ensuring it is concise and engaging.
 
 - **Background Music:** If you include background music, ensure it’s **copyright-free** to avoid potential legal issues.
 
