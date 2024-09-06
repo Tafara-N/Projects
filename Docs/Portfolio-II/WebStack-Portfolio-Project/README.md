@@ -16,7 +16,8 @@ After the pitch, now you will code - nice right? but don’t forget you will pre
 
 Have fun!
 
-More info
+# More info
+
 When you are ready to be reviewed, schedule the portfolio project using the following link to be reviewed by a staff member.
 
 Here is a step by step guide on how to book the review:
