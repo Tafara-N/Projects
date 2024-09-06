@@ -79,7 +79,7 @@ Add URLs here:
 You must demonstrate a good understanding of version control through effective use in your portfolio project. This include:
 
 - Committing as often as possible
-using descriptive and professional commit messages
+- using descriptive and professional commit messages
 collaboration through the use of branches and pull requests
 
 ### 2. Quality of presentation and project
