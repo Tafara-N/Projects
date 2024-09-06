@@ -36,7 +36,8 @@ Your presentation, inclusive of the demo, should not exceed 16 minutes. You are 
     - A breakdown of the architecture and the technologies or third-party services used.
     - A report of your developments, highlighting your successes, challenges, areas for improvement, lessons learned, and next steps for your project.
     - A conclusion summarizing your experience.
-Remember, the presentation is a vital part of your project completion, so be sure to include it in your planning to avoid any delays in submission.
+
+**Remember, the presentation is a vital part of your project completion, so be sure to include it in your planning to avoid any delays in submission.**
 
 ### 1. Video Demo of your project
 
