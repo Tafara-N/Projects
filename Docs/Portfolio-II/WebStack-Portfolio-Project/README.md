@@ -80,7 +80,7 @@ You must demonstrate a good understanding of version control through effective u
 
 - Committing as often as possible
 - using descriptive and professional commit messages
-collaboration through the use of branches and pull requests
+- collaboration through the use of branches and pull requests
 
 ### 2. Quality of presentation and project
 
