@@ -54,9 +54,9 @@ A few points to consider while preparing your video:
 
 - **Maximum Video Duration:** The video should not exceed 3 minutes, ensuring it is concise and engaging.
 
-- **Background Music:** If you include background music, ensure it’s copyright-free to avoid potential legal issues.
+- **Background Music:** If you include background music, ensure it’s **copyright-free** to avoid potential legal issues.
 
-Voice-Overs: Feel free to use your voice to guide us through your project. Ensure your voice is clear, audible, and not overshadowed by the background music.
+- **Voice-Overs:** Feel free to use your voice to guide us through your project. Ensure your voice is clear, audible, and not overshadowed by the background music.
 
 Recommended Tools: We suggest using
 
