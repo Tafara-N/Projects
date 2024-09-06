@@ -1,5 +1,6 @@
-Concepts
-For this project, we expect you to look at these concepts:
+# Concepts
+
+*For this project, we expect you to look at these concepts:*
 
 Portfolio Project Idea Bank
 Portfolio Project Idea Bank
