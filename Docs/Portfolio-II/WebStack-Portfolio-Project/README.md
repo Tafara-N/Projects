@@ -22,6 +22,7 @@ When you are ready to be reviewed, schedule the portfolio project using the foll
 
 Here is a step by step guide on how to book the review:
 
+[YouTube Video](https://www.youtube.com/watch?v=abgi2aPHdso)
 
 ## Tasks
 
