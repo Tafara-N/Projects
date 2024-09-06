@@ -62,8 +62,9 @@ A few points to consider while preparing your video:
 
 - **Recording:** Zoom(record + screenshare), Loom, Camtasia, etc
 - **Editing tools** such as: Filmora Wondershare, Camtasia for your video creation.
-- **How to share:** YouTube (or, if blocked in your country, use a similar site), or a cloud storage service (G-drive, One-drive, etc). Submit the URL of your video. Make sure your video is accessible to the public - On YouTube, it’s fine to flag it as “unlisted,” but don’t flag it as “private”
-Please note that your project will not be considered complete without this video submission. It forms an integral part of your final project assessment.
+- **How to share:** YouTube (or, if blocked in your country, use a similar site), or a cloud storage service (G-drive, One-drive, etc). Submit the URL of your video. **Make sure your video is accessible to the public** - On YouTube, it’s fine to flag it as **“unlisted,”** but don’t flag it as **“private”**
+
+**Please note that your project will not be considered complete without this video submission. It forms an integral part of your final project assessment.**
 
 So, let’s see your creativity in action.
 
