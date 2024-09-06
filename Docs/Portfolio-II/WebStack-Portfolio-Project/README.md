@@ -72,8 +72,6 @@ We are eagerly awaiting your presentations and demo videos.
 
 Happy building,
 
-Add URLs here:
-
 ### 3. Good use of Version Control
 
 You must demonstrate a good understanding of version control through effective use in your portfolio project. This include:
