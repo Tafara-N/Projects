@@ -3,7 +3,7 @@
 *For this project, we expect you to look at these concepts:*
 
 - [Portfolio Project Idea Bank]()
-- [Portfolio Project Idea Bank]()
+- [Portfolio Project Idea Bank](https://intranet.alxswe.com/concepts/102161)
 - [Portfolio project](https://intranet.alxswe.com/concepts/548)
 
 # GO!
