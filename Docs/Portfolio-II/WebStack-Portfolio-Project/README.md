@@ -4,7 +4,7 @@
 
 - [Portfolio Project Idea Bank]()
 - [Portfolio Project Idea Bank]()
-- [Portfolio project]()
+- [Portfolio project](https://intranet.alxswe.com/concepts/548)
 
 # GO!
 
