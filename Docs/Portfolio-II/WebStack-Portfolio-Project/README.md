@@ -43,12 +43,7 @@ Alongside your project presentation, we require a short video demo, no longer th
 
 We’ve created a tutorial video to inspire you with our expectations. Think of it as an inspirational tool, **not a strict template**, designed to help you effectively showcase your brilliant work. Your creativity and individual touch will make your demo even more engaging.
 
-
-
-
-
-
-
+[YouTube Video](https://www.youtube.com/watch?v=PWsDWYTOW2U)
 
 A few points to consider while preparing your video:
 
