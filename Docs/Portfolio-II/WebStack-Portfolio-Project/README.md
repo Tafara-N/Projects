@@ -22,9 +22,10 @@ When you are ready to be reviewed, schedule the portfolio project using the foll
 Here is a step by step guide on how to book the review:
 
 
-Tasks
-0. The presentation
-mandatory
+## Tasks
+
+### 0. The presentation
+
 You will present your project individually or as a team on a zoom call.
 
 Your presentation, inclusive of the demo, should not exceed 16 minutes. You are expected to provide the following:
