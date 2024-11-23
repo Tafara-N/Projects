@@ -79,23 +79,26 @@ An extra step to make is to thematically fit your cover image with your profile 
 
 Sharp, high resolution photos matter here, so use high quality images.
 
-Personal Bio
+## Personal Bio
 Personal Bios are a great way to share a taste of who you are and what your passions are. Your bio should reflect the content users should expect to see you sharing.
 
-Do’s
-For your display name, use your full name to help with discovery
-Use complete sentences
-Let your personality shine
-Share about what you do, or what you want to do, professionally
-Mention your school, or later your job, with their handle (eg: @holbertonschool on Twitter)
-Link to your github, portfolio site, or similar
-Don’t’s
-Leave the bio blank
-Leave the location blank
-Use bad language
-Make spelling mistakes
-An Example from our Co-Founder
+### Do’s
+- For your display name, use your full name to help with discovery
+- Use complete sentences
+- Let your personality shine
+- Share about what you do, or what you want to do, professionally
+- Mention your school, or later your job, with their handle (eg: @holbertonschool on Twitter)
+- Link to your github, portfolio site, or similar
 
+### Don’t’s
+- Leave the bio blank
+- Leave the location blank
+- Use bad language
+- Make spelling mistakes
+
+## An Example from our Co-Founder
+
+![Slyvian](images/sylvain.png)
 
 ## Getting Started
 So, you’ve got all this information about professional social media presence, but do you know where to start?
