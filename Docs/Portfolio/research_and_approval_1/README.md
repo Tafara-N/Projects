@@ -20,8 +20,8 @@ Explore some student projects from previous cohorts!
 
 - Puppr ([GitHub](https://github.com/lroudge/puppr)) – by [Laura Roudge (Cohort 8)](https://github.com/lroudge), [Drew Maring (Cohort 8)](https://github.com/dmaring), and [Marc Cavigli (Cohort 8)](https://github.com/MCavigli)
 - OCR for Whiteboarding([GitHub](https://github.com/JohnCook17/OCR_for_whiteboarding)) – by [John Cooke (Cohort 8)](https://github.com/JohnCook17)
-- Lyrical Learning ([GitHub](https://intranet.alxswe.com/rltoken/nftYC6VX-RtFs39QjY15Hg)) – by [David Kwan (Cohort 8)](https://intranet.alxswe.com/rltoken/fPhJzGARXYbOvTUyCgku6Q)
-- Eggify ([GitHub](https://intranet.alxswe.com/rltoken/0-W_Ybq6iI5OX8SyhxYGDQ)) – by [Athena Deng (Cohort 7)](https://intranet.alxswe.com/rltoken/_g6Zz_hYcwEYecXkBq98Hw) & [Samie Azad (Cohort 7)](https://intranet.alxswe.com/rltoken/6ErsGSP_2vvJV3REc--RKQ)
+- Lyrical Learning ([GitHub](https://github.com/dwkwan/Lyrics_For_Learning)) – by [David Kwan (Cohort 8)](https://github.com/dwkwan/)
+- Eggify ([GitHub](https://github.com/ad-egg/eggify)) – by [Athena Deng (Cohort 7)](https://ad-egg.github.io/) & [Samie Azad (Cohort 7)](https://sazad44.github.io/)
 - IdeaDog ([GitHub](https://intranet.alxswe.com/rltoken/F1V9oW1LVgojsfpmXDBNYQ)) – by [Brennan D Baraban (Cohort 7)](https://intranet.alxswe.com/rltoken/gBDqwJz1UEpfnlXLJkSJFA)
 - Job Odyssey ([GitHub](https://intranet.alxswe.com/rltoken/RkrrfaCIsVvWIrE_KkCPlw)) – by [Susan Su (Cohort 7)](https://intranet.alxswe.com/rltoken/hYfutlm7ZvxrEcLtlcrSGQ) & [Christopher Choe (Cohort 7)](https://intranet.alxswe.com/rltoken/hQKWStTqRelSRw9F4UJEOQ)
 
