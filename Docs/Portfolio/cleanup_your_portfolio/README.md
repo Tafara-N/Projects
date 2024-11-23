@@ -24,7 +24,7 @@ She randomly selects some projects and pokes around. She sees a checkin comment,
 
 Go through and add comments to your code. The more, the better. If you’ve already done this, great! You have nothing more to do.
 
-If you’re unclear about the standards for comments, look up what is expected. Here’s an [example from Digital Ocean](https://intranet.alxswe.com/rltoken/NKZdruo-0Mq8obOkarTy_A) detailing the standard commenting practices for Python 3.
+If you’re unclear about the standards for comments, look up what is expected. Here’s an [example from Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-python-3) detailing the standard commenting practices for Python 3.
 
 ### 1. Clean up those commit messages
 
@@ -55,7 +55,7 @@ The required task here is to improve your `README.md` to be complete. It should 
 - Related projects
 - Licensing
 
-A couple resources: * [What your code repository says about you](https://intranet.alxswe.com/rltoken/U9p-ykec7yt-EiAlPa0FhQ) * Here’s an [awesome list of READMEs](https://intranet.alxswe.com/rltoken/28TPP0t9tEUk73CEntOJyA).
+A couple resources: * [What your code repository says about you](https://opensource.com/open-organization/17/1/repo-tells-a-story) * Here’s an [awesome list of READMEs](https://github.com/matiassingers/awesome-readme).
 
 At least one screenshot of your app must be included.
 
@@ -69,5 +69,5 @@ Here are some examples of `README.md`‘s that tell a great story:
 
 - [DeepFakes](https://github.com/deepfakes/faceswap)
 - [WikiGraph](https://github.com/erabug/wikigraph)
-- [Job Odyssey](https://intranet.alxswe.com/rltoken/oonQKOkl6uzdg0kIvO2vpg)
-- [ideadog](https://intranet.alxswe.com/rltoken/CPOu_4-3K9Hs7KtJrccUgg)
+- [Job Odyssey](https://github.com/christopherchoe/jobodyssey_hbtn)
+- [ideadog](https://github.com/bdbaraban/ideadog)
