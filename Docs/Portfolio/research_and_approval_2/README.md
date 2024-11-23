@@ -51,9 +51,9 @@ In a section named “Architecture”:
 
 Here are some resources to learn more:
 
-- [Web Architecture 101](https://intranet.alxswe.com/rltoken/-jOY1yTSoVvysinRHQPrwQ)
-- [List of tools to create architecture diagrams](https://intranet.alxswe.com/rltoken/kId2ReF-SoHUZyFEoC9zaA)
-- [Web Application Architecture](https://intranet.alxswe.com/rltoken/TmbJuwX1d6XsSd2Ppr6pSg)
+- [Web Architecture 101](https://medium.com/storyblocks-engineering/web-architecture-101-a3224e126947)
+- [List of tools to create architecture diagrams](https://geekflare.com/best-software-architecture-diagram-tools/)
+- [Web Application Architecture](https://existek.com/blog/web-application-architecture/)
 
 ### 3. APIs
 
