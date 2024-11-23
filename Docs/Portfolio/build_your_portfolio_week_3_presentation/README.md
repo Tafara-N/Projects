@@ -26,13 +26,13 @@ Presentations take practice. The mid-week PLD will give you that opportunity! Co
 
 ## Great Presentations
 
-It might be helpful to take a look at [this playlist of Ted talks about giving great presentations](https://intranet.alxswe.com/rltoken/-1_-DabdQWw5z3p_XXTKxw).
+It might be helpful to take a look at [this playlist of Ted talks about giving great presentations](https://www.ted.com/playlists/574/how_to_make_a_great_presentation).
 
 Here are some great speakers to observe and pattern your speaking after:
 
-- [Steve Jobs at Stanford Commencement 2005](https://intranet.alxswe.com/rltoken/WQIFOa6TsBx8RmkNF3g6gg)
-- [Sheryl Sandberg: Take the Lead Challenge](https://intranet.alxswe.com/rltoken/4EKm5F1wQM7ltK6aiwmWaA)
-- [Randy Pausch’s Last Lecture: Achieving your childhood dreams](https://intranet.alxswe.com/rltoken/MySZOXILBG9YflfKVgq--g)
+- [Steve Jobs at Stanford Commencement 2005](https://www.youtube.com/watch?v=1i9kcBHX2Nw)
+- [Sheryl Sandberg: Take the Lead Challenge](https://www.youtube.com/watch?v=_U-CRqK8M1c)
+- [Randy Pausch’s Last Lecture: Achieving your childhood dreams](https://www.youtube.com/watch?v=ji5_MqicxSo)
 
 What do these speakers have in common? Why are their presentations effective?
 
@@ -81,6 +81,6 @@ Scoring will be as follows: 5/5 points for a functional, engaging demo 3/5 point
 
 ### 4. Answering audience questions
 
-This is a great list of guidelines for how to answer questions during a presentation: [Witt.com](https://intranet.alxswe.com/rltoken/UCaH4HVf0UikvJbOji9Fvw)
+This is a great list of guidelines for how to answer questions during a presentation: [Witt.com](http://wittcom.com/how-to-handle-questions-and-answers-qa-made-simple/)
 
 If the Presenters receive questions from the audience, they are answered in a satisfactory way, or there is an offer to followup with an answer.
