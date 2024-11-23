@@ -97,24 +97,28 @@ Make spelling mistakes
 An Example from our Co-Founder
 
 
-Getting Started
+## Getting Started
 So, you’ve got all this information about professional social media presence, but do you know where to start?
 
 If the answer is “no”, don’t worry, here are some tips to help build and maintain your professional social media presence!
 
-Find and follow one really smart person each day on Twitter
-Give them a follow, read their work
-Each week, contribute to 3 social media conversations between Twitter and LinkedIn
-Ask and answer questions from strangers
-Geek out about something that excites you
-Once per week, evangelize what you’re doing and where you’re at in your journey
-Solve a difficult problem?
-Really work well with your partner on the last project?
-Build Connections
-Keep the conversations going
-Invite people to events you’re aware of
-Have Fun and Stay Engaged!
-Each person you meet on Twitter or through LinkedIn could be someone who helps you in future professional endeavors
+- Find and follow one really smart person each day on Twitter
+    - Give them a follow, read their work
+
+- Each week, contribute to 3 social media conversations between Twitter and LinkedIn
+    - Ask and answer questions from strangers
+    - Geek out about something that excites you
+
+- Once per week, evangelize what you’re doing and where you’re at in your journey
+    - Solve a difficult problem?
+    - Really work well with your partner on the last project?
+
+- Build Connections
+    - Keep the conversations going
+    - Invite people to events you’re aware of
+
+- Have Fun and Stay Engaged!
+    - Each person you meet on Twitter or through LinkedIn could be someone who helps you in future professional endeavors
 
 ## Quiz questions
 
