@@ -110,13 +110,13 @@ In a section named “Data Model”:
 
 - Create a data model diagram to clarify how data will be stored
 
-Tools: [SqlDBM](https://intranet.alxswe.com/rltoken/6NDhFhDLlvGnO5IQPjNxsA)
+Tools: [SqlDBM](https://sqldbm.com/Home/)
 
 Example: ![Data Modelling](83eed8d2d8a6b390f16f.gif)
 
 ### 5. User Stories
 
-First, research what [user stories](https://intranet.alxswe.com/rltoken/MP_p24nJnvQxErkP0IpZtA) are, and how to write them. Also note [some pitfalls](https://intranet.alxswe.com/rltoken/FLr9JQQFgm0zz3ZEfqKCwA) of creating user stories that are too general.
+First, research what [user stories](https://en.wikipedia.org/wiki/User_story) are, and how to write them. Also note [some pitfalls](https://blog.prototypr.io/stop-it-with-as-a-user-5feb9b38d920) of creating user stories that are too general.
 
 In the “User Stories” section:
 
@@ -126,7 +126,7 @@ In the “User Stories” section:
 
 ![Mock Ups](mock_ups.png)
 
-If there is any visual interface to your Portfolio Project, this section is required. If your project lives on the commandline, or in script, then do not include this section. Use a prototyping tool, like [Balsamiq](https://intranet.alxswe.com/rltoken/gr0KAmc8Pgs7IMawbJtlIQ), to draft your user-facing visual interfaces.
+If there is any visual interface to your Portfolio Project, this section is required. If your project lives on the commandline, or in script, then do not include this section. Use a prototyping tool, like [Balsamiq](https://balsamiq.com/), to draft your user-facing visual interfaces.
 
 In a section called “Mockups”:
 
