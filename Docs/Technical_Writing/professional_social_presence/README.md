@@ -1,3 +1,4 @@
+![Liked post](images/liked_post.gif)
 
 # Should I Really Care About My Social Media Presence?
 Social Media may not be everyone’s favorite thing, but it is definitely important to have a professional social media presence when looking for opportunities and throughout your professional career.
