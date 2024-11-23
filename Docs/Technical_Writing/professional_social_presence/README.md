@@ -11,7 +11,7 @@ Showing your personality
 Staying up to date
 Two social media platforms software engineers often use are Twitter and LinkedIn.
 
-Twitter
+## Twitter
 Twitter is an instant sharing microblogging and social networking platform with persistent content and the ability to rapidly show different levels of agreement/engagement.
 
 Twitter has high use in Tech due to its persistent nature, rapid and broad sharing, and ability to easily share content that’s not on the Twitter network with outbound links.
@@ -20,23 +20,25 @@ Content on Twitter tends to be both personal and professional, with the ratio le
 
 Many students find success in engaging with people they respect and look up to in the software engineering world through thoughtful interactions via Twitter.
 
-LinkedIn
+## LinkedIn
 LinkedIn is a professional networking platform which tends to have more professional content, as users are often looking for job opportunities, to hire talent, or to expand their network.
 
 Whether or not you’re employed, LinkedIn is a great platform to share articles, your own blog posts, and react to others posts. Conversations often happen in the comments of posts and unexpected connections happen!
 
 Many of our students find that posting on LinkedIn consistently is the key to getting engagement on the platform. Making it a goal to post a blog once a month is a sure way to get practice writing technically while also getting your name on people’s radars!
 
-Branding for Coders
+## Branding for Coders
 What is a Brand?
+
 A brand has 2 key parts:
 
-Emotional, instantaneous, conscious or unconscious reaction to thinking about a particular company or group
-A Brand is a person’s gut feeling about a product, service or company
-It is not what you say it is, it is what they say it is
-The distinct look, feel, and voice a company or group uses to reflect its identity and mission statement
-OK brand - Visually consistent look and approach
-Fantastic brand - permeates everything, drives decisions, is the organization’s DNA, and becomes a brand promise to people internally and externally
+- Emotional, instantaneous, conscious or unconscious reaction to thinking about a particular company or group
+    - A Brand is a person’s gut feeling about a product, service or company
+    - It is not what you say it is, it is what they say it is
+
+- The distinct look, feel, and voice a company or group uses to reflect its identity and mission statement
+    - OK brand - Visually consistent look and approach
+    - Fantastic brand - permeates everything, drives decisions, is the organization’s DNA, and becomes a brand promise to people internally and externally
 
 ### Example of Well-Known Brands
 Viewing the images below, we know the companies they represent because of the brands they have built. Whether you like them or not, they usually invoke some sort of opinion and they strive to have consistent branding.
