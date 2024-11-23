@@ -75,7 +75,7 @@ Describe the result of your project.
 
 ### 4. Write about your most difficult technical challenge in depth
 
-Describe the most difficult technical challenge that you **succeeded in solving** using the [STAR method](https://intranet.alxswe.com/rltoken/hZINsMrOBG_3zL3lxtUq1g). If you are not familiar with the STAR method, it is an acronym that stands for Situation, Task, Action, Result.
+Describe the most difficult technical challenge that you **succeeded in solving** using the [STAR method](https://outage.vccs.edu/). If you are not familiar with the STAR method, it is an acronym that stands for Situation, Task, Action, Result.
 
 Do not explicitly reference the STAR method, but write at least 200 words (the more detailed, the better), on the technical challenge you felt was the most difficult for you.
 
