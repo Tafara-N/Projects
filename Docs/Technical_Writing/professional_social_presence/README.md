@@ -115,64 +115,53 @@ Keep the conversations going
 Invite people to events you’re aware of
 Have Fun and Stay Engaged!
 Each person you meet on Twitter or through LinkedIn could be someone who helps you in future professional endeavors
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Hide quiz)
-Question #0
+
+## Quiz questions
+
+### Question #0
+
 Why is having a professional social media presence important? (Choose all that apply)
 
+- [ ] To stay up to date
 
-To stay up to date
+- [ ] Networking
 
+- [ ] To expand your dating pool
 
-Networking
+- [ ] To show your personality
 
+- [ ] To meet famous people
 
-To expand your dating pool
+### Question #1
 
-
-To show your personality
-
-
-To meet famous people
-
-Question #1
 What should you include in your personal bio? (Choose all that apply)
 
+- [ ] Nothing
 
-Nothing
+- [ ] Mention your school/work
 
+- [ ] Mention your favorite food
 
-Mention your school/work
+- [ ] Mention a passion topic
 
+- [ ] Mention what you do professionally
 
-Mention your favorite food
+- [ ] Talk poorly about your previous team/work
 
+### Question #2
 
-Mention a passion topic
-
-
-Mention what you do professionally
-
-
-Talk poorly about your previous team/work
-
-Question #2
 Which of the following platforms should you post a blog you’ve written? (Choose all that apply)
 
+- [ ] LinkedIn
 
-LinkedIn
+- [ ] Twitter
 
+### Question #3
 
-Twitter
-
-Question #3
 What makes a good profile picture? (Choose all that apply)
 
+- [ ] It shows your face (when possible)
 
-It shows your face (when possible)
+- [ ] You’re wearing your favorite color
 
-
-You’re wearing your favorite color
-
-
-It shows your personality
+- [ ] It shows your personality
