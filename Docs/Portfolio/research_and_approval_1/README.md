@@ -18,7 +18,7 @@ This first part is focused on creating a Project Proposal and requires that a go
 
 Explore some student projects from previous cohorts!
 
-- Puppr ([GitHub](https://intranet.alxswe.com/rltoken/AyGvpWenXZWHeqHoBcScGA)) – by [Laura Roudge (Cohort 8)](https://intranet.alxswe.com/rltoken/m5rGc4Hj9f9dmF3k3OqEog), [Drew Maring (Cohort 8)](https://intranet.alxswe.com/rltoken/MDkrhTm1R1Qd1C0lIxwKHw), and [Marc Cavigli (Cohort 8)](https://intranet.alxswe.com/rltoken/Rvj0vOji2rb5hJlyI7CzYg)
+- Puppr ([GitHub](https://github.com/lroudge/puppr)) – by [Laura Roudge (Cohort 8)](https://github.com/lroudge), [Drew Maring (Cohort 8)](https://github.com/dmaring), and [Marc Cavigli (Cohort 8)](https://github.com/MCavigli)
 - OCR for Whiteboarding([GitHub](https://intranet.alxswe.com/rltoken/YlDFt-_gmrWv5ojMn5RyBw)) – by [John Cooke (Cohort 8)](https://intranet.alxswe.com/rltoken/sOq8YIeuG_d3R42_eC2WAg)
 - Lyrical Learning ([GitHub](https://intranet.alxswe.com/rltoken/nftYC6VX-RtFs39QjY15Hg)) – by [David Kwan (Cohort 8)](https://intranet.alxswe.com/rltoken/fPhJzGARXYbOvTUyCgku6Q)
 - Eggify ([GitHub](https://intranet.alxswe.com/rltoken/0-W_Ybq6iI5OX8SyhxYGDQ)) – by [Athena Deng (Cohort 7)](https://intranet.alxswe.com/rltoken/_g6Zz_hYcwEYecXkBq98Hw) & [Samie Azad (Cohort 7)](https://intranet.alxswe.com/rltoken/6ErsGSP_2vvJV3REc--RKQ)
