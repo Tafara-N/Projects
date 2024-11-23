@@ -1,14 +1,15 @@
 
-Should I Really Care About My Social Media Presence?
+# Should I Really Care About My Social Media Presence?
 Social Media may not be everyone’s favorite thing, but it is definitely important to have a professional social media presence when looking for opportunities and throughout your professional career.
 
 A short list of reasons why a social media presence is important:
 
-Networking
-Engagement
-Getting your name out there
-Showing your personality
-Staying up to date
+- Networking
+- Engagement
+- Getting your name out there
+- Showing your personality
+- Staying up to date
+
 Two social media platforms software engineers often use are Twitter and LinkedIn.
 
 ## Twitter
