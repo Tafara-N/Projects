@@ -20,7 +20,7 @@ There is a splash banner with a tagline “Be in the know” with a logo.
 
 As you scroll down, there are three features that are briefly explained, and a gif to help visualize the feature they are referencing. After reading the page, the webpage visitor learns that the Google Search application is meant to provide information, including current events relevant to a user’s favorite topics or location and in-depth knowledge to be explored. This page does not have a text field to take in a search term!
 
-![Google](2467bf770b996a240ced.png)
+![Google](google_search.png)
 
 ### Examples of Landing Pages
 - [Slack](https://slack.com/)
